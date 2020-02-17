@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D123E9DF23EDA2EF0025C89F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D123E9DE23EDA2EF0025C89F /* main.cpp */; };
 		D17A5EC423F378BF008E31E0 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */; };
+		D1E0EB3D23FA529C000E3D09 /* input_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E0EB3B23FA529C000E3D09 /* input_output.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		D123E9E623EDA31F0025C89F /* unit_neuron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unit_neuron.hpp; sourceTree = "<group>"; };
 		D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
 		D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kohonen_som.hpp; sourceTree = "<group>"; };
+		D1E0EB3B23FA529C000E3D09 /* input_output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_output.cpp; sourceTree = "<group>"; };
+		D1E0EB3C23FA529C000E3D09 /* input_output.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_output.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				D123E9DE23EDA2EF0025C89F /* main.cpp */,
 				D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */,
 				D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */,
+				D1E0EB3B23FA529C000E3D09 /* input_output.cpp */,
+				D1E0EB3C23FA529C000E3D09 /* input_output.hpp */,
 				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
 			);
 			path = "Unit Neurons";
@@ -126,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E0EB3D23FA529C000E3D09 /* input_output.cpp in Sources */,
 				D17A5EC423F378BF008E31E0 /* kohonen_som.cpp in Sources */,
 				D123E9DF23EDA2EF0025C89F /* main.cpp in Sources */,
 			);

@@ -13,10 +13,6 @@
 #include <stdlib.h>
 #pragma once
 
-//class UnitNeuron{
-//public:
-//};
-
 class FloatUnitNeuron{
 protected:
     float* memory;                  // information needed to compute feedforward and feedback functions
@@ -30,9 +26,6 @@ public:
 };
 
 class FloatGlobalOperator{
-protected:
-    float* memory;
-    
 public:
     virtual void execute() = 0;
 };

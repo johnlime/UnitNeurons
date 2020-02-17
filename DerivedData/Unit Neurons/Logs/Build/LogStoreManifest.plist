@@ -244,6 +244,74 @@
 			<key>uniqueIdentifier</key>
 			<string>38214682-A913-4B16-ACED-4AA2B3BECB64</string>
 		</dict>
+		<key>3E409EBE-EC32-4F92-B9D3-F0263F5D4447</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3E409EBE-EC32-4F92-B9D3-F0263F5D4447.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603608112.74998105</real>
+			<key>timeStoppedRecording</key>
+			<real>603608112.85127795</real>
+			<key>title</key>
+			<string>Build Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>3E409EBE-EC32-4F92-B9D3-F0263F5D4447</string>
+		</dict>
+		<key>4A4F2E0C-1ECF-4E1B-BCC0-784ADA54C3DA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4A4F2E0C-1ECF-4E1B-BCC0-784ADA54C3DA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603610074.888255</real>
+			<key>timeStoppedRecording</key>
+			<real>603610075.524562</real>
+			<key>title</key>
+			<string>Build Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>4A4F2E0C-1ECF-4E1B-BCC0-784ADA54C3DA</string>
+		</dict>
 		<key>5C0A00E0-B0A6-4357-A8C8-8F041AF5218E</key>
 		<dict>
 			<key>className</key>
@@ -550,6 +618,40 @@
 			<key>uniqueIdentifier</key>
 			<string>CAB311B4-771D-4590-9757-46FD1737F6C3</string>
 		</dict>
+		<key>E1F04DF1-EC26-4D2F-9EB0-63838C0E1A0D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E1F04DF1-EC26-4D2F-9EB0-63838C0E1A0D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603610100.94541395</real>
+			<key>timeStoppedRecording</key>
+			<real>603610101.627244</real>
+			<key>title</key>
+			<string>Build Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>E1F04DF1-EC26-4D2F-9EB0-63838C0E1A0D</string>
+		</dict>
 		<key>E28735A7-8AA5-4DEB-99B4-3D6E164EDA96</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +787,74 @@
 			<string>Build Unit Neurons</string>
 			<key>uniqueIdentifier</key>
 			<string>E6AD5442-BAF2-4932-BF62-1B56F3C8D2D2</string>
+		</dict>
+		<key>F343756D-68E1-4DEE-9784-F438A842FE07</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F343756D-68E1-4DEE-9784-F438A842FE07.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603608177.05178905</real>
+			<key>timeStoppedRecording</key>
+			<real>603608177.08612299</real>
+			<key>title</key>
+			<string>Build Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>F343756D-68E1-4DEE-9784-F438A842FE07</string>
+		</dict>
+		<key>F7CEA37B-4577-4CD7-93AC-6CD9C4DBC10C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F7CEA37B-4577-4CD7-93AC-6CD9C4DBC10C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603608149.08423197</real>
+			<key>timeStoppedRecording</key>
+			<real>603608149.93789303</real>
+			<key>title</key>
+			<string>Build Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>F7CEA37B-4577-4CD7-93AC-6CD9C4DBC10C</string>
 		</dict>
 		<key>FB817599-9DEF-433D-B824-C855CA3C64E8</key>
 		<dict>

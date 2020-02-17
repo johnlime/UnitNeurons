@@ -75,7 +75,7 @@ void FloatKohonenSOM:: execute()
         }
     }
     float fb [1];
-    fb[0] = 5;
+    fb[0] = 3;
     float ff [maps[0].num_prev];
     for (int i = 0; i < maps[0].num_prev; i++){
         ff[i] = maps[0].previous[i].state;
