@@ -15,11 +15,13 @@
 class FloatInputNeuron: FloatUnitNeuron{
 public:
     FloatInputNeuron(float* _memory);   // assign input dataset/trajectory
-    void feedforward();                 // move up one index in dataset
+    void feedforward();                 // take current sample from dataset
+    void feedback(float* _, float* __); // move up one index in dataset
     
 private:
     unsigned int current_idx;           // current index
-    void feedback(float* _, float* __) = 0;
+    unsigned int num_prev = 0;
+    FloatUnitNeuron* previous = 0;
 };
 
 #endif /* input_output_hpp */

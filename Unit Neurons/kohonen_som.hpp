@@ -29,10 +29,12 @@ public:
 // checks winning neuron
 class FloatKohonenSOM: public FloatGlobalOperator{
 private:
-    FloatMappingNeuron* maps;                       // array of mapping neurons' pointers
+    FloatMappingNeuron* maps;           // array of mapping neurons' pointers
+    unsigned int neighbor_range;        // range of neighboring neurons
     
 public:
-    FloatKohonenSOM(FloatMappingNeuron* _maps);     // assign array of mapping neurons' pointers during instantiation
+    // assign array of mapping neurons' pointers and range of neighboring neurons during instantiation
+    FloatKohonenSOM(FloatMappingNeuron* _maps, unsigned int _neighbor_range);
     void execute();
 };
 

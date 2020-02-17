@@ -11,6 +11,20 @@
 #include "kohonen_som.hpp"
 
 int main(int argc, const char * argv[]) {
+    // define input neurons
+    
+    // define mapping neurons
+    
+        // assign neighboring neurons
+    
+    // define global operator
+    
+    /* loop through dataset
+    // feedforward
+    
+    // feedback
+     
+     */
     
     return 0;
 }

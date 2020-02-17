@@ -18,3 +18,8 @@ void FloatInputNeuron:: feedforward()
 {
     state = memory[current_idx];
 }
+
+void FloatInputNeuron:: feedback(float *_, float *__)
+{
+    current_idx += 1;
+}

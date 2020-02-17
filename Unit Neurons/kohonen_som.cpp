@@ -59,8 +59,9 @@ void FloatMappingNeuron:: feedback(     // activated by global operator
     }
 }
 
-FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron* _maps){
+FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron* _maps, unsigned int _neighbor_range){
     maps = _maps;
+    neighbor_range = _neighbor_range;
 }
 
 void FloatKohonenSOM:: execute()
@@ -75,7 +76,7 @@ void FloatKohonenSOM:: execute()
         }
     }
     float fb [1];
-    fb[0] = 3;
+    fb[0] = neighbor_range;
     float ff [maps[0].num_prev];
     for (int i = 0; i < maps[0].num_prev; i++){
         ff[i] = maps[0].previous[i].state;
