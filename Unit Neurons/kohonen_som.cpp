@@ -10,14 +10,14 @@
 
 FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron* _prevs)
 {
-    previous = _prevs;                                      // assign array of input neurons' pointers
+    previous = _prevs;                                      // assign array of input neurons' references
     num_prev = sizeof(_prevs) / sizeof(FloatUnitNeuron*);   // calculate number of elements in pointer array
     memory = (float*) malloc(num_prev);                     // allocate memory for storing weight values with dim of input neurons
 }
 
 void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron* _neighbors)
 {
-    neighbors = _neighbors;     // assign array of neighboring mapping neurons' pointers
+    neighbors = _neighbors;     // assign array of neighboring mapping neurons' references
 }
 
 void FloatMappingNeuron:: feedforward()
