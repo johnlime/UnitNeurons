@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>14C09ABA-BB88-4469-B28C-26DBAE09AF14</key>
+		<key>AF046B8E-35F3-465F-9635-1A5B2995C817</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>14C09ABA-BB88-4469-B28C-26DBAE09AF14.xcactivitylog</string>
+			<string>AF046B8E-35F3-465F-9635-1A5B2995C817.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>signature</key>
 			<string>Unit_Neurons-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>603610100.97222197</real>
+			<real>603784370.74219</real>
 			<key>timeStoppedRecording</key>
-			<real>603610101.62163401</real>
+			<real>603784371.29956496</real>
 			<key>title</key>
 			<string>Build target Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>14C09ABA-BB88-4469-B28C-26DBAE09AF14</string>
+			<string>AF046B8E-35F3-465F-9635-1A5B2995C817</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
