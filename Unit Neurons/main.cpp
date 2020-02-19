@@ -27,7 +27,8 @@ int main(int argc, const char * argv[]) {
     // define mapping neurons
     FloatMappingNeuron* maps [25];
     for (int i = 0; i < 25; i++){
-        maps[i] = FloatMappingNeuron(io_neuron);
+        FloatMappingNeuron tmp = new FloatMappingNeuron(io_neuron);
+        maps[i] = &tmp;
     }
         // assign neighboring neurons
     

@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "unit_neuron.hpp"
 
-class FloatInputNeuron: FloatUnitNeuron{
+class FloatInputNeuron: public FloatUnitNeuron{
 public:
     FloatInputNeuron(float* _memory);   // assign input dataset/trajectory
     void feedforward();                 // take current sample from dataset

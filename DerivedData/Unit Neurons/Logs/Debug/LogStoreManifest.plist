@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>5ED499E7-3A5F-4024-A28F-12FA2E77086E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5ED499E7-3A5F-4024-A28F-12FA2E77086E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603808916.29937506</real>
+			<key>timeStoppedRecording</key>
+			<real>603808925.96497703</real>
+			<key>title</key>
+			<string>Debug Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>5ED499E7-3A5F-4024-A28F-12FA2E77086E</string>
+		</dict>
 		<key>BD45FF30-5AD1-447E-A0F8-FD388E8150BF</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,40 @@
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
 			<string>BD45FF30-5AD1-447E-A0F8-FD388E8150BF</string>
+		</dict>
+		<key>D7CB8F46-4120-4DEA-93A7-CACDCB0D3B69</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D7CB8F46-4120-4DEA-93A7-CACDCB0D3B69.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Unit Neurons</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Unit Neurons</string>
+			<key>timeStartedRecording</key>
+			<real>603808926.45857501</real>
+			<key>timeStoppedRecording</key>
+			<real>603808927.71089494</real>
+			<key>title</key>
+			<string>Debug Unit Neurons</string>
+			<key>uniqueIdentifier</key>
+			<string>D7CB8F46-4120-4DEA-93A7-CACDCB0D3B69</string>
 		</dict>
 	</dict>
 </dict>

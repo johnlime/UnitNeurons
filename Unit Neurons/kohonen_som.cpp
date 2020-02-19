@@ -8,9 +8,9 @@
 
 #include "kohonen_som.hpp"
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron& _prevs)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron* _prevs)
 {
-    previous = &_prevs;                                      // assign array of input neurons' pointers
+    previous = _prevs;                                      // assign array of input neurons' pointers
     num_prev = sizeof(_prevs) / sizeof(FloatUnitNeuron*);   // calculate number of elements in pointer array
     memory = (float*) malloc(num_prev);                     // allocate memory for storing weight values with dim of input neurons
 }
