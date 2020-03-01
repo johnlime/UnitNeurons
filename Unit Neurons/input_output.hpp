@@ -21,7 +21,7 @@ public:
 private:
     unsigned int current_idx;           // current index
     unsigned int num_prev = 0;
-    FloatUnitNeuron* previous = 0;
+    FloatUnitNeuron** previous = 0;
 };
 
 #endif /* input_output_hpp */

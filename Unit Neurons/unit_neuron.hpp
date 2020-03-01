@@ -15,11 +15,14 @@
 
 class FloatUnitNeuron{
 protected:
-    float* memory;                  // information needed to compute feedforward and feedback functions
+    float* memory;
+    // information needed to compute feedforward and feedback functions
+    // dynamic memory allocation of sizeof(float) * memory_size needed
     
 public:
     unsigned int num_prev;          // dimension of input signals
-    FloatUnitNeuron* previous;      // array of neurons' pointers that the current neuron references signals from
+    FloatUnitNeuron** previous;
+    // array of neurons' pointers that the current neuron references signals from
     float state;    // signal emitted from the current neuron
     virtual void feedforward() = 0;
     virtual void feedback(float* ff_input, float* fb_input) = 0;

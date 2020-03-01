@@ -8,14 +8,14 @@
 
 #include "kohonen_som.hpp"
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron* _prevs)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs)
 {
     previous = _prevs;                                      // assign array of input neurons' references
     num_prev = sizeof(_prevs) / sizeof(FloatUnitNeuron*);   // calculate number of elements in pointer array
     memory = (float*) malloc(num_prev);                     // allocate memory for storing weight values with dim of input neurons
 }
 
-void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron* _neighbors)
+void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron** _neighbors)
 {
     neighbors = _neighbors;     // assign array of neighboring mapping neurons' references
 }
@@ -28,7 +28,7 @@ void FloatMappingNeuron:: feedforward()
     float dist = 0.0f;
     for (unsigned int i = 0; i < num_prev; i++){
         dist +=
-        (memory[i] - previous[i].state) * (memory[i] - previous[i].state);
+        (memory[i] - previous[i]->state) * (memory[i] - previous[i]->state);
     }
     state = dist;
 }
@@ -54,32 +54,32 @@ void FloatMappingNeuron:: feedback(     // activated by global operator
         counter -= 1;
         // activate feedback of neighboring neurons
         for (int i = 0; i < sizeof(neighbors) / sizeof(FloatMappingNeuron*); i++){
-            neighbors[i].feedback(ff_input, &counter);
+            neighbors[i]->feedback(ff_input, &counter);
         }
     }
 }
 
-FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron* _maps, unsigned int _neighbor_range){
+FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron** _maps, unsigned int _neighbor_range){
     maps = _maps;
     neighbor_range = _neighbor_range;
 }
 
 void FloatKohonenSOM:: execute()
 {
-    FloatMappingNeuron* winner = &maps[0];
-    float shortest = maps[0].state;
+    FloatMappingNeuron* winner = maps[0];
+    float shortest = maps[0]->state;
     
     for (int i = 1; i < sizeof(maps) / sizeof(FloatMappingNeuron*); i++){
-        if (shortest > maps[i].state){
-            winner = &maps[i];
-            shortest = maps[i].state;
+        if (shortest > maps[i]->state){
+            winner = maps[i];
+            shortest = maps[i]->state;
         }
     }
     float fb [1];
     fb[0] = neighbor_range;
-    float ff [maps[0].num_prev];
-    for (int i = 0; i < maps[0].num_prev; i++){
-        ff[i] = maps[0].previous[i].state;
+    float ff [maps[0]->num_prev];
+    for (int i = 0; i < maps[0]->num_prev; i++){
+        ff[i] = maps[0]->previous[i]->state;
     }
     winner->feedback(ff, fb);
 }
