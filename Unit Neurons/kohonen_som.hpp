@@ -18,23 +18,29 @@ protected:
     bool counter_first = true;          // Is this the first time that a signal from neighbor is received?
     float counter = 0;                  // track current neighbor count
     FloatMappingNeuron** neighbors;     // array of pointers to neighboring mapping neurons
+    int num_neighbors;
    
 public:
-    FloatMappingNeuron(FloatUnitNeuron** _prevs);               // assign array of input neurons' pointers during instantiation
-    void assign_neighbors(FloatMappingNeuron** _neighbors);     // assign array of neighboring neurons' pointers after instantiation
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, int _max);
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev);
+    void init(FloatUnitNeuron** _prevs, int _num_prev, int _max);                   // assign array of input neurons' pointers during instantiation
+    void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);     // assign array of neighboring neurons' pointers after instantiation
     void feedforward();
     void feedback(float* ff_input, float* fb_input);
+    float* see_memory();
 };
 
 // checks winning neuron
 class FloatKohonenSOM: public FloatGlobalOperator{
 private:
-    FloatMappingNeuron** maps;          // array of mapping neurons' pointers
-    unsigned int neighbor_range;        // range of neighboring neurons
+//    FloatMappingNeuron** maps;          // array of mapping neurons' pointers
+    int num_maps;
+    int neighbor_range;        // range of neighboring neurons
     
 public:
+    FloatMappingNeuron** maps;
     // assign array of mapping neurons' pointers and range of neighboring neurons during instantiation
-    FloatKohonenSOM(FloatMappingNeuron** _maps, unsigned int _neighbor_range);
+    FloatKohonenSOM(FloatMappingNeuron** _maps, int _num_maps, int _neighbor_range);
     void execute();
 };
 

@@ -8,18 +8,22 @@
 
 #include "input_output.hpp"
 
-FloatInputNeuron:: FloatInputNeuron(float* _memory)
+FloatInputNeuron:: FloatInputNeuron()
 {
-    memory = _memory;
-    current_idx = 0;
+    memory = nullptr;
 }
 
 void FloatInputNeuron:: feedforward()
 {
-    state = memory[current_idx];
+    return;
 }
 
-void FloatInputNeuron:: feedback(float *_, float *__)
+void FloatInputNeuron:: feedback(float* ff_input, float* fb_input)
 {
-    current_idx += 1;
+    return;
+}
+
+void FloatInputNeuron:: assign_value(float value)
+{
+    state = value;
 }

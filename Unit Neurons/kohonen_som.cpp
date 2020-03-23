@@ -8,16 +8,43 @@
 
 #include "kohonen_som.hpp"
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs)
+void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, int _max)
 {
     previous = _prevs;                                      // assign array of input neurons' references
-    num_prev = sizeof(_prevs) / sizeof(FloatUnitNeuron*);   // calculate number of elements in pointer array
+    num_prev = _num_prev;                                   // assign number of input neurons
     memory = (float*) malloc(num_prev);                     // allocate memory for storing weight values with dim of input neurons
+    
+    if (_max == 0)
+    {
+        for (int i = 0; i < num_prev; i++)
+        {
+            memory[i] = rand();
+        }
+    }
+    
+    else
+    {
+        for (int i = 0; i < num_prev; i++)
+        {
+            memory[i] = ((float) rand() / RAND_MAX) * _max;
+        }
+    }
 }
 
-void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron** _neighbors)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, int _max)
+{
+    init(_prevs, _num_prev, _max);
+}
+
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev)
+{
+    init(_prevs, _num_prev, 0);
+}
+
+void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors)
 {
     neighbors = _neighbors;     // assign array of neighboring mapping neurons' references
+    num_neighbors = _num_neighbors;
 }
 
 void FloatMappingNeuron:: feedforward()
@@ -26,7 +53,7 @@ void FloatMappingNeuron:: feedforward()
     counter_first = true;
     // calculate distance squared
     float dist = 0.0f;
-    for (unsigned int i = 0; i < num_prev; i++){
+    for (int i = 0; i < num_prev; i++){
         dist +=
         (memory[i] - previous[i]->state) * (memory[i] - previous[i]->state);
     }
@@ -37,15 +64,14 @@ void FloatMappingNeuron:: feedback(     // activated by global operator
     float* ff_input,    // original input neuron values
     float* fb_input)    // input neighbor range count
 {
+    
+    /*Needs fixing on counters*/
+    
     // check that input neighbor range count is lowest
-    if (counter_first){   // check whether this is the first time a signal is received from neighbor
-        counter = fb_input[0];      // set default counter as the input
+    if (counter_first && *fb_input != 0){   // check whether this is the first time a signal is received from neighbor
+        counter = *fb_input;        // set default counter as the input
         counter_first = false;      // first neighboring signal operation is over
-    }
-    else if (counter < fb_input[0]){
-        return;
-    }
-    else{
+        
         // calculate loss and update memory
         for (int i = 0; i < num_prev; i++){
             memory[i] += lr * (ff_input[i] - memory[i]);
@@ -53,14 +79,23 @@ void FloatMappingNeuron:: feedback(     // activated by global operator
         // reduce neighbor range count
         counter -= 1;
         // activate feedback of neighboring neurons
-        for (int i = 0; i < sizeof(neighbors) / sizeof(FloatMappingNeuron*); i++){
+        for (int i = 0; i < num_neighbors; i++){
             neighbors[i]->feedback(ff_input, &counter);
         }
     }
+    else{
+        return;
+    }
 }
 
-FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron** _maps, unsigned int _neighbor_range){
+float* FloatMappingNeuron:: see_memory()
+{
+    return memory;
+}
+
+FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron** _maps, int _num_maps, int _neighbor_range){
     maps = _maps;
+    num_maps = _num_maps;
     neighbor_range = _neighbor_range;
 }
 
@@ -68,18 +103,20 @@ void FloatKohonenSOM:: execute()
 {
     FloatMappingNeuron* winner = maps[0];
     float shortest = maps[0]->state;
-    
-    for (int i = 1; i < sizeof(maps) / sizeof(FloatMappingNeuron*); i++){
+    int tmp = 0;
+    for (int i = 1; i < num_maps; i++){
         if (shortest > maps[i]->state){
             winner = maps[i];
             shortest = maps[i]->state;
+            tmp = i;
         }
     }
-    float fb [1];
-    fb[0] = neighbor_range;
-    float ff [maps[0]->num_prev];
-    for (int i = 0; i < maps[0]->num_prev; i++){
-        ff[i] = maps[0]->previous[i]->state;
+    printf("%d\n", tmp);
+    float fb = float(neighbor_range);
+    float ff [winner->num_prev];
+    for (int i = 0; i < winner->num_prev; i++)
+    {
+        ff[i] = winner->previous[i]->state;
     }
-    winner->feedback(ff, fb);
+    winner->feedback(ff, &fb);
 }

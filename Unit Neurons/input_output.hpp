@@ -12,16 +12,13 @@
 #include <stdio.h>
 #include "unit_neuron.hpp"
 
-class FloatInputNeuron: public FloatUnitNeuron{
+class FloatInputNeuron :FloatUnitNeuron{
 public:
-    FloatInputNeuron(float* _memory);   // assign input dataset/trajectory
-    void feedforward();                 // take current sample from dataset
-    void feedback(float* _, float* __); // move up one index in dataset
+    FloatInputNeuron();
+    void feedforward();
+    void feedback(float* ff_input, float* fb_input);
     
-private:
-    unsigned int current_idx;           // current index
-    unsigned int num_prev = 0;
-    FloatUnitNeuron** previous = 0;
+    void assign_value(float value);
 };
 
 #endif /* input_output_hpp */
