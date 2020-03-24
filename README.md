@@ -27,14 +27,11 @@ You can take a look at the abstract class
 ## Current Progress
 - Made abstract classes for unit neurons that support floating point values (2nd generation neural networks).
 - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
-
-- Implementation of Angeniol's SOM on 10-cities traveling salesman problem at 
-[main.cpp](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/main.cpp).
 - Better pointer routing.
+- Neighboring neuron assignment for Kohonen's SOM
 
 ## Open Problems
-- ~~Kohonen's SOM implementation, although it had no problem building, may have incorrect usage of pointers and 
-references. Needs more testing.~~
+- Kohonen's SOM implementation, although it had no problem building, may have incorrect usage of counters within the feedback function of `FloatMappingNeurons` class. Needs more testing.
 - Implementations of other neural network models are highly welcomed
   - Feedforward network with gradient descent:
     - Global operator calculates least mean squares
