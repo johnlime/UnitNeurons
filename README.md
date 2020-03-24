@@ -32,7 +32,7 @@ You can take a look at the abstract class
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
   - Visualization via Processing (5x5; 10000 epochs)
   
-  ![Example KSOM output](Processing\ Visualization/kohonen_som_trained/ksom_5x5_10000epoch.png)
+  ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_5x5_10000epoch.png)
 
 ## Open Problems
 - Implementations of other neural network models are highly welcomed
