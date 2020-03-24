@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>004F31D4-960D-4C6A-90D1-ABD66FD42720</key>
+		<key>03A3C1D7-96E6-4ED9-B485-C77827002548</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>004F31D4-960D-4C6A-90D1-ABD66FD42720.xcactivitylog</string>
+			<string>03A3C1D7-96E6-4ED9-B485-C77827002548.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606582712.55609</real>
+			<real>606759268.07175696</real>
 			<key>timeStoppedRecording</key>
-			<real>606582713.93620503</real>
+			<real>606759269.20015395</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>004F31D4-960D-4C6A-90D1-ABD66FD42720</string>
+			<string>03A3C1D7-96E6-4ED9-B485-C77827002548</string>
 		</dict>
-		<key>0C358212-2EB3-4414-BF9E-A99951E4529C</key>
+		<key>13337FCD-D048-4A8A-AED0-2147C5ECE568</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0C358212-2EB3-4414-BF9E-A99951E4529C.xcactivitylog</string>
+			<string>13337FCD-D048-4A8A-AED0-2147C5ECE568.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606578544.20015097</real>
+			<real>606730164.97245097</real>
 			<key>timeStoppedRecording</key>
-			<real>606578545.37404704</real>
+			<real>606730166.16251802</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>0C358212-2EB3-4414-BF9E-A99951E4529C</string>
+			<string>13337FCD-D048-4A8A-AED0-2147C5ECE568</string>
 		</dict>
-		<key>0CD7E5B5-5B12-41B0-90A2-CB31A7592F65</key>
+		<key>16655354-E9B9-451C-8BAB-76B0FCB706DE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0CD7E5B5-5B12-41B0-90A2-CB31A7592F65.xcactivitylog</string>
+			<string>16655354-E9B9-451C-8BAB-76B0FCB706DE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606631788.73589206</real>
+			<real>606759546.05441403</real>
 			<key>timeStoppedRecording</key>
-			<real>606631790.14697599</real>
+			<real>606759547.17416894</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>0CD7E5B5-5B12-41B0-90A2-CB31A7592F65</string>
+			<string>16655354-E9B9-451C-8BAB-76B0FCB706DE</string>
 		</dict>
-		<key>1041EC49-E7CD-4D88-8859-38973C51AAF7</key>
+		<key>222E5FD4-75E5-4995-A05A-40D005CF8B71</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1041EC49-E7CD-4D88-8859-38973C51AAF7.xcactivitylog</string>
+			<string>222E5FD4-75E5-4995-A05A-40D005CF8B71.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606676529.89372003</real>
+			<real>606761333.16165805</real>
 			<key>timeStoppedRecording</key>
-			<real>606676531.09817302</real>
+			<real>606761334.42796504</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>1041EC49-E7CD-4D88-8859-38973C51AAF7</string>
+			<string>222E5FD4-75E5-4995-A05A-40D005CF8B71</string>
 		</dict>
-		<key>115B83E0-609B-43D9-86F6-87BE9D147144</key>
+		<key>22C1C66E-E1F6-48D6-8B9A-327D1192068A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>115B83E0-609B-43D9-86F6-87BE9D147144.xcactivitylog</string>
+			<string>22C1C66E-E1F6-48D6-8B9A-327D1192068A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579363.27732599</real>
+			<real>606761799.45391798</real>
 			<key>timeStoppedRecording</key>
-			<real>606579364.60676503</real>
+			<real>606761800.70348299</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>115B83E0-609B-43D9-86F6-87BE9D147144</string>
+			<string>22C1C66E-E1F6-48D6-8B9A-327D1192068A</string>
 		</dict>
-		<key>15C74EB5-3AE7-4297-8AD7-9414047625EA</key>
+		<key>2636135D-D9C9-4A0A-8757-A5C1036FA41E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>15C74EB5-3AE7-4297-8AD7-9414047625EA.xcactivitylog</string>
+			<string>2636135D-D9C9-4A0A-8757-A5C1036FA41E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606582376.10959303</real>
+			<real>606762070.609308</real>
 			<key>timeStoppedRecording</key>
-			<real>606582377.29521596</real>
+			<real>606762071.87254298</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>15C74EB5-3AE7-4297-8AD7-9414047625EA</string>
+			<string>2636135D-D9C9-4A0A-8757-A5C1036FA41E</string>
 		</dict>
-		<key>18BC5BE1-FE46-4F4C-B60F-47A721B4A037</key>
+		<key>2A1BA482-763B-4464-935B-09F23FB89DC6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>18BC5BE1-FE46-4F4C-B60F-47A721B4A037.xcactivitylog</string>
+			<string>2A1BA482-763B-4464-935B-09F23FB89DC6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606581544.313133</real>
+			<real>606759803.82238102</real>
 			<key>timeStoppedRecording</key>
-			<real>606581545.46050704</real>
+			<real>606759805.02139699</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>18BC5BE1-FE46-4F4C-B60F-47A721B4A037</string>
+			<string>2A1BA482-763B-4464-935B-09F23FB89DC6</string>
 		</dict>
-		<key>1F943844-7160-4C7B-AAA2-9BFD663ED070</key>
+		<key>339F7EAB-381D-410E-B5D3-84C354A96F20</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1F943844-7160-4C7B-AAA2-9BFD663ED070.xcactivitylog</string>
+			<string>339F7EAB-381D-410E-B5D3-84C354A96F20.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606582367.01679099</real>
+			<real>606733318.48974597</real>
 			<key>timeStoppedRecording</key>
-			<real>606582368.12125599</real>
+			<real>606733319.605878</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>1F943844-7160-4C7B-AAA2-9BFD663ED070</string>
+			<string>339F7EAB-381D-410E-B5D3-84C354A96F20</string>
 		</dict>
-		<key>200EE581-E180-42AE-9502-06E1B1808F8A</key>
+		<key>3B4DF3F9-1218-47DB-9873-509F5AF643B2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>200EE581-E180-42AE-9502-06E1B1808F8A.xcactivitylog</string>
+			<string>3B4DF3F9-1218-47DB-9873-509F5AF643B2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642960.11995995</real>
+			<real>606762005.80834603</real>
 			<key>timeStoppedRecording</key>
-			<real>606642961.323192</real>
+			<real>606762007.02257895</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>200EE581-E180-42AE-9502-06E1B1808F8A</string>
+			<string>3B4DF3F9-1218-47DB-9873-509F5AF643B2</string>
 		</dict>
-		<key>22699D3E-721B-4AEC-8CD5-483F7996DB9B</key>
+		<key>3C558D32-D41C-4274-8C33-012A9734B26F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>22699D3E-721B-4AEC-8CD5-483F7996DB9B.xcactivitylog</string>
+			<string>3C558D32-D41C-4274-8C33-012A9734B26F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606630886.72814298</real>
+			<real>606761866.07328606</real>
 			<key>timeStoppedRecording</key>
-			<real>606630888.16531003</real>
+			<real>606761867.22299802</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>22699D3E-721B-4AEC-8CD5-483F7996DB9B</string>
+			<string>3C558D32-D41C-4274-8C33-012A9734B26F</string>
 		</dict>
-		<key>25427B62-85EC-4FCC-9777-0FD86F2BCA06</key>
+		<key>4314B850-EB3A-404E-8A72-E258848AC718</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>25427B62-85EC-4FCC-9777-0FD86F2BCA06.xcactivitylog</string>
+			<string>4314B850-EB3A-404E-8A72-E258848AC718.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606488906.108042</real>
+			<real>606732299.54288495</real>
 			<key>timeStoppedRecording</key>
-			<real>606488907.69531095</real>
+			<real>606732300.72771502</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>25427B62-85EC-4FCC-9777-0FD86F2BCA06</string>
+			<string>4314B850-EB3A-404E-8A72-E258848AC718</string>
 		</dict>
-		<key>2CCC04CD-03C3-4F5E-8C8A-D057095F7961</key>
+		<key>498C9F0D-139F-4BD9-8E50-B36EAED47462</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2CCC04CD-03C3-4F5E-8C8A-D057095F7961.xcactivitylog</string>
+			<string>498C9F0D-139F-4BD9-8E50-B36EAED47462.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606637469.36578596</real>
+			<real>606761462.34043002</real>
 			<key>timeStoppedRecording</key>
-			<real>606637470.98950005</real>
+			<real>606761463.46140897</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>2CCC04CD-03C3-4F5E-8C8A-D057095F7961</string>
+			<string>498C9F0D-139F-4BD9-8E50-B36EAED47462</string>
 		</dict>
-		<key>2D1E548C-17BB-4739-AAF7-8DB95E552D2C</key>
+		<key>504EC368-8EFE-4BD9-B6EE-8C2FDECD21E5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2D1E548C-17BB-4739-AAF7-8DB95E552D2C.xcactivitylog</string>
+			<string>504EC368-8EFE-4BD9-B6EE-8C2FDECD21E5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606582541.44893396</real>
+			<real>606757141.41715598</real>
 			<key>timeStoppedRecording</key>
-			<real>606582542.732795</real>
+			<real>606757142.60995102</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>2D1E548C-17BB-4739-AAF7-8DB95E552D2C</string>
+			<string>504EC368-8EFE-4BD9-B6EE-8C2FDECD21E5</string>
 		</dict>
-		<key>2F293124-69C2-42FC-9DD0-82EF0CA9988F</key>
+		<key>53C112CE-A1E1-4E8B-BCE8-BAF40D0587E7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2F293124-69C2-42FC-9DD0-82EF0CA9988F.xcactivitylog</string>
+			<string>53C112CE-A1E1-4E8B-BCE8-BAF40D0587E7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642945.36481404</real>
+			<real>606733311.417395</real>
 			<key>timeStoppedRecording</key>
-			<real>606642946.57344198</real>
+			<real>606733312.66501999</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>2F293124-69C2-42FC-9DD0-82EF0CA9988F</string>
+			<string>53C112CE-A1E1-4E8B-BCE8-BAF40D0587E7</string>
 		</dict>
-		<key>3C11BFFB-81F5-40B5-8A8B-427E07AC4AFF</key>
+		<key>56F3A6FE-2359-42D1-9097-0EB6D18BFFA3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3C11BFFB-81F5-40B5-8A8B-427E07AC4AFF.xcactivitylog</string>
+			<string>56F3A6FE-2359-42D1-9097-0EB6D18BFFA3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606661459.35327196</real>
+			<real>606761923.20483696</real>
 			<key>timeStoppedRecording</key>
-			<real>606661460.57316995</real>
+			<real>606761924.485883</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>3C11BFFB-81F5-40B5-8A8B-427E07AC4AFF</string>
+			<string>56F3A6FE-2359-42D1-9097-0EB6D18BFFA3</string>
 		</dict>
-		<key>3E0193E6-5C76-40BD-98F7-D3A1694357E4</key>
+		<key>59401235-0362-40FB-904E-F40FA6150301</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3E0193E6-5C76-40BD-98F7-D3A1694357E4.xcactivitylog</string>
+			<string>59401235-0362-40FB-904E-F40FA6150301.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579975.95763397</real>
+			<real>606759872.11263704</real>
 			<key>timeStoppedRecording</key>
-			<real>606579977.19889498</real>
+			<real>606759873.18948901</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>3E0193E6-5C76-40BD-98F7-D3A1694357E4</string>
+			<string>59401235-0362-40FB-904E-F40FA6150301</string>
 		</dict>
-		<key>3EC18B33-F5CE-4D16-9793-5F93927131AA</key>
+		<key>62BAD815-7100-4B80-9383-97439E14C30E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3EC18B33-F5CE-4D16-9793-5F93927131AA.xcactivitylog</string>
+			<string>62BAD815-7100-4B80-9383-97439E14C30E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606630325.48622203</real>
+			<real>606729834.631055</real>
 			<key>timeStoppedRecording</key>
-			<real>606630342.34791398</real>
+			<real>606729835.85387599</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>3EC18B33-F5CE-4D16-9793-5F93927131AA</string>
+			<string>62BAD815-7100-4B80-9383-97439E14C30E</string>
 		</dict>
-		<key>4271912C-A269-4D9A-8F3E-9A15A9ED6D19</key>
+		<key>68108BDA-80D1-4D6A-ACFE-ADEF3EF4C75C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4271912C-A269-4D9A-8F3E-9A15A9ED6D19.xcactivitylog</string>
+			<string>68108BDA-80D1-4D6A-ACFE-ADEF3EF4C75C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642904.37436295</real>
+			<real>606759852.34268403</real>
 			<key>timeStoppedRecording</key>
-			<real>606642905.61825097</real>
+			<real>606759853.55102897</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>4271912C-A269-4D9A-8F3E-9A15A9ED6D19</string>
+			<string>68108BDA-80D1-4D6A-ACFE-ADEF3EF4C75C</string>
 		</dict>
-		<key>43618711-094D-450F-A082-8E2031981F52</key>
+		<key>6D81E4E8-2E4F-4A39-9DC5-1CF7C2399ECF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>43618711-094D-450F-A082-8E2031981F52.xcactivitylog</string>
+			<string>6D81E4E8-2E4F-4A39-9DC5-1CF7C2399ECF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606661192.31297505</real>
+			<real>606757088.17229199</real>
 			<key>timeStoppedRecording</key>
-			<real>606661193.55168605</real>
+			<real>606757089.44030595</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>43618711-094D-450F-A082-8E2031981F52</string>
+			<string>6D81E4E8-2E4F-4A39-9DC5-1CF7C2399ECF</string>
 		</dict>
-		<key>444D298A-011B-495C-9C6C-7E413314D6A4</key>
+		<key>709EB70C-0858-4C5F-BB29-719335972431</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>444D298A-011B-495C-9C6C-7E413314D6A4.xcactivitylog</string>
+			<string>709EB70C-0858-4C5F-BB29-719335972431.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579207.66052699</real>
+			<real>606759695.30701602</real>
 			<key>timeStoppedRecording</key>
-			<real>606579209.01993406</real>
+			<real>606759696.54167604</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>444D298A-011B-495C-9C6C-7E413314D6A4</string>
+			<string>709EB70C-0858-4C5F-BB29-719335972431</string>
 		</dict>
-		<key>45582DB7-8642-419C-81D6-2F83148BD876</key>
+		<key>739B4529-CCBD-4258-ADF7-799088397BA5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>45582DB7-8642-419C-81D6-2F83148BD876.xcactivitylog</string>
+			<string>739B4529-CCBD-4258-ADF7-799088397BA5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606641138.30579996</real>
+			<real>606730706.747329</real>
 			<key>timeStoppedRecording</key>
-			<real>606641139.55038595</real>
+			<real>606730707.85354197</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>45582DB7-8642-419C-81D6-2F83148BD876</string>
+			<string>739B4529-CCBD-4258-ADF7-799088397BA5</string>
 		</dict>
-		<key>460CDC92-D7F7-49A0-A81D-FF405D4E2A85</key>
+		<key>7AB900A3-E488-48A3-AF37-EB79C689D761</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>460CDC92-D7F7-49A0-A81D-FF405D4E2A85.xcactivitylog</string>
+			<string>7AB900A3-E488-48A3-AF37-EB79C689D761.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606578565.47495699</real>
+			<real>606714787.35471106</real>
 			<key>timeStoppedRecording</key>
-			<real>606578566.66459799</real>
+			<real>606714788.61672497</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>460CDC92-D7F7-49A0-A81D-FF405D4E2A85</string>
+			<string>7AB900A3-E488-48A3-AF37-EB79C689D761</string>
 		</dict>
-		<key>4D714AEF-F220-4885-9F14-9454A0B622E6</key>
+		<key>7CDB98E3-3992-4A85-9DD7-0A938D0B2F97</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4D714AEF-F220-4885-9F14-9454A0B622E6.xcactivitylog</string>
+			<string>7CDB98E3-3992-4A85-9DD7-0A938D0B2F97.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,15 +780,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606641586.91281998</real>
+			<real>606757645.51511097</real>
 			<key>timeStoppedRecording</key>
-			<real>606641588.205935</real>
+			<real>606757646.76059401</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>4D714AEF-F220-4885-9F14-9454A0B622E6</string>
+			<string>7CDB98E3-3992-4A85-9DD7-0A938D0B2F97</string>
 		</dict>
-		<key>4DE8BB0E-42A2-41CD-9CDC-F06BC54BE7CF</key>
+		<key>95FD10C2-B7DA-4480-BA32-42682BC94A97</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4DE8BB0E-42A2-41CD-9CDC-F06BC54BE7CF.xcactivitylog</string>
+			<string>95FD10C2-B7DA-4480-BA32-42682BC94A97.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +814,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606675570.66131699</real>
+			<real>606729878.71476197</real>
 			<key>timeStoppedRecording</key>
-			<real>606675571.73833597</real>
+			<real>606729879.91998005</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>4DE8BB0E-42A2-41CD-9CDC-F06BC54BE7CF</string>
+			<string>95FD10C2-B7DA-4480-BA32-42682BC94A97</string>
 		</dict>
-		<key>5299E214-5CE7-49A5-A0A8-2277A1D339D9</key>
+		<key>977F30E8-F7EF-49BC-868A-88173582AD43</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5299E214-5CE7-49A5-A0A8-2277A1D339D9.xcactivitylog</string>
+			<string>977F30E8-F7EF-49BC-868A-88173582AD43.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +848,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606580338.61538196</real>
+			<real>606729885.65606999</real>
 			<key>timeStoppedRecording</key>
-			<real>606580339.87176704</real>
+			<real>606729886.90504599</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>5299E214-5CE7-49A5-A0A8-2277A1D339D9</string>
+			<string>977F30E8-F7EF-49BC-868A-88173582AD43</string>
 		</dict>
-		<key>618B6C8D-69CA-4199-9F07-871B72B0F762</key>
+		<key>9A9A0FE8-3196-4FBE-8A0E-CDFE1900D14A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -865,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>618B6C8D-69CA-4199-9F07-871B72B0F762.xcactivitylog</string>
+			<string>9A9A0FE8-3196-4FBE-8A0E-CDFE1900D14A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +882,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606581309.97337997</real>
+			<real>606761830.47054303</real>
 			<key>timeStoppedRecording</key>
-			<real>606581311.06926894</real>
+			<real>606761831.71346104</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>618B6C8D-69CA-4199-9F07-871B72B0F762</string>
+			<string>9A9A0FE8-3196-4FBE-8A0E-CDFE1900D14A</string>
 		</dict>
-		<key>6905861A-046E-4A31-9642-8C80141A5394</key>
+		<key>9E4FD950-8E29-49BF-B0DE-17769F2D7EB2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -899,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6905861A-046E-4A31-9642-8C80141A5394.xcactivitylog</string>
+			<string>9E4FD950-8E29-49BF-B0DE-17769F2D7EB2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -916,15 +916,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606581327.94126403</real>
+			<real>606759778.08102703</real>
 			<key>timeStoppedRecording</key>
-			<real>606581329.18403006</real>
+			<real>606759779.31185102</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>6905861A-046E-4A31-9642-8C80141A5394</string>
+			<string>9E4FD950-8E29-49BF-B0DE-17769F2D7EB2</string>
 		</dict>
-		<key>6A6E508F-9BBD-4689-96F0-2B66AE60C891</key>
+		<key>A0ADC8B1-337E-4485-A6A3-CAC02C95978E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -933,7 +933,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6A6E508F-9BBD-4689-96F0-2B66AE60C891.xcactivitylog</string>
+			<string>A0ADC8B1-337E-4485-A6A3-CAC02C95978E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -950,15 +950,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579921.275401</real>
+			<real>606761732.10035503</real>
 			<key>timeStoppedRecording</key>
-			<real>606579922.68522894</real>
+			<real>606761733.37287605</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>6A6E508F-9BBD-4689-96F0-2B66AE60C891</string>
+			<string>A0ADC8B1-337E-4485-A6A3-CAC02C95978E</string>
 		</dict>
-		<key>6D2D8DAB-CAC8-483C-96E6-65FBCAF29E44</key>
+		<key>A1E143B4-A95D-48E7-8E63-10CF8DD4CD16</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -967,7 +967,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6D2D8DAB-CAC8-483C-96E6-65FBCAF29E44.xcactivitylog</string>
+			<string>A1E143B4-A95D-48E7-8E63-10CF8DD4CD16.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -984,15 +984,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642604.04507196</real>
+			<real>606757358.60025299</real>
 			<key>timeStoppedRecording</key>
-			<real>606642605.28349495</real>
+			<real>606757359.82105994</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>6D2D8DAB-CAC8-483C-96E6-65FBCAF29E44</string>
+			<string>A1E143B4-A95D-48E7-8E63-10CF8DD4CD16</string>
 		</dict>
-		<key>7302CB2D-11AF-482C-8F7C-1D5B156ED184</key>
+		<key>A33EF7EA-45D3-455D-9E77-AE48C13DC2EB</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1001,7 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7302CB2D-11AF-482C-8F7C-1D5B156ED184.xcactivitylog</string>
+			<string>A33EF7EA-45D3-455D-9E77-AE48C13DC2EB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +1018,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579288.93386602</real>
+			<real>606758767.11359501</real>
 			<key>timeStoppedRecording</key>
-			<real>606579290.20217502</real>
+			<real>606758768.36698604</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>7302CB2D-11AF-482C-8F7C-1D5B156ED184</string>
+			<string>A33EF7EA-45D3-455D-9E77-AE48C13DC2EB</string>
 		</dict>
-		<key>73B7D765-00F9-4B1A-8492-7704115D0A0B</key>
+		<key>AB90AA4A-D354-4896-A2A8-650AAE77526A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1035,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>73B7D765-00F9-4B1A-8492-7704115D0A0B.xcactivitylog</string>
+			<string>AB90AA4A-D354-4896-A2A8-650AAE77526A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +1052,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606584191.21044099</real>
+			<real>606756678.44844604</real>
 			<key>timeStoppedRecording</key>
-			<real>606584192.35081899</real>
+			<real>606756679.723997</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>73B7D765-00F9-4B1A-8492-7704115D0A0B</string>
+			<string>AB90AA4A-D354-4896-A2A8-650AAE77526A</string>
 		</dict>
-		<key>74575AFA-0EE3-4421-83CB-0D6FBFF26E24</key>
+		<key>B05751C9-FE5A-4BEA-A1A0-8A47DEB0C9A8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1069,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>74575AFA-0EE3-4421-83CB-0D6FBFF26E24.xcactivitylog</string>
+			<string>B05751C9-FE5A-4BEA-A1A0-8A47DEB0C9A8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1086,931 +1086,13 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606582659.20520604</real>
+			<real>606713629.03702402</real>
 			<key>timeStoppedRecording</key>
-			<real>606582660.35127902</real>
+			<real>606713635.52111399</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>74575AFA-0EE3-4421-83CB-0D6FBFF26E24</string>
-		</dict>
-		<key>762B130A-A64D-400D-B850-1E5F6D1F0070</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>762B130A-A64D-400D-B850-1E5F6D1F0070.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642409.30904603</real>
-			<key>timeStoppedRecording</key>
-			<real>606642410.58008003</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>762B130A-A64D-400D-B850-1E5F6D1F0070</string>
-		</dict>
-		<key>794EC017-7675-41C8-9936-84904FC059D1</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>794EC017-7675-41C8-9936-84904FC059D1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606643068.42781198</real>
-			<key>timeStoppedRecording</key>
-			<real>606643069.66659498</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>794EC017-7675-41C8-9936-84904FC059D1</string>
-		</dict>
-		<key>7B3C6BA6-93BB-42AF-81C7-4501FE29D301</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>7B3C6BA6-93BB-42AF-81C7-4501FE29D301.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642792.15569603</real>
-			<key>timeStoppedRecording</key>
-			<real>606642793.23195803</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>7B3C6BA6-93BB-42AF-81C7-4501FE29D301</string>
-		</dict>
-		<key>7D8AD02C-92C8-454D-8896-1678EB4FD028</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>7D8AD02C-92C8-454D-8896-1678EB4FD028.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606578667.09034801</real>
-			<key>timeStoppedRecording</key>
-			<real>606578668.32708895</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>7D8AD02C-92C8-454D-8896-1678EB4FD028</string>
-		</dict>
-		<key>8114FF25-1CE1-4090-A4B3-88AB6160A070</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>8114FF25-1CE1-4090-A4B3-88AB6160A070.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606582480.55468297</real>
-			<key>timeStoppedRecording</key>
-			<real>606582481.70673394</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>8114FF25-1CE1-4090-A4B3-88AB6160A070</string>
-		</dict>
-		<key>83AA4C6D-D780-4DB4-AC59-3F81836019CB</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>83AA4C6D-D780-4DB4-AC59-3F81836019CB.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606583992.77933097</real>
-			<key>timeStoppedRecording</key>
-			<real>606583994.09121895</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>83AA4C6D-D780-4DB4-AC59-3F81836019CB</string>
-		</dict>
-		<key>868807EA-268F-4437-A2C5-2BE29712F2EB</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>868807EA-268F-4437-A2C5-2BE29712F2EB.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606582726.25773001</real>
-			<key>timeStoppedRecording</key>
-			<real>606582727.44205701</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>868807EA-268F-4437-A2C5-2BE29712F2EB</string>
-		</dict>
-		<key>875BD824-E576-4D9E-8E71-667C03EAB066</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>875BD824-E576-4D9E-8E71-667C03EAB066.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606643001.95935202</real>
-			<key>timeStoppedRecording</key>
-			<real>606643003.24615502</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>875BD824-E576-4D9E-8E71-667C03EAB066</string>
-		</dict>
-		<key>8F0416F8-514B-4A1C-AF25-685A6F5D0A48</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>8F0416F8-514B-4A1C-AF25-685A6F5D0A48.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606677500.17090404</real>
-			<key>timeStoppedRecording</key>
-			<real>606677501.39129198</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>8F0416F8-514B-4A1C-AF25-685A6F5D0A48</string>
-		</dict>
-		<key>93375D0A-62A9-4EDB-8A94-7C5EEE9AAA84</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>93375D0A-62A9-4EDB-8A94-7C5EEE9AAA84.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642599.70181704</real>
-			<key>timeStoppedRecording</key>
-			<real>606642600.82432103</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>93375D0A-62A9-4EDB-8A94-7C5EEE9AAA84</string>
-		</dict>
-		<key>96291C73-4299-4694-BF6E-0E8667E5E576</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>96291C73-4299-4694-BF6E-0E8667E5E576.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606580985.09408903</real>
-			<key>timeStoppedRecording</key>
-			<real>606580986.32821596</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>96291C73-4299-4694-BF6E-0E8667E5E576</string>
-		</dict>
-		<key>988570C1-49B1-4C7A-B2F7-BC61659FA323</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>988570C1-49B1-4C7A-B2F7-BC61659FA323.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606584236.87277806</real>
-			<key>timeStoppedRecording</key>
-			<real>606584238.16544998</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>988570C1-49B1-4C7A-B2F7-BC61659FA323</string>
-		</dict>
-		<key>99CAF65C-43A0-4D32-B664-45B52AE01FF3</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>99CAF65C-43A0-4D32-B664-45B52AE01FF3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606679236.67353201</real>
-			<key>timeStoppedRecording</key>
-			<real>606679237.91271496</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>99CAF65C-43A0-4D32-B664-45B52AE01FF3</string>
-		</dict>
-		<key>9B7D7103-3D54-4840-94DD-647FF1F7210A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9B7D7103-3D54-4840-94DD-647FF1F7210A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642847.47528195</real>
-			<key>timeStoppedRecording</key>
-			<real>606642848.70421195</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>9B7D7103-3D54-4840-94DD-647FF1F7210A</string>
-		</dict>
-		<key>9CB769D3-5F6A-49A1-9ADE-442DF49EA5B0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9CB769D3-5F6A-49A1-9ADE-442DF49EA5B0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606579245.21477699</real>
-			<key>timeStoppedRecording</key>
-			<real>606579246.526968</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>9CB769D3-5F6A-49A1-9ADE-442DF49EA5B0</string>
-		</dict>
-		<key>9D6405AE-3FE5-46A5-8B7E-B2E8B8576321</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9D6405AE-3FE5-46A5-8B7E-B2E8B8576321.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606630487.75307298</real>
-			<key>timeStoppedRecording</key>
-			<real>606630489.21940994</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>9D6405AE-3FE5-46A5-8B7E-B2E8B8576321</string>
-		</dict>
-		<key>9D93B581-8C1B-427D-9466-8C5C6BA12AE5</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9D93B581-8C1B-427D-9466-8C5C6BA12AE5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606582687.96357799</real>
-			<key>timeStoppedRecording</key>
-			<real>606582689.61908698</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>9D93B581-8C1B-427D-9466-8C5C6BA12AE5</string>
-		</dict>
-		<key>A08D81AD-C4CE-4DA3-B7AF-242A13AE9CF0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A08D81AD-C4CE-4DA3-B7AF-242A13AE9CF0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606643040.46199799</real>
-			<key>timeStoppedRecording</key>
-			<real>606643041.74907303</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>A08D81AD-C4CE-4DA3-B7AF-242A13AE9CF0</string>
-		</dict>
-		<key>A604DDB3-2A3A-4515-AF9E-770A8D6379B9</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A604DDB3-2A3A-4515-AF9E-770A8D6379B9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606643013.71707499</real>
-			<key>timeStoppedRecording</key>
-			<real>606643014.91670001</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>A604DDB3-2A3A-4515-AF9E-770A8D6379B9</string>
-		</dict>
-		<key>A7EEBCF9-A746-45B9-8EED-F015724876FD</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A7EEBCF9-A746-45B9-8EED-F015724876FD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606581285.225793</real>
-			<key>timeStoppedRecording</key>
-			<real>606581286.35043204</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>A7EEBCF9-A746-45B9-8EED-F015724876FD</string>
-		</dict>
-		<key>A7FA1036-8718-41C8-B710-5237035E7778</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A7FA1036-8718-41C8-B710-5237035E7778.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642590.24064004</real>
-			<key>timeStoppedRecording</key>
-			<real>606642591.44280601</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>A7FA1036-8718-41C8-B710-5237035E7778</string>
-		</dict>
-		<key>AC86C6A3-2DD7-4967-B8C7-9ACDB381ACB5</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>AC86C6A3-2DD7-4967-B8C7-9ACDB381ACB5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606630342.84591103</real>
-			<key>timeStoppedRecording</key>
-			<real>606630344.12594402</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>AC86C6A3-2DD7-4967-B8C7-9ACDB381ACB5</string>
-		</dict>
-		<key>B3725C6B-E1DD-4A67-9041-F5D6E9EEC215</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B3725C6B-E1DD-4A67-9041-F5D6E9EEC215.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642577.919415</real>
-			<key>timeStoppedRecording</key>
-			<real>606642578.99849403</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>B3725C6B-E1DD-4A67-9041-F5D6E9EEC215</string>
-		</dict>
-		<key>B64F4D60-9DF1-487D-8AE5-4BC3BAA931C0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B64F4D60-9DF1-487D-8AE5-4BC3BAA931C0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606578520.29225695</real>
-			<key>timeStoppedRecording</key>
-			<real>606578526.79519403</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>B64F4D60-9DF1-487D-8AE5-4BC3BAA931C0</string>
-		</dict>
-		<key>B838D416-A3E3-4625-BE04-767FCFE853BE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B838D416-A3E3-4625-BE04-767FCFE853BE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606642399.76665604</real>
-			<key>timeStoppedRecording</key>
-			<real>606642401.02174699</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>B838D416-A3E3-4625-BE04-767FCFE853BE</string>
-		</dict>
-		<key>B9BB4DF2-E597-4F13-89B8-9D3F5C71F839</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B9BB4DF2-E597-4F13-89B8-9D3F5C71F839.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606645713.88456798</real>
-			<key>timeStoppedRecording</key>
-			<real>606645715.12627006</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>B9BB4DF2-E597-4F13-89B8-9D3F5C71F839</string>
-		</dict>
-		<key>B9E3A576-4BA6-404C-AC39-CBF559464279</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B9E3A576-4BA6-404C-AC39-CBF559464279.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606582518.839589</real>
-			<key>timeStoppedRecording</key>
-			<real>606582520.07260001</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>B9E3A576-4BA6-404C-AC39-CBF559464279</string>
+			<string>B05751C9-FE5A-4BEA-A1A0-8A47DEB0C9A8</string>
 		</dict>
 		<key>BA0003C7-911A-4AB6-B215-7F731B7CCAF1</key>
 		<dict>
@@ -2046,7 +1128,7 @@
 			<key>uniqueIdentifier</key>
 			<string>BA0003C7-911A-4AB6-B215-7F731B7CCAF1</string>
 		</dict>
-		<key>BD70B391-FF20-4ECC-8492-93E3B886D31C</key>
+		<key>CCE3DF36-9249-443F-9CE1-D89EA36AF933</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2055,7 +1137,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BD70B391-FF20-4ECC-8492-93E3B886D31C.xcactivitylog</string>
+			<string>CCE3DF36-9249-443F-9CE1-D89EA36AF933.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2072,15 +1154,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642931.21598995</real>
+			<real>606762100.99894404</real>
 			<key>timeStoppedRecording</key>
-			<real>606642932.43611395</real>
+			<real>606762102.23760295</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>BD70B391-FF20-4ECC-8492-93E3B886D31C</string>
+			<string>CCE3DF36-9249-443F-9CE1-D89EA36AF933</string>
 		</dict>
-		<key>C3437A90-E776-491C-B6E8-9E748CF3F2A4</key>
+		<key>D63A987D-F5AE-4A5D-9045-A75CEDE42A5C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2089,7 +1171,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C3437A90-E776-491C-B6E8-9E748CF3F2A4.xcactivitylog</string>
+			<string>D63A987D-F5AE-4A5D-9045-A75CEDE42A5C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2106,15 +1188,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606579859.98226404</real>
+			<real>606761418.74026203</real>
 			<key>timeStoppedRecording</key>
-			<real>606579861.58851898</real>
+			<real>606761419.823192</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>C3437A90-E776-491C-B6E8-9E748CF3F2A4</string>
+			<string>D63A987D-F5AE-4A5D-9045-A75CEDE42A5C</string>
 		</dict>
-		<key>C7C89D1B-FAB2-4534-A1A3-C0FCB447EE69</key>
+		<key>DB356871-9570-4F19-8AC9-F45C04262717</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2123,7 +1205,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C7C89D1B-FAB2-4534-A1A3-C0FCB447EE69.xcactivitylog</string>
+			<string>DB356871-9570-4F19-8AC9-F45C04262717.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2140,15 +1222,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606661397.71719503</real>
+			<real>606761969.17230594</real>
 			<key>timeStoppedRecording</key>
-			<real>606661398.83227301</real>
+			<real>606761970.35820496</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>C7C89D1B-FAB2-4534-A1A3-C0FCB447EE69</string>
+			<string>DB356871-9570-4F19-8AC9-F45C04262717</string>
 		</dict>
-		<key>CA735F6A-AB10-4A57-986E-7347856683E1</key>
+		<key>EA028F1D-0684-4A99-89EF-0ACF2BEC9C47</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2157,7 +1239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CA735F6A-AB10-4A57-986E-7347856683E1.xcactivitylog</string>
+			<string>EA028F1D-0684-4A99-89EF-0ACF2BEC9C47.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2174,15 +1256,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606642543.61996698</real>
+			<real>606757118.41764903</real>
 			<key>timeStoppedRecording</key>
-			<real>606642544.73693204</real>
+			<real>606757119.60779405</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>CA735F6A-AB10-4A57-986E-7347856683E1</string>
+			<string>EA028F1D-0684-4A99-89EF-0ACF2BEC9C47</string>
 		</dict>
-		<key>CDB8A20B-F336-4884-8429-670AAF26CF8F</key>
+		<key>EBC2BB08-E5A7-45B4-9DF3-E7F4A9CCAF30</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2191,7 +1273,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CDB8A20B-F336-4884-8429-670AAF26CF8F.xcactivitylog</string>
+			<string>EBC2BB08-E5A7-45B4-9DF3-E7F4A9CCAF30.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2208,15 +1290,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606581317.76962495</real>
+			<real>606761765.15329301</real>
 			<key>timeStoppedRecording</key>
-			<real>606581319.033656</real>
+			<real>606761766.49302197</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>CDB8A20B-F336-4884-8429-670AAF26CF8F</string>
+			<string>EBC2BB08-E5A7-45B4-9DF3-E7F4A9CCAF30</string>
 		</dict>
-		<key>D042BA95-C751-4002-9B6F-50CB4A8E6FAE</key>
+		<key>EE0D25A3-5173-4E39-9866-36F572087A6F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2225,7 +1307,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D042BA95-C751-4002-9B6F-50CB4A8E6FAE.xcactivitylog</string>
+			<string>EE0D25A3-5173-4E39-9866-36F572087A6F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2242,15 +1324,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606661504.73043203</real>
+			<real>606756980.93786705</real>
 			<key>timeStoppedRecording</key>
-			<real>606661505.970559</real>
+			<real>606756982.13232505</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>D042BA95-C751-4002-9B6F-50CB4A8E6FAE</string>
+			<string>EE0D25A3-5173-4E39-9866-36F572087A6F</string>
 		</dict>
-		<key>DABDC395-67E3-4DE8-B86D-878BDB6EE3A9</key>
+		<key>F35947CD-90CC-48CC-9B5B-E494EE1E511D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2259,7 +1341,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DABDC395-67E3-4DE8-B86D-878BDB6EE3A9.xcactivitylog</string>
+			<string>F35947CD-90CC-48CC-9B5B-E494EE1E511D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2276,15 +1358,15 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606580966.37663996</real>
+			<real>606713836.79524505</real>
 			<key>timeStoppedRecording</key>
-			<real>606580967.65028501</real>
+			<real>606713837.89867306</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>DABDC395-67E3-4DE8-B86D-878BDB6EE3A9</string>
+			<string>F35947CD-90CC-48CC-9B5B-E494EE1E511D</string>
 		</dict>
-		<key>DE82A7E4-185F-4B65-A9A2-00BCCBD13785</key>
+		<key>FDA5D353-C86A-44A9-BD24-D2F7F38AA8C4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2293,7 +1375,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DE82A7E4-185F-4B65-A9A2-00BCCBD13785.xcactivitylog</string>
+			<string>FDA5D353-C86A-44A9-BD24-D2F7F38AA8C4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2310,115 +1392,13 @@
 			<key>signature</key>
 			<string>Debug Unit Neurons</string>
 			<key>timeStartedRecording</key>
-			<real>606637129.481812</real>
+			<real>606757916.40324199</real>
 			<key>timeStoppedRecording</key>
-			<real>606637130.84156799</real>
+			<real>606757917.60928595</real>
 			<key>title</key>
 			<string>Debug Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>DE82A7E4-185F-4B65-A9A2-00BCCBD13785</string>
-		</dict>
-		<key>DF69D32D-3F43-4362-AAEB-5040A9368DA9</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>DF69D32D-3F43-4362-AAEB-5040A9368DA9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606578630.21484494</real>
-			<key>timeStoppedRecording</key>
-			<real>606578631.44751596</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>DF69D32D-3F43-4362-AAEB-5040A9368DA9</string>
-		</dict>
-		<key>E865B2AD-E1FB-4B0A-BD25-38B6DFF2CCAF</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>E865B2AD-E1FB-4B0A-BD25-38B6DFF2CCAF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606659236.641523</real>
-			<key>timeStoppedRecording</key>
-			<real>606659237.74707496</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>E865B2AD-E1FB-4B0A-BD25-38B6DFF2CCAF</string>
-		</dict>
-		<key>FECDE1C5-EB65-407C-BCE3-EA5175F43643</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FECDE1C5-EB65-407C-BCE3-EA5175F43643.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Unit Neurons</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug Unit Neurons</string>
-			<key>timeStartedRecording</key>
-			<real>606629905.55971801</real>
-			<key>timeStoppedRecording</key>
-			<real>606629906.678316</real>
-			<key>title</key>
-			<string>Debug Unit Neurons</string>
-			<key>uniqueIdentifier</key>
-			<string>FECDE1C5-EB65-407C-BCE3-EA5175F43643</string>
+			<string>FDA5D353-C86A-44A9-BD24-D2F7F38AA8C4</string>
 		</dict>
 	</dict>
 </dict>

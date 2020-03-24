@@ -10,8 +10,8 @@
 #include "input_output.hpp"
 #include "kohonen_som.hpp"
 #include <math.h>
-#define NODE_D 3
-#define EPOCHS 1
+#define NODE_D 5
+#define EPOCHS 10000
 #define MAX_RANGE 100
 
 int main(int argc, const char * argv[]) {
@@ -63,11 +63,17 @@ int main(int argc, const char * argv[]) {
                 b = -NODE_D;
             }
             
-            FloatMappingNeuron* tmp [2];
-            tmp[0] = maps[i + a];
-            tmp[1] = maps[i + b];
+            FloatMappingNeuron** tmp = new FloatMappingNeuron* [2]
+            {
+                maps[i + a],
+                maps[i + b]
+            };
             maps[i]->assign_neighbors(tmp, 2);
-            printf("%d, %d, %d\n", i, i+a, i+b);
+//            printf("%d (%p): %d(%p; %p), %d(%p; %p)\n",
+//                   i, maps[i],
+//                   i+a, maps[i+a], tmp[0],
+//                   i+b, maps[i+b], tmp[1]
+//                   );
         }
         
         // edges
@@ -106,12 +112,19 @@ int main(int argc, const char * argv[]) {
                 b = 1;
             }
             
-            FloatMappingNeuron* tmp [3];
-            tmp[0] = maps[i - b];
-            tmp[1] = maps[i + a];
-            tmp[2] = maps[i + b];
+            FloatMappingNeuron** tmp = new FloatMappingNeuron* [3]
+            {
+                maps[i - b],
+                maps[i + a],
+                maps[i + b]
+            };
             maps[i]->assign_neighbors(tmp, 3);
-            printf("%d, %d, %d, %d\n", i, i+a, i-b, i+b);
+//            printf("%d (%p): %d(%p; %p), %d(%p; %p), %d(%p; %p)\n",
+//                   i, maps[i],
+//                   i-b, maps[i-b], tmp[0],
+//                   i+a, maps[i+a], tmp[1],
+//                   i+b, maps[i+b], tmp[2]
+//                   );
         }
         
         // default
@@ -120,29 +133,37 @@ int main(int argc, const char * argv[]) {
             a = 1;
             b = NODE_D;
             
-            FloatMappingNeuron* tmp [4];
-            tmp[0] = maps[i - a];
-            tmp[1] = maps[i + a];
-            tmp[2] = maps[i + b];
-            tmp[3] = maps[i - b];
+            FloatMappingNeuron** tmp = new FloatMappingNeuron* [4]
+            {
+                maps[i - a],
+                maps[i + a],
+                maps[i + b],
+                maps[i - b]
+            };
             maps[i]->assign_neighbors(tmp, 4);
-            printf("%d, %d, %d, %d, %d\n", i, i+a, i-b, i+b, i-a);
+//            printf("%d (%p): %d(%p; %p), %d(%p; %p), %d(%p; %p), %d(%p; %p)\n",
+//                   i, maps[i],
+//                   i-a, maps[i-a], tmp[0],
+//                   i+a, maps[i+a], tmp[1],
+//                   i+b, maps[i+b], tmp[2],
+//                   i-b, maps[i-b], tmp[3]);
         }
     }
     
     // define global operator
-    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 3);
+    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 2);
     
     for (int i = 0; i < NODE_D * NODE_D; i++){
         float* tmp = maps[i]->see_memory();
         printf("{%f, %f}, \n", tmp[0], tmp[1]);
     }
-    printf("%s\n", "Train");
     /* loop through dataset */
+    printf("TRAIN\n");
     for (int i = 0; i < EPOCHS; i++){
         // feedforward
         for(int j = 0; j < 2; j++){
-            io_neuron[j]->assign_value(((float)rand() / RAND_MAX) * MAX_RANGE);
+            float tmp = ((float)rand() / RAND_MAX) * MAX_RANGE;
+            io_neuron[j]->assign_value(tmp); //((float)rand() / RAND_MAX) * MAX_RANGE);
         }
         for (int j = 0; j < NODE_D * NODE_D; j++){
             maps[j]->feedforward();

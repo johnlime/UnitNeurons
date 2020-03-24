@@ -7,6 +7,7 @@
 //
 
 #include "kohonen_som.hpp"
+#include <math.h>
 
 void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, int _max)
 {
@@ -54,33 +55,31 @@ void FloatMappingNeuron:: feedforward()
     // calculate distance squared
     float dist = 0.0f;
     for (int i = 0; i < num_prev; i++){
-        dist +=
-        (memory[i] - previous[i]->state) * (memory[i] - previous[i]->state);
+        dist += (memory[i] - previous[i]->state) * (memory[i] - previous[i]->state);
     }
-    state = dist;
+    state = sqrt(dist);
 }
 
 void FloatMappingNeuron:: feedback(     // activated by global operator
     float* ff_input,    // original input neuron values
-    float* fb_input)    // input neighbor range count
+    float* fb_input)    // fb = {current count, max count}
 {
     
-    /*Needs fixing on counters*/
-    
     // check that input neighbor range count is lowest
-    if (counter_first && *fb_input != 0){   // check whether this is the first time a signal is received from neighbor
-        counter = *fb_input;        // set default counter as the input
+    if (counter_first && fb_input[0] >= 0){   // check whether this is the first time a signal is received from neighbor
+        counter = fb_input[0];      // set default counter as the input
         counter_first = false;      // first neighboring signal operation is over
         
         // calculate loss and update memory
         for (int i = 0; i < num_prev; i++){
-            memory[i] += lr * (ff_input[i] - memory[i]);
+            memory[i] += pow(lr, fb_input[1] - fb_input[0]) * (ff_input[i] - memory[i]) / state;    // normalie loss
         }
         // reduce neighbor range count
         counter -= 1;
+        float fb [2] = {counter, fb_input[1]};
         // activate feedback of neighboring neurons
         for (int i = 0; i < num_neighbors; i++){
-            neighbors[i]->feedback(ff_input, &counter);
+            neighbors[i]->feedback(ff_input, fb);
         }
     }
     else{
@@ -111,12 +110,11 @@ void FloatKohonenSOM:: execute()
             tmp = i;
         }
     }
-    printf("%d\n", tmp);
-    float fb = float(neighbor_range);
+    float fb [2] = {float(neighbor_range), float(neighbor_range)};
     float ff [winner->num_prev];
     for (int i = 0; i < winner->num_prev; i++)
     {
         ff[i] = winner->previous[i]->state;
     }
-    winner->feedback(ff, &fb);
+    winner->feedback(ff, fb);
 }
