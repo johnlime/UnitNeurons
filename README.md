@@ -24,14 +24,16 @@ the neurons that the current neuron inputs the external signals from. Public met
 You can take a look at the abstract class 
 [here](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp).
 
-## Current Progress
+## Current Features
 - Made abstract classes for unit neurons that support floating point values (2nd generation neural networks).
-- Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
 - Better pointer routing.
-- Neighboring neuron assignment for Kohonen's SOM
+- Kohonen's SOM implementation
+  - Neighboring neuron assignment for Kohonen's SOM
+  - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
+  - Visualization via Processing (5x5; 10000 epochs)
+  [![Example KSOM output](Processing\ Visualization/kohonen_som_trained/ksom_5x5_10000epoch.png)]
 
 ## Open Problems
-- Kohonen's SOM implementation, although it had no problem building, may have incorrect usage of counters within the feedback function of `FloatMappingNeurons` class. Needs more testing.
 - Implementations of other neural network models are highly welcomed
   - Feedforward network with gradient descent:
     - Global operator calculates least mean squares
