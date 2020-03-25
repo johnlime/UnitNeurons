@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D123E9DF23EDA2EF0025C89F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D123E9DE23EDA2EF0025C89F /* main.cpp */; };
-		D17A5EC423F378BF008E31E0 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */; };
-		D1E0EB3D23FA529C000E3D09 /* input_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E0EB3B23FA529C000E3D09 /* input_output.cpp */; };
+		D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1E0EB3C23FA529C000E3D09 /* input_output.hpp */; };
+		D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */; };
+		D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D123E9E623EDA31F0025C89F /* unit_neuron.hpp */; };
+		D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E0EB3B23FA529C000E3D09 /* input_output.cpp */; };
+		D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */; };
+		D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */; };
+		D1D1EED1242B840B00ABB056 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */; };
+		D1D1EED3242B842500ABB056 /* libUnit Neurons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D123E9D923EDA2EF0025C89F /* CopyFiles */ = {
+		D1D1EEC8242B83F800ABB056 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,20 +30,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D123E9DB23EDA2EF0025C89F /* Unit Neurons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit Neurons"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D123E9DE23EDA2EF0025C89F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
 		D123E9E623EDA31F0025C89F /* unit_neuron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unit_neuron.hpp; sourceTree = "<group>"; };
-		D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
+		D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_mapping_neuron.cpp; sourceTree = "<group>"; };
 		D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kohonen_som.hpp; sourceTree = "<group>"; };
+		D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
+		D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUnit Neurons.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D1EECA242B83F800ABB056 /* Kohonen SOM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kohonen SOM"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E0EB3B23FA529C000E3D09 /* input_output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_output.cpp; sourceTree = "<group>"; };
 		D1E0EB3C23FA529C000E3D09 /* input_output.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_output.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D123E9D823EDA2EF0025C89F /* Frameworks */ = {
+		D1D1EEB3242B823300ABB056 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D1EEC7242B83F800ABB056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D1EED3242B842500ABB056 /* libUnit Neurons.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,15 +63,18 @@
 		D123E9D223EDA2EF0025C89F = {
 			isa = PBXGroup;
 			children = (
+				D1D1EE9E242B7C6D00ABB056 /* Examples */,
 				D123E9DD23EDA2EF0025C89F /* Unit Neurons */,
 				D123E9DC23EDA2EF0025C89F /* Products */,
+				D1D1EED2242B842500ABB056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D123E9DC23EDA2EF0025C89F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D123E9DB23EDA2EF0025C89F /* Unit Neurons */,
+				D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */,
+				D1D1EECA242B83F800ABB056 /* Kohonen SOM */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,26 +82,70 @@
 		D123E9DD23EDA2EF0025C89F /* Unit Neurons */ = {
 			isa = PBXGroup;
 			children = (
-				D123E9DE23EDA2EF0025C89F /* main.cpp */,
-				D17A5EC223F378BF008E31E0 /* kohonen_som.cpp */,
-				D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */,
-				D1E0EB3B23FA529C000E3D09 /* input_output.cpp */,
-				D1E0EB3C23FA529C000E3D09 /* input_output.hpp */,
+				D1D1EE9D242B7C4100ABB056 /* io */,
+				D1D1EE9A242B7B7500ABB056 /* kohonen_som */,
 				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
 			);
 			path = "Unit Neurons";
 			sourceTree = "<group>";
 		};
+		D1D1EE9A242B7B7500ABB056 /* kohonen_som */ = {
+			isa = PBXGroup;
+			children = (
+				D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */,
+				D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */,
+				D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */,
+			);
+			path = kohonen_som;
+			sourceTree = "<group>";
+		};
+		D1D1EE9D242B7C4100ABB056 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				D1E0EB3B23FA529C000E3D09 /* input_output.cpp */,
+				D1E0EB3C23FA529C000E3D09 /* input_output.hpp */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		D1D1EE9E242B7C6D00ABB056 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		D1D1EED2242B842500ABB056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D1D1EEB1242B823300ABB056 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */,
+				D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */,
+				D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		D123E9DA23EDA2EF0025C89F /* Unit Neurons */ = {
+		D1D1EEB4242B823300ABB056 /* Unit Neurons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D123E9E223EDA2EF0025C89F /* Build configuration list for PBXNativeTarget "Unit Neurons" */;
+			buildConfigurationList = D1D1EEBD242B823300ABB056 /* Build configuration list for PBXNativeTarget "Unit Neurons" */;
 			buildPhases = (
-				D123E9D723EDA2EF0025C89F /* Sources */,
-				D123E9D823EDA2EF0025C89F /* Frameworks */,
-				D123E9D923EDA2EF0025C89F /* CopyFiles */,
+				D1D1EEB1242B823300ABB056 /* Headers */,
+				D1D1EEB2242B823300ABB056 /* Sources */,
+				D1D1EEB3242B823300ABB056 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,7 +153,24 @@
 			);
 			name = "Unit Neurons";
 			productName = "Unit Neurons";
-			productReference = D123E9DB23EDA2EF0025C89F /* Unit Neurons */;
+			productReference = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1D1EEC9242B83F800ABB056 /* Kohonen SOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D1EECE242B83F800ABB056 /* Build configuration list for PBXNativeTarget "Kohonen SOM" */;
+			buildPhases = (
+				D1D1EEC6242B83F800ABB056 /* Sources */,
+				D1D1EEC7242B83F800ABB056 /* Frameworks */,
+				D1D1EEC8242B83F800ABB056 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kohonen SOM";
+			productName = "Kohonen SOM";
+			productReference = D1D1EECA242B83F800ABB056 /* Kohonen SOM */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +182,10 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Mioto Takahashi";
 				TargetAttributes = {
-					D123E9DA23EDA2EF0025C89F = {
+					D1D1EEB4242B823300ABB056 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D1D1EEC9242B83F800ABB056 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -121,19 +203,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D123E9DA23EDA2EF0025C89F /* Unit Neurons */,
+				D1D1EEB4242B823300ABB056 /* Unit Neurons */,
+				D1D1EEC9242B83F800ABB056 /* Kohonen SOM */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D123E9D723EDA2EF0025C89F /* Sources */ = {
+		D1D1EEB2242B823300ABB056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E0EB3D23FA529C000E3D09 /* input_output.cpp in Sources */,
-				D17A5EC423F378BF008E31E0 /* kohonen_som.cpp in Sources */,
-				D123E9DF23EDA2EF0025C89F /* main.cpp in Sources */,
+				D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */,
+				D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */,
+				D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D1EEC6242B83F800ABB056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D1EED1242B840B00ABB056 /* kohonen_som.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +340,31 @@
 			};
 			name = Release;
 		};
-		D123E9E323EDA2EF0025C89F /* Debug */ = {
+		D1D1EEBE242B823300ABB056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1D1EEBF242B823300ABB056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1D1EECF242B83F800ABB056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		D123E9E423EDA2EF0025C89F /* Release */ = {
+		D1D1EED0242B83F800ABB056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -277,11 +392,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D123E9E223EDA2EF0025C89F /* Build configuration list for PBXNativeTarget "Unit Neurons" */ = {
+		D1D1EEBD242B823300ABB056 /* Build configuration list for PBXNativeTarget "Unit Neurons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D123E9E323EDA2EF0025C89F /* Debug */,
-				D123E9E423EDA2EF0025C89F /* Release */,
+				D1D1EEBE242B823300ABB056 /* Debug */,
+				D1D1EEBF242B823300ABB056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D1EECE242B83F800ABB056 /* Build configuration list for PBXNativeTarget "Kohonen SOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D1EECF242B83F800ABB056 /* Debug */,
+				D1D1EED0242B83F800ABB056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
