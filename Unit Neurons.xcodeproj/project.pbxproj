@@ -82,6 +82,7 @@
 		D123E9DD23EDA2EF0025C89F /* Unit Neurons */ = {
 			isa = PBXGroup;
 			children = (
+				D1D1EED4242BA58100ABB056 /* gradient_descent */,
 				D1D1EE9D242B7C4100ABB056 /* io */,
 				D1D1EE9A242B7B7500ABB056 /* kohonen_som */,
 				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
@@ -121,6 +122,13 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D1EED4242BA58100ABB056 /* gradient_descent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gradient_descent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -26,7 +26,7 @@ public:
     void init(FloatUnitNeuron** _prevs, int _num_prev, int _max);                   // assign array of input neurons' pointers during instantiation
     void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);     // assign array of neighboring neurons' pointers after instantiation
     void feedforward();
-    void feedback(float* ff_input, float* fb_input);
+    void feedback(float* fb_input);
     float* see_memory();
 };
 

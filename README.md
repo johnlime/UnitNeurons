@@ -19,14 +19,14 @@ An abstract unit neuron class includes a protected array `memory`, which stores 
 used for calculating forward and feedback loops, such as postsynaptic weights, a public variable `state`, which 
 indicates the current output signal of the neuron, and an array of unit neurons' pointers `previous`, which stores 
 the neurons that the current neuron inputs the external signals from. Public methods `feedforward()` and 
-`feedback(float* ff_input, float* fb_input)` are virtual methods which are required to be defined by its subclasses.
+`feedback(float* fb_input)` are virtual methods which are required to be defined by its subclasses.
 
 You can take a look at the abstract class 
 [here](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp).
 
 ## Current Features
 - Made abstract classes for unit neurons that support floating point values (2nd generation neural networks).
-- Better pointer routing.
+- Inter-neuron pointer routing.
 - Kohonen's SOM implementation
   - Neighboring neuron assignment for Kohonen's SOM
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).

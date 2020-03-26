@@ -27,10 +27,5 @@ void FloatKohonenSOM:: execute()
         }
     }
     float fb [2] = {float(neighbor_range), float(neighbor_range)};
-    float ff [winner->num_prev];
-    for (int i = 0; i < winner->num_prev; i++)
-    {
-        ff[i] = winner->previous[i]->state;
-    }
-    winner->feedback(ff, fb);
+    winner->feedback(fb);
 }

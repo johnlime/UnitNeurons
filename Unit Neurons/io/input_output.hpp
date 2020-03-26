@@ -16,7 +16,7 @@ class FloatInputNeuron :FloatUnitNeuron{
 public:
     FloatInputNeuron();
     void feedforward();
-    void feedback(float* ff_input, float* fb_input);
+    void feedback(float* fb_input);
     
     void assign_value(float value);
 };

@@ -25,7 +25,7 @@ public:
     // array of neurons' pointers that the current neuron references signals from
     float state;    // signal emitted from the current neuron
     virtual void feedforward() = 0;
-    virtual void feedback(float* ff_input, float* fb_input) = 0;
+    virtual void feedback(float* fb_input) = 0;
 };
 
 class FloatGlobalOperator{

@@ -18,7 +18,7 @@ void FloatInputNeuron:: feedforward()
     return;
 }
 
-void FloatInputNeuron:: feedback(float* ff_input, float* fb_input)
+void FloatInputNeuron:: feedback(float* fb_input)
 {
     return;
 }
