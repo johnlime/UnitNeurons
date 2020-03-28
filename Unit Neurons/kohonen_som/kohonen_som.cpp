@@ -1,5 +1,5 @@
 //
-//  kohonen_som1.cpp
+//  kohonen_som.cpp
 //  Unit Neurons
 //
 //  Created by John Lime on 2020/03/25.

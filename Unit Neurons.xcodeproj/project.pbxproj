@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */; };
+		D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */; };
 		D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1E0EB3C23FA529C000E3D09 /* input_output.hpp */; };
 		D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */; };
 		D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D123E9E623EDA31F0025C89F /* unit_neuron.hpp */; };
@@ -15,6 +17,7 @@
 		D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */; };
 		D1D1EED1242B840B00ABB056 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */; };
 		D1D1EED3242B842500ABB056 /* libUnit Neurons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */; };
+		D1E5A29C242EF6F700DFD2F7 /* gradient_descent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +35,8 @@
 /* Begin PBXFileReference section */
 		D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
 		D123E9E623EDA31F0025C89F /* unit_neuron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unit_neuron.hpp; sourceTree = "<group>"; };
+		D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_gd_ff_neuron.cpp; sourceTree = "<group>"; };
+		D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gradient_descent.hpp; sourceTree = "<group>"; };
 		D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_mapping_neuron.cpp; sourceTree = "<group>"; };
 		D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kohonen_som.hpp; sourceTree = "<group>"; };
 		D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		D1D1EECA242B83F800ABB056 /* Kohonen SOM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kohonen SOM"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E0EB3B23FA529C000E3D09 /* input_output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_output.cpp; sourceTree = "<group>"; };
 		D1E0EB3C23FA529C000E3D09 /* input_output.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_output.hpp; sourceTree = "<group>"; };
+		D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gradient_descent.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		D1D1EED4242BA58100ABB056 /* gradient_descent */ = {
 			isa = PBXGroup;
 			children = (
+				D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */,
+				D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */,
+				D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */,
 			);
 			path = gradient_descent;
 			sourceTree = "<group>";
@@ -139,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */,
+				D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */,
 				D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */,
 				D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */,
 			);
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */,
 				D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */,
 				D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */,
 				D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */,
+				D1E5A29C242EF6F700DFD2F7 /* gradient_descent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

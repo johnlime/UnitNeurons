@@ -1,5 +1,5 @@
 //
-//  kohonen_som.cpp
+//  float_mapping_neuron.cpp
 //  Unit Neurons
 //
 //  Created by John Lime on 2020/02/12.

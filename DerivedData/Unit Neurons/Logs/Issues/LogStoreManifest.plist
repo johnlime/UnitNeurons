@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>495CAADB-1CCE-41A4-9E30-96840D283F22</key>
+		<key>0CF69F3D-4465-4383-98F6-932EDE4EAD89</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>495CAADB-1CCE-41A4-9E30-96840D283F22.xcactivitylog</string>
+			<string>0CF69F3D-4465-4383-98F6-932EDE4EAD89.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Kohonen_SOM-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>606888809.47866797</real>
+			<real>607058103.90205002</real>
 			<key>timeStoppedRecording</key>
-			<real>606888810.252702</real>
+			<real>607058104.64925098</real>
 			<key>title</key>
 			<string>Build target Kohonen SOM</string>
 			<key>uniqueIdentifier</key>
-			<string>495CAADB-1CCE-41A4-9E30-96840D283F22</string>
+			<string>0CF69F3D-4465-4383-98F6-932EDE4EAD89</string>
 		</dict>
-		<key>7F47C145-D5CE-47AA-A41A-1C0B7EDA4F0C</key>
+		<key>58DC6312-998B-452E-80B3-7C8457B7B649</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>7F47C145-D5CE-47AA-A41A-1C0B7EDA4F0C.xcactivitylog</string>
+			<string>58DC6312-998B-452E-80B3-7C8457B7B649.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>Unit_Neurons-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>606888809.25787795</real>
+			<real>607058102.86252403</real>
 			<key>timeStoppedRecording</key>
-			<real>606888809.48057795</real>
+			<real>607058103.911327</real>
 			<key>title</key>
 			<string>Build target Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>7F47C145-D5CE-47AA-A41A-1C0B7EDA4F0C</string>
+			<string>58DC6312-998B-452E-80B3-7C8457B7B649</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
