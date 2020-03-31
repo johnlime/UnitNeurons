@@ -33,12 +33,20 @@ You can take a look at the abstract class
   - Visualization via Processing (5x5; 10000 epochs)
   
   ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_5x5_10000epoch.png)
+  
+- Feedforward network with gradient descent
+  - Global operator calculates least mean squares
+  - Feedforward and feedback functions outputs partial differentiation of each weights
+  - Example training of neural network with 8 hidden neurons activated via ReLU function
+  - Visualization via Processing (100 epochs)
+  
+  ![Example GD output](Processing%20Visualization/gradient_descent_sine/gd_8_100epoch.png)
 
 ## Open Problems
+- Feedforward network with gradient descent sometimes crashes during training (due to memory leak?).
+- Implementation of other activation functions (such as Tanh, Leaky ReLU, etc).
+
 - Implementations of other neural network models are highly welcomed
-  - Feedforward network with gradient descent:
-    - Global operator calculates least mean squares
-    - Feedforward and feedback functions outputs partial differentiation of each weights
   - Spiking neural networks
     - Boltzmann machine and its predecessor Hopfield network
     

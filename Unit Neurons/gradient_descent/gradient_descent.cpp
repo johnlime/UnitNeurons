@@ -16,8 +16,14 @@ FloatGradientDescent:: FloatGradientDescent(FloatFeedForwardNeuron** _targets, i
     num_layers = _num_layers;
 }
 
-void FloatGradientDescent:: calculate_l1_loss(float correct_value, float target_output)
+void FloatGradientDescent:: calculate_l1_loss(float correct_value)
 {
+    if (layer_sizes[num_layers - 1] != 1)
+    {
+        throw std::invalid_argument("Output dimension of neural network does not match dimension of correct value(s)");
+    }
+    
+    float target_output = targets[num_targets - 1]->state;
     loss = correct_value - target_output;
 }
 
@@ -28,7 +34,7 @@ void FloatGradientDescent:: execute()
     {
         for (int j = 0; j < num_layers; j++)
         {
-            targets[i]->feedback(&loss);
+            targets[(num_targets - 1) - i]->feedback(&loss);
             i += 1;
         }
     }

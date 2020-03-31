@@ -8,7 +8,7 @@
 
 #include "gradient_descent.hpp"
 
-FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, const std::string _activ)
+FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, std::string const &_activ)
 {
     previous = _prevs;
     num_prev = _num_prevs;
@@ -59,6 +59,19 @@ FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _n
     {
         throw std::invalid_argument("No such activation function " + _activ + " found");
     }
+}
+
+FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, float (*_activation) (float), float (*_gradient) (float))
+{
+    previous = _prevs;
+    num_prev = _num_prevs;
+    memory = (float*) malloc(num_prev);     // synaptic weights
+    for (int i = 0; i < num_prev; i++)
+    {
+        memory[i] = (float) rand() / RAND_MAX;
+    }
+    activation = _activation;
+    activ_deriv = _gradient;
 }
 
 void FloatFeedForwardNeuron:: feedforward()
