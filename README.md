@@ -34,7 +34,8 @@ You can take a look at the abstract class
   
   ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_5x5_10000epoch.png)
   
-- Feedforward network with gradient descent
+- Feedforward network with ~~gradient descent~~
+  - **Gradient descent algorithm is incorrect at the current state past the weight optimization for the final layer**
   - Global operator calculates least mean squares
   - Feedforward and feedback functions outputs partial differentiation of each weights
   - Example training of neural network with 8 hidden neurons activated via ReLU function
