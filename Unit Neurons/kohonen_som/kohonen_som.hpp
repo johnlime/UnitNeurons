@@ -20,13 +20,13 @@ protected:
     float counter = 0;                  // track current neighbor count
     FloatMappingNeuron** neighbors;     // array of pointers to neighboring mapping neurons
     int num_neighbors;
-    FeedbackQueryManager query_manager;
+    FeedbackQueryManager* query_manager;
    
 public:
-    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max);
-    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager);
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max);
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager);
     // assign array of input neurons' pointers during instantiation
-    void init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max);
+    void init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max);
     // assign array of neighboring neurons' pointers after instantiation
     void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);
     void feedforward();

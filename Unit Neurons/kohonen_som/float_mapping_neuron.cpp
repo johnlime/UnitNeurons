@@ -9,7 +9,7 @@
 #include "kohonen_som.hpp"
 #include <math.h>
 
-void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max)
+void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max)
 {
     previous = _prevs;                                      // assign array of input neurons' references
     num_prev = _num_prev;                                   // assign number of input neurons
@@ -33,12 +33,12 @@ void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, Feedback
     }
 }
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max)
 {
     init(_prevs, _num_prev, _query_manager, _max);
 }
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager)
 {
     init(_prevs, _num_prev, _query_manager, 0);
 }
@@ -71,7 +71,7 @@ void FloatMappingNeuron:: feedback(float* fb_input)    // fb = {current count, m
         
         // calculate loss and update memory
         for (int i = 0; i < num_prev; i++){
-            memory[i] += pow(lr, fb_input[1] - fb_input[0]) * (previous[i]->state - memory[i]) / state;    // normalie loss
+            memory[i] += pow(lr, fb_input[1] - fb_input[0] + 1) * (previous[i]->state - memory[i]) / state;    // normalize loss
         }
         // reduce neighbor range count
         counter -= 1;
@@ -81,7 +81,7 @@ void FloatMappingNeuron:: feedback(float* fb_input)    // fb = {current count, m
             FeedbackQuery tmp;
             tmp.neuron = neighbors[i];
             tmp.fb_input = fb;
-            query_manager.add_query(tmp);
+            query_manager->add_query(tmp);
         }
     }
     else{

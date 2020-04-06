@@ -11,8 +11,8 @@
 #include "fb_query_manager.hpp"
 #include "kohonen_som.hpp"
 #include <math.h>
-#define NODE_D 5
-#define EPOCHS 10000
+#define NODE_D 3
+#define EPOCHS pow(10, 7)
 #define MAX_RANGE 100
 
 int main(int argc, const char * argv[]) {
@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
     FloatInputNeuron* io_neuron [2] = {x_input, y_input};
     
     // define feedback query
-    FeedbackQueryManager query_manager = FeedbackQueryManager();
+    FeedbackQueryManager* query_manager = new FeedbackQueryManager();
     
     // define mapping neurons
     FloatMappingNeuron* maps [NODE_D * NODE_D];
@@ -155,12 +155,12 @@ int main(int argc, const char * argv[]) {
     }
     
     // define global operator
-    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 2);
+    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 3);
     
-    for (int i = 0; i < NODE_D * NODE_D; i++){
-        float* tmp = maps[i]->see_memory();
-        printf("{%f, %f}, \n", tmp[0], tmp[1]);
-    }
+//    for (int i = 0; i < NODE_D * NODE_D; i++){
+//        float* tmp = maps[i]->see_memory();
+//        printf("{%f, %f}, \n", tmp[0], tmp[1]);
+//    }
     /* loop through dataset */
     printf("TRAIN\n");
     for (int i = 0; i < EPOCHS; i++){
@@ -174,9 +174,10 @@ int main(int argc, const char * argv[]) {
         }
         // feedback
         global_operator.execute();
-        query_manager.execute_all();
+        query_manager->execute_all();
     }
     
+    // output trained network
     for (int i = 0; i < NODE_D * NODE_D; i++){
         float* tmp = maps[i]->see_memory();
         printf("{%f, %f}, \n", tmp[0], tmp[1]);

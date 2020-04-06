@@ -9,7 +9,7 @@
 #include <math.h>
 #include "gradient_descent.hpp"
 
-FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager _query_manager, std::string const &_activ)
+FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, std::string const &_activ)
 {
     previous = _prevs;
     num_prev = _num_prevs;
@@ -76,7 +76,7 @@ FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _n
     }
 }
 
-FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager _query_manager, float (*_activation) (float), float (*_gradient) (float))
+FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float))
 {
     previous = _prevs;
     num_prev = _num_prevs;
@@ -106,7 +106,7 @@ void FloatFeedForwardNeuron:: feedback(float *fb_input)
     for (int i = 0; i < num_prev; i++)
     {
         new_fb[i] = previous[i]->state * (*fb_input);
-        memory[i] += activ_deriv(pre_activ) * new_fb[i];     // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
+        memory[i] += lr * activ_deriv(pre_activ) * new_fb[i];     // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
     }
     
     // feedback to previous neurons in query (presumably in parallel)
@@ -116,6 +116,6 @@ void FloatFeedForwardNeuron:: feedback(float *fb_input)
         tmp.neuron = previous[i];
         float tmp_fb_input [1] = {fb_input[i]};
         tmp.fb_input = tmp_fb_input;
-        query_manager.add_query(tmp);
+        query_manager->add_query(tmp);
     }
 }

@@ -12,8 +12,8 @@
 #include "fb_query_manager.hpp"
 #include "gradient_descent.hpp"
 
-#define EPOCHS 100
-#define MAX_RANGE 1.0f;
+#define EPOCHS 100000
+#define MAX_RANGE 3.14f * 2;
 
 int main(int argc, const char * argv[]) {
     // define input neurons
@@ -21,12 +21,13 @@ int main(int argc, const char * argv[]) {
     input[0] = new FloatInputNeuron();
     
     // define feedback query
-    FeedbackQueryManager query_manager = FeedbackQueryManager();
+    FeedbackQueryManager* query_manager = new FeedbackQueryManager();
     
     // define feedforward neurons
-    int layers [2];
+    int layers [3];
     layers[0] = 8;
-    layers[1] = 1;
+    layers[1] = 8;
+    layers[2] = 1;
     int num_neurons = 0;
     for (int i = 0; i < 2; i++)
     {
@@ -39,7 +40,7 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_1 [layers[0]];
     for (int i = 0; i < layers[0]; i++)
     {
-        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "relu");
+        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "tanh");
         all_neurons[counter] = layer_1[i];
         counter ++;
     }
@@ -47,12 +48,20 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_2 [layers[1]];
     for (int i = 0; i < layers[1]; i++)
     {
-        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"identity");
+        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"tanh");
         all_neurons[counter] = layer_2[i];
         counter ++;
     }
     
-    FloatGradientDescent global_operator = FloatGradientDescent(all_neurons, num_neurons, layers, 2);
+    FloatFeedForwardNeuron* layer_3 [layers[2]];
+    for (int i = 0; i < layers[2]; i++)
+    {
+        layer_3[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_2, layers[1], query_manager,"identity");
+        all_neurons[counter] = layer_3[i];
+        counter ++;
+    }
+    
+    FloatGradientDescent global_operator = FloatGradientDescent(all_neurons, num_neurons, layers, 3);
     
     printf("TRAIN\n");
     for (int i = 0; i < EPOCHS; i++){
@@ -68,7 +77,7 @@ int main(int argc, const char * argv[]) {
         // feedback
         global_operator.calculate_l1_loss(sin(tmp));
         global_operator.execute();
-        query_manager.execute_all();
+        query_manager->execute_all();
     }
     
     // Output trained network
@@ -82,7 +91,7 @@ int main(int argc, const char * argv[]) {
             all_neurons[j]->feedforward();
         }
 
-        printf("{%f, %f}, \n", tmp, all_neurons[num_neurons - 1] -> state);
+        printf("{Input: %f, Prediction: %f, Correct: %f}, \n", tmp, all_neurons[num_neurons - 1] -> state, sin(tmp));
     }
     
     return 0;

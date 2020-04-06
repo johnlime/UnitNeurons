@@ -22,11 +22,11 @@ protected:
     float (*activation) (float);        // activation function
     float (*activ_deriv) (float);       // derivative of the activation function
     float pre_activ;
-    FeedbackQueryManager query_manager;
+    FeedbackQueryManager* query_manager;
     
 public:
-    FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager _query_manager, float (*_activation) (float), float (*_gradient) (float));
-    FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager _query_manager, std::string const &_activ);
+    FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float));
+    FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, std::string const &_activ);
     void feedforward();
     void feedback(float* fb_input);
 };

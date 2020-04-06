@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>7F01F167-4B9D-49F9-ABB6-687FE9A08AAD</key>
+		<key>441C3B6B-136C-4B1E-AC02-2791ED63192E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>7F01F167-4B9D-49F9-ABB6-687FE9A08AAD.xcactivitylog</string>
+			<string>441C3B6B-136C-4B1E-AC02-2791ED63192E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Unit_Neurons-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>607837696.27870297</real>
+			<real>607853585.71327496</real>
 			<key>timeStoppedRecording</key>
-			<real>607837696.35500395</real>
+			<real>607853586.44780302</real>
 			<key>title</key>
 			<string>Build target Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>7F01F167-4B9D-49F9-ABB6-687FE9A08AAD</string>
+			<string>441C3B6B-136C-4B1E-AC02-2791ED63192E</string>
 		</dict>
-		<key>9E0BD787-8510-47C2-A713-DA6496865AEE</key>
+		<key>6836F200-0B36-4654-B5B0-7876C7EA7E74</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,35 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>9E0BD787-8510-47C2-A713-DA6496865AEE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Gradient_Descent-dqopnzqftfjxnkbjmxavsrstrzlj</string>
-			<key>timeStartedRecording</key>
-			<real>607837696.34788406</real>
-			<key>timeStoppedRecording</key>
-			<real>607837696.99692094</real>
-			<key>title</key>
-			<string>Build target Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>9E0BD787-8510-47C2-A713-DA6496865AEE</string>
-		</dict>
-		<key>A0BEB0F9-1B2F-44D0-920C-B134CA8FDF4D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
-			<key>fileName</key>
-			<string>A0BEB0F9-1B2F-44D0-920C-B134CA8FDF4D.xcactivitylog</string>
+			<string>6836F200-0B36-4654-B5B0-7876C7EA7E74.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +54,41 @@
 			<key>signature</key>
 			<string>Kohonen_SOM-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>607837288.29107499</real>
+			<real>607853657.62555003</real>
 			<key>timeStoppedRecording</key>
-			<real>607837288.96476603</real>
+			<real>607853658.78071702</real>
 			<key>title</key>
 			<string>Build target Kohonen SOM</string>
 			<key>uniqueIdentifier</key>
-			<string>A0BEB0F9-1B2F-44D0-920C-B134CA8FDF4D</string>
+			<string>6836F200-0B36-4654-B5B0-7876C7EA7E74</string>
+		</dict>
+		<key>E35D3018-AC48-463B-9864-B11A13E26300</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>E35D3018-AC48-463B-9864-B11A13E26300.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Gradient_Descent-dqopnzqftfjxnkbjmxavsrstrzlj</string>
+			<key>timeStartedRecording</key>
+			<real>607851775.90666199</real>
+			<key>timeStoppedRecording</key>
+			<real>607851776.69708896</real>
+			<key>title</key>
+			<string>Build target Gradient Descent</string>
+			<key>uniqueIdentifier</key>
+			<string>E35D3018-AC48-463B-9864-B11A13E26300</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

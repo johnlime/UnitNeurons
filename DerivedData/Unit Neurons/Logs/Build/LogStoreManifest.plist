@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0E7CEAD6-D8E0-43BD-9EB2-1AB4ABA3D5B9</key>
+		<key>C87641B5-B3CF-4C46-8493-7633F6AD82EC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,143 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0E7CEAD6-D8E0-43BD-9EB2-1AB4ABA3D5B9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607835731.59271801</real>
-			<key>timeStoppedRecording</key>
-			<real>607835732.12679303</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>0E7CEAD6-D8E0-43BD-9EB2-1AB4ABA3D5B9</string>
-		</dict>
-		<key>366609D6-4B12-45A6-B78D-75B78259C0DA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>366609D6-4B12-45A6-B78D-75B78259C0DA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607837696.21471202</real>
-			<key>timeStoppedRecording</key>
-			<real>607837697.00256503</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>366609D6-4B12-45A6-B78D-75B78259C0DA</string>
-		</dict>
-		<key>36FB24C0-B83B-47AB-8FB7-CB9310D35010</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>36FB24C0-B83B-47AB-8FB7-CB9310D35010.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607835617.57566595</real>
-			<key>timeStoppedRecording</key>
-			<real>607835618.27014506</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>36FB24C0-B83B-47AB-8FB7-CB9310D35010</string>
-		</dict>
-		<key>9AE9CA5F-20B7-47EB-8BDF-4E9412EB6CE6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9AE9CA5F-20B7-47EB-8BDF-4E9412EB6CE6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607835745.64462197</real>
-			<key>timeStoppedRecording</key>
-			<real>607835746.16041994</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>9AE9CA5F-20B7-47EB-8BDF-4E9412EB6CE6</string>
-		</dict>
-		<key>B17A2A8A-6A2E-43AC-A9DF-B702635AAD4B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B17A2A8A-6A2E-43AC-A9DF-B702635AAD4B.xcactivitylog</string>
+			<string>C87641B5-B3CF-4C46-8493-7633F6AD82EC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,47 +32,13 @@
 			<key>signature</key>
 			<string>Build Kohonen SOM</string>
 			<key>timeStartedRecording</key>
-			<real>607837287.60755002</real>
+			<real>607853657.58397603</real>
 			<key>timeStoppedRecording</key>
-			<real>607837288.97071195</real>
+			<real>607853658.78729701</real>
 			<key>title</key>
 			<string>Build Kohonen SOM</string>
 			<key>uniqueIdentifier</key>
-			<string>B17A2A8A-6A2E-43AC-A9DF-B702635AAD4B</string>
-		</dict>
-		<key>C564CD58-AE23-4BF9-93BC-10D05F791C23</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C564CD58-AE23-4BF9-93BC-10D05F791C23.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607836918.42397797</real>
-			<key>timeStoppedRecording</key>
-			<real>607836920.04001105</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>C564CD58-AE23-4BF9-93BC-10D05F791C23</string>
+			<string>C87641B5-B3CF-4C46-8493-7633F6AD82EC</string>
 		</dict>
 	</dict>
 </dict>
