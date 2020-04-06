@@ -14,6 +14,7 @@ FloatGradientDescent:: FloatGradientDescent(FloatFeedForwardNeuron** _targets, i
     num_targets = _num_targets;
     layer_sizes = _layer_sizes;
     num_layers = _num_layers;
+    loss = (float*) malloc(layer_sizes[num_layers - 1]);
 }
 
 void FloatGradientDescent:: calculate_l1_loss(float correct_value)
@@ -24,18 +25,24 @@ void FloatGradientDescent:: calculate_l1_loss(float correct_value)
     }
     
     float target_output = targets[num_targets - 1]->state;
-    loss = correct_value - target_output;
+    loss[0] = correct_value - target_output;
+}
+
+void FloatGradientDescent:: calculate_l1_loss(float* correct_value)
+{
+    float target_output [layer_sizes[num_layers - 1]];
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        loss[i] = (correct_value[i] - target_output[i]) * (correct_value[i] - target_output[i]);
+    }
 }
 
 void FloatGradientDescent:: execute()
 {
-    int i = 0;
-    while (i < num_targets)
+    // update final layer only
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
     {
-        for (int j = 0; j < num_layers; j++)
-        {
-            targets[(num_targets - 1) - i]->feedback(&loss);
-            i += 1;
-        }
+        float tmp_loss [1] = {loss[i]};
+        targets[(num_targets - 1) - i]->feedback(tmp_loss);
     }
 }

@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "unit_neuron.hpp"
+#include "fb_query_manager.hpp"
 
 class FloatMappingNeuron: public FloatUnitNeuron{
 protected:
@@ -19,12 +20,15 @@ protected:
     float counter = 0;                  // track current neighbor count
     FloatMappingNeuron** neighbors;     // array of pointers to neighboring mapping neurons
     int num_neighbors;
+    FeedbackQueryManager query_manager;
    
 public:
-    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, int _max);
-    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev);
-    void init(FloatUnitNeuron** _prevs, int _num_prev, int _max);                   // assign array of input neurons' pointers during instantiation
-    void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);     // assign array of neighboring neurons' pointers after instantiation
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max);
+    FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager);
+    // assign array of input neurons' pointers during instantiation
+    void init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max);
+    // assign array of neighboring neurons' pointers after instantiation
+    void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);
     void feedforward();
     void feedback(float* fb_input);
     float* see_memory();
@@ -33,12 +37,11 @@ public:
 // checks winning neuron
 class FloatKohonenSOM: public FloatGlobalOperator{
 private:
-//    FloatMappingNeuron** maps;          // array of mapping neurons' pointers
+    FloatMappingNeuron** maps;          // array of mapping neurons' pointers
     int num_maps;
     int neighbor_range;        // range of neighboring neurons
     
 public:
-    FloatMappingNeuron** maps;
     // assign array of mapping neurons' pointers and range of neighboring neurons during instantiation
     FloatKohonenSOM(FloatMappingNeuron** _maps, int _num_maps, int _neighbor_range);
     void execute();

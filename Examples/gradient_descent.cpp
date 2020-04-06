@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "input_output.hpp"
+#include "fb_query_manager.hpp"
 #include "gradient_descent.hpp"
 
 #define EPOCHS 100
@@ -18,6 +19,9 @@ int main(int argc, const char * argv[]) {
     // define input neurons
     FloatInputNeuron* input [1];
     input[0] = new FloatInputNeuron();
+    
+    // define feedback query
+    FeedbackQueryManager query_manager = FeedbackQueryManager();
     
     // define feedforward neurons
     int layers [2];
@@ -35,7 +39,7 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_1 [layers[0]];
     for (int i = 0; i < layers[0]; i++)
     {
-        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, "relu");
+        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "relu");
         all_neurons[counter] = layer_1[i];
         counter ++;
     }
@@ -43,7 +47,7 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_2 [layers[1]];
     for (int i = 0; i < layers[1]; i++)
     {
-        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], "identity");
+        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"identity");
         all_neurons[counter] = layer_2[i];
         counter ++;
     }
@@ -64,6 +68,7 @@ int main(int argc, const char * argv[]) {
         // feedback
         global_operator.calculate_l1_loss(sin(tmp));
         global_operator.execute();
+        query_manager.execute_all();
     }
     
     // Output trained network

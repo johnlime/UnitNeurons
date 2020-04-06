@@ -16,6 +16,7 @@ FloatKohonenSOM:: FloatKohonenSOM(FloatMappingNeuron** _maps, int _num_maps, int
 
 void FloatKohonenSOM:: execute()
 {
+    // search for winner neuron
     FloatMappingNeuron* winner = maps[0];
     float shortest = maps[0]->state;
     int tmp = 0;

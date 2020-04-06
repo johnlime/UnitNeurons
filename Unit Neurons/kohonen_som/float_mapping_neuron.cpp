@@ -9,11 +9,12 @@
 #include "kohonen_som.hpp"
 #include <math.h>
 
-void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, int _max)
+void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max)
 {
     previous = _prevs;                                      // assign array of input neurons' references
     num_prev = _num_prev;                                   // assign number of input neurons
-    memory = (float*) malloc(num_prev);                     // allocate memory for storing weight values with dim of input neurons
+    memory = (float*) malloc(num_prev * sizeof(float));     // allocate memory for storing weight values with dim of input neurons
+    query_manager = _query_manager;                         // reference to query manager object
     
     if (_max == 0)
     {
@@ -32,14 +33,14 @@ void FloatMappingNeuron:: init(FloatUnitNeuron** _prevs, int _num_prev, int _max
     }
 }
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, int _max)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager, int _max)
 {
-    init(_prevs, _num_prev, _max);
+    init(_prevs, _num_prev, _query_manager, _max);
 }
 
-FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev)
+FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager _query_manager)
 {
-    init(_prevs, _num_prev, 0);
+    init(_prevs, _num_prev, _query_manager, 0);
 }
 
 void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors)
@@ -75,9 +76,12 @@ void FloatMappingNeuron:: feedback(float* fb_input)    // fb = {current count, m
         // reduce neighbor range count
         counter -= 1;
         float fb [2] = {counter, fb_input[1]};
-        // activate feedback of neighboring neurons
+        // activate feedback of neighboring neurons and put them in the query
         for (int i = 0; i < num_neighbors; i++){
-            neighbors[i]->feedback(fb);
+            FeedbackQuery tmp;
+            tmp.neuron = neighbors[i];
+            tmp.fb_input = fb;
+            query_manager.add_query(tmp);
         }
     }
     else{

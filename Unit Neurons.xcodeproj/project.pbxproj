@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D145D3F7243A95DA0066935C /* fb_query_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D145D3F5243A95DA0066935C /* fb_query_manager.cpp */; };
+		D145D3F8243A95DA0066935C /* fb_query_manager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D145D3F6243A95DA0066935C /* fb_query_manager.hpp */; };
 		D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */; };
 		D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */; };
 		D181977624303D4A00635DE4 /* gradient_descent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181977524303D4A00635DE4 /* gradient_descent.cpp */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
 		D123E9E623EDA31F0025C89F /* unit_neuron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unit_neuron.hpp; sourceTree = "<group>"; };
+		D145D3F5243A95DA0066935C /* fb_query_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fb_query_manager.cpp; sourceTree = "<group>"; };
+		D145D3F6243A95DA0066935C /* fb_query_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fb_query_manager.hpp; sourceTree = "<group>"; };
 		D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_gd_ff_neuron.cpp; sourceTree = "<group>"; };
 		D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gradient_descent.hpp; sourceTree = "<group>"; };
 		D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_mapping_neuron.cpp; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 			children = (
 				D1D1EE9E242B7C6D00ABB056 /* Examples */,
 				D123E9DD23EDA2EF0025C89F /* Unit Neurons */,
+				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
 				D123E9DC23EDA2EF0025C89F /* Products */,
 				D1D1EED2242B842500ABB056 /* Frameworks */,
 			);
@@ -113,16 +118,25 @@
 				D1D1EED4242BA58100ABB056 /* gradient_descent */,
 				D1D1EE9D242B7C4100ABB056 /* io */,
 				D1D1EE9A242B7B7500ABB056 /* kohonen_som */,
-				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
+				D145D3F4243A95A80066935C /* feedback_query */,
 			);
 			path = "Unit Neurons";
+			sourceTree = "<group>";
+		};
+		D145D3F4243A95A80066935C /* feedback_query */ = {
+			isa = PBXGroup;
+			children = (
+				D145D3F6243A95DA0066935C /* fb_query_manager.hpp */,
+				D145D3F5243A95DA0066935C /* fb_query_manager.cpp */,
+			);
+			path = feedback_query;
 			sourceTree = "<group>";
 		};
 		D1D1EE9A242B7B7500ABB056 /* kohonen_som */ = {
 			isa = PBXGroup;
 			children = (
-				D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */,
 				D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */,
+				D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */,
 				D1D1EE9B242B7BF700ABB056 /* kohonen_som.cpp */,
 			);
 			path = kohonen_som;
@@ -156,9 +170,9 @@
 		D1D1EED4242BA58100ABB056 /* gradient_descent */ = {
 			isa = PBXGroup;
 			children = (
+				D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */,
 				D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */,
 				D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */,
-				D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */,
 			);
 			path = gradient_descent;
 			sourceTree = "<group>";
@@ -172,6 +186,7 @@
 			files = (
 				D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */,
 				D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */,
+				D145D3F8243A95DA0066935C /* fb_query_manager.hpp in Headers */,
 				D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */,
 				D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */,
 			);
@@ -284,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D145D3F7243A95DA0066935C /* fb_query_manager.cpp in Sources */,
 				D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */,
 				D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */,
 				D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */,

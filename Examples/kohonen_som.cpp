@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "input_output.hpp"
+#include "fb_query_manager.hpp"
 #include "kohonen_som.hpp"
 #include <math.h>
 #define NODE_D 5
@@ -20,10 +21,13 @@ int main(int argc, const char * argv[]) {
     FloatInputNeuron* y_input = new FloatInputNeuron();
     FloatInputNeuron* io_neuron [2] = {x_input, y_input};
     
+    // define feedback query
+    FeedbackQueryManager query_manager = FeedbackQueryManager();
+    
     // define mapping neurons
     FloatMappingNeuron* maps [NODE_D * NODE_D];
     for (int i = 0; i < NODE_D * NODE_D; i++){
-        FloatMappingNeuron* tmp = new FloatMappingNeuron((FloatUnitNeuron**) io_neuron, 2, MAX_RANGE);
+        FloatMappingNeuron* tmp = new FloatMappingNeuron((FloatUnitNeuron**) io_neuron, 2, query_manager,MAX_RANGE);
         maps[i] = tmp;
     }
     
@@ -170,6 +174,7 @@ int main(int argc, const char * argv[]) {
         }
         // feedback
         global_operator.execute();
+        query_manager.execute_all();
     }
     
     for (int i = 0; i < NODE_D * NODE_D; i++){
