@@ -14,8 +14,8 @@
 
 struct FeedbackQuery
 {
-    FloatUnitNeuron* neuron;
-    float* fb_input;
+    FloatUnitNeuron* neuron;    // reference to neuron
+    float fb_input [2];         // 2-element array of float
 };
 
 class FeedbackQueryManager{
@@ -27,6 +27,7 @@ public:
     FeedbackQueryManager();
     void add_query(FeedbackQuery _new);
     void execute_all();
+    void print_current_queries();
 };
 
 #endif /* query_manager_hpp */

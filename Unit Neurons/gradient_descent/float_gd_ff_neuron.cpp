@@ -80,7 +80,7 @@ FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _n
 {
     previous = _prevs;
     num_prev = _num_prevs;
-    memory = (float*) malloc(num_prev);     // synaptic weights
+    memory = (float*) malloc(num_prev * sizeof(float));
     query_manager = _query_manager;
     for (int i = 0; i < num_prev; i++)
     {
@@ -100,13 +100,13 @@ void FloatFeedForwardNeuron:: feedforward()
     state = activation(pre_activ);
 }
 
-void FloatFeedForwardNeuron:: feedback(float *fb_input)
+void FloatFeedForwardNeuron:: feedback(float *fb_input) // size 2 or 1 float array as input
 {
     float new_fb [num_prev];
     for (int i = 0; i < num_prev; i++)
     {
-        new_fb[i] = previous[i]->state * (*fb_input);
-        memory[i] += lr * activ_deriv(pre_activ) * new_fb[i];     // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
+        new_fb[i] = activ_deriv(pre_activ) * (fb_input[0]);
+        memory[i] += lr * previous[i]->state * new_fb[i];      // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
     }
     
     // feedback to previous neurons in query (presumably in parallel)
@@ -114,8 +114,7 @@ void FloatFeedForwardNeuron:: feedback(float *fb_input)
     {
         FeedbackQuery tmp;
         tmp.neuron = previous[i];
-        float tmp_fb_input [1] = {fb_input[i]};
-        tmp.fb_input = tmp_fb_input;
+        tmp.fb_input[0] = new_fb[i];
         query_manager->add_query(tmp);
     }
 }

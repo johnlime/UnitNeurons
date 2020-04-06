@@ -12,8 +12,8 @@
 #include "fb_query_manager.hpp"
 #include "gradient_descent.hpp"
 
-#define EPOCHS 100000
-#define MAX_RANGE 3.14f * 2;
+#define EPOCHS pow(10, 5)
+#define MAX_RANGE 3.14f;
 
 int main(int argc, const char * argv[]) {
     // define input neurons
@@ -91,7 +91,8 @@ int main(int argc, const char * argv[]) {
             all_neurons[j]->feedforward();
         }
 
-        printf("{Input: %f, Prediction: %f, Correct: %f}, \n", tmp, all_neurons[num_neurons - 1] -> state, sin(tmp));
+//        printf("{Input: %f, Prediction: %f, Correct: %f}, \n", tmp, all_neurons[num_neurons - 1] -> state, sin(tmp));
+        printf("{%f, %f}, \n", tmp, all_neurons[num_neurons - 1] -> state);
     }
     
     return 0;

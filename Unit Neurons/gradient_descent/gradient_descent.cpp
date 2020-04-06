@@ -33,7 +33,7 @@ void FloatGradientDescent:: calculate_l1_loss(float* correct_value)
     float target_output [layer_sizes[num_layers - 1]];
     for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
     {
-        loss[i] = (correct_value[i] - target_output[i]) * (correct_value[i] - target_output[i]);
+        loss[i] = correct_value[i] - target_output[i];
     }
 }
 

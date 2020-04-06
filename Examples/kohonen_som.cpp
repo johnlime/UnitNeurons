@@ -11,8 +11,8 @@
 #include "fb_query_manager.hpp"
 #include "kohonen_som.hpp"
 #include <math.h>
-#define NODE_D 3
-#define EPOCHS pow(10, 7)
+#define NODE_D 5
+#define EPOCHS pow(10, 4)
 #define MAX_RANGE 100
 
 int main(int argc, const char * argv[]) {
@@ -155,7 +155,7 @@ int main(int argc, const char * argv[]) {
     }
     
     // define global operator
-    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 3);
+    FloatKohonenSOM global_operator = FloatKohonenSOM(maps, NODE_D * NODE_D, 2);
     
 //    for (int i = 0; i < NODE_D * NODE_D; i++){
 //        float* tmp = maps[i]->see_memory();
@@ -174,6 +174,8 @@ int main(int argc, const char * argv[]) {
         }
         // feedback
         global_operator.execute();
+//        printf("Listing current queries\n");
+//        query_manager->print_current_queries();
         query_manager->execute_all();
     }
     

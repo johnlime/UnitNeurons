@@ -71,16 +71,16 @@ void FloatMappingNeuron:: feedback(float* fb_input)    // fb = {current count, m
         
         // calculate loss and update memory
         for (int i = 0; i < num_prev; i++){
-            memory[i] += pow(lr, fb_input[1] - fb_input[0] + 1) * (previous[i]->state - memory[i]) / state;    // normalize loss
+            memory[i] += pow(lr, fb_input[1] - fb_input[0]) * (previous[i]->state - memory[i]) / state;    // normalize loss
         }
         // reduce neighbor range count
         counter -= 1;
-        float fb [2] = {counter, fb_input[1]};
         // activate feedback of neighboring neurons and put them in the query
         for (int i = 0; i < num_neighbors; i++){
             FeedbackQuery tmp;
             tmp.neuron = neighbors[i];
-            tmp.fb_input = fb;
+            tmp.fb_input[0] = counter;
+            tmp.fb_input[1] = fb_input[1];
             query_manager->add_query(tmp);
         }
     }

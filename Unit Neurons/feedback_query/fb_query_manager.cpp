@@ -36,3 +36,12 @@ void FeedbackQueryManager:: execute_all()
     query_list = (FeedbackQuery*) malloc(0 * sizeof(FeedbackQuery));
     num_query = 0;
 }
+
+void FeedbackQueryManager:: print_current_queries()
+{
+    for (int i = 0; i < num_query; i++)
+    {
+        printf("%p\n", query_list[i].neuron);
+        printf("%f, %f\n", query_list[i].fb_input[0], query_list[i].fb_input[1]);
+    }
+}
