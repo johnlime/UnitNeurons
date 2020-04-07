@@ -102,7 +102,7 @@ float [][] points =
 {1.775354, 0.796628},
 };
 
-int mag = 100;
+int mag = 150;
 
 void setup()
 {
