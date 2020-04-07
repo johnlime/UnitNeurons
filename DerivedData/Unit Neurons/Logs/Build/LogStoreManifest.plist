@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>03B0E63E-5477-44A4-BFAE-EAD91CF16BCC</key>
+		<key>087E5B48-D9D0-485D-82CD-81D0E352B27B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>03B0E63E-5477-44A4-BFAE-EAD91CF16BCC.xcactivitylog</string>
+			<string>087E5B48-D9D0-485D-82CD-81D0E352B27B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,251 +32,13 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607875855.55102205</real>
+			<real>607934756.26910603</real>
 			<key>timeStoppedRecording</key>
-			<real>607875856.53190696</real>
+			<real>607934757.12230504</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>03B0E63E-5477-44A4-BFAE-EAD91CF16BCC</string>
-		</dict>
-		<key>04A7BE03-A769-497C-96AC-3C3CB8E95650</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>04A7BE03-A769-497C-96AC-3C3CB8E95650.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886114.53644896</real>
-			<key>timeStoppedRecording</key>
-			<real>607886115.27998602</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>04A7BE03-A769-497C-96AC-3C3CB8E95650</string>
-		</dict>
-		<key>05353E0F-9DCB-4A43-ABDD-295F2B8B8796</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>05353E0F-9DCB-4A43-ABDD-295F2B8B8796.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607875782.20835304</real>
-			<key>timeStoppedRecording</key>
-			<real>607875783.10849798</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>05353E0F-9DCB-4A43-ABDD-295F2B8B8796</string>
-		</dict>
-		<key>05D4A50F-5A00-4620-85A3-AE9288CAF4FC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>05D4A50F-5A00-4620-85A3-AE9288CAF4FC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875464.04676902</real>
-			<key>timeStoppedRecording</key>
-			<real>607875464.882061</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>05D4A50F-5A00-4620-85A3-AE9288CAF4FC</string>
-		</dict>
-		<key>0CADE525-ED67-4766-B6BF-7386C7160A42</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0CADE525-ED67-4766-B6BF-7386C7160A42.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607880198.686046</real>
-			<key>timeStoppedRecording</key>
-			<real>607880199.55904496</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>0CADE525-ED67-4766-B6BF-7386C7160A42</string>
-		</dict>
-		<key>0D22782E-909A-4ED3-8A14-68A7BA4DFCCD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0D22782E-909A-4ED3-8A14-68A7BA4DFCCD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607871162.28275502</real>
-			<key>timeStoppedRecording</key>
-			<real>607871162.56579101</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>0D22782E-909A-4ED3-8A14-68A7BA4DFCCD</string>
-		</dict>
-		<key>13326C60-C6DD-4D78-A5B1-5D3AD0E86337</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>13326C60-C6DD-4D78-A5B1-5D3AD0E86337.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607878705.36670995</real>
-			<key>timeStoppedRecording</key>
-			<real>607878706.36885798</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>13326C60-C6DD-4D78-A5B1-5D3AD0E86337</string>
-		</dict>
-		<key>17A1BCF0-A4FB-4FDB-96BE-3847B053283C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>17A1BCF0-A4FB-4FDB-96BE-3847B053283C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607875490.49793696</real>
-			<key>timeStoppedRecording</key>
-			<real>607875491.50933194</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>17A1BCF0-A4FB-4FDB-96BE-3847B053283C</string>
+			<string>087E5B48-D9D0-485D-82CD-81D0E352B27B</string>
 		</dict>
 		<key>191F9635-6955-440D-B5A8-943E74DD10BD</key>
 		<dict>
@@ -312,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>191F9635-6955-440D-B5A8-943E74DD10BD</string>
 		</dict>
-		<key>1AD1C200-E6C1-476D-881F-B29632897B7E</key>
+		<key>27633716-B177-45FB-A7A5-6EA3DAA52187</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,41 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1AD1C200-E6C1-476D-881F-B29632897B7E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874447.70711505</real>
-			<key>timeStoppedRecording</key>
-			<real>607874447.75927198</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>1AD1C200-E6C1-476D-881F-B29632897B7E</string>
-		</dict>
-		<key>1B610B1D-751D-4B9D-BFAD-A0773EE0EBE4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1B610B1D-751D-4B9D-BFAD-A0773EE0EBE4.xcactivitylog</string>
+			<string>27633716-B177-45FB-A7A5-6EA3DAA52187.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +100,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607881915.58519304</real>
+			<real>607934610.09255302</real>
 			<key>timeStoppedRecording</key>
-			<real>607881916.86006606</real>
+			<real>607934611.31947803</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>1B610B1D-751D-4B9D-BFAD-A0773EE0EBE4</string>
+			<string>27633716-B177-45FB-A7A5-6EA3DAA52187</string>
 		</dict>
-		<key>21A7B91B-A082-45C3-970B-6F018B875E2A</key>
+		<key>28A777F3-9404-486F-91FB-895881FF97E4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -389,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>21A7B91B-A082-45C3-970B-6F018B875E2A.xcactivitylog</string>
+			<string>28A777F3-9404-486F-91FB-895881FF97E4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +134,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607877101.12438095</real>
+			<real>607935129.34549403</real>
 			<key>timeStoppedRecording</key>
-			<real>607877101.95644999</real>
+			<real>607935130.09391105</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>21A7B91B-A082-45C3-970B-6F018B875E2A</string>
+			<string>28A777F3-9404-486F-91FB-895881FF97E4</string>
 		</dict>
-		<key>23FE1801-DB29-41A8-AFA8-CD0AA2A132E2</key>
+		<key>29B3CA2F-A87F-4AE2-A7E5-9A53ED745CEB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -423,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>23FE1801-DB29-41A8-AFA8-CD0AA2A132E2.xcactivitylog</string>
+			<string>29B3CA2F-A87F-4AE2-A7E5-9A53ED745CEB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +168,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607882731.700158</real>
+			<real>607934446.23011196</real>
 			<key>timeStoppedRecording</key>
-			<real>607882732.44419003</real>
+			<real>607934446.93612802</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>23FE1801-DB29-41A8-AFA8-CD0AA2A132E2</string>
+			<string>29B3CA2F-A87F-4AE2-A7E5-9A53ED745CEB</string>
 		</dict>
-		<key>2976B06F-CD6B-4A88-A7D8-3ED41C8CD317</key>
+		<key>29B6B726-6429-48DC-906A-E9FF2E7E9D49</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -457,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2976B06F-CD6B-4A88-A7D8-3ED41C8CD317.xcactivitylog</string>
+			<string>29B6B726-6429-48DC-906A-E9FF2E7E9D49.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +202,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607886724.76304197</real>
+			<real>607935536.60228395</real>
 			<key>timeStoppedRecording</key>
-			<real>607886725.504197</real>
+			<real>607935537.28833306</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>2976B06F-CD6B-4A88-A7D8-3ED41C8CD317</string>
+			<string>29B6B726-6429-48DC-906A-E9FF2E7E9D49</string>
 		</dict>
-		<key>2AC9F3F6-3F23-406D-83F2-7E8DF5AA6853</key>
+		<key>2DDE21BF-DE65-455E-B010-0E0E9E3AC63A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -491,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2AC9F3F6-3F23-406D-83F2-7E8DF5AA6853.xcactivitylog</string>
+			<string>2DDE21BF-DE65-455E-B010-0E0E9E3AC63A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +236,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876834.76245201</real>
+			<real>607935452.40079498</real>
 			<key>timeStoppedRecording</key>
-			<real>607876835.62379897</real>
+			<real>607935453.09159601</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>2AC9F3F6-3F23-406D-83F2-7E8DF5AA6853</string>
+			<string>2DDE21BF-DE65-455E-B010-0E0E9E3AC63A</string>
 		</dict>
-		<key>2C01964F-57EC-4CDF-93E6-5F7425F66F64</key>
+		<key>33228E98-76A5-4235-90D0-11728A90E18B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -525,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2C01964F-57EC-4CDF-93E6-5F7425F66F64.xcactivitylog</string>
+			<string>33228E98-76A5-4235-90D0-11728A90E18B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +270,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607885150.06546903</real>
+			<real>607934730.39857996</real>
 			<key>timeStoppedRecording</key>
-			<real>607885150.79606795</real>
+			<real>607934731.63954699</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>2C01964F-57EC-4CDF-93E6-5F7425F66F64</string>
+			<string>33228E98-76A5-4235-90D0-11728A90E18B</string>
 		</dict>
-		<key>315A5F1D-ECB2-47CF-8B70-4A1187DEDC07</key>
+		<key>37C4DFDF-B522-460A-AC84-295EFF46F972</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -559,41 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>315A5F1D-ECB2-47CF-8B70-4A1187DEDC07.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875283.293365</real>
-			<key>timeStoppedRecording</key>
-			<real>607875283.62409306</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>315A5F1D-ECB2-47CF-8B70-4A1187DEDC07</string>
-		</dict>
-		<key>3506263F-694D-4272-BBC7-5ED2FC0E1CCC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3506263F-694D-4272-BBC7-5ED2FC0E1CCC.xcactivitylog</string>
+			<string>37C4DFDF-B522-460A-AC84-295EFF46F972.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +304,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607885187.77205002</real>
+			<real>607934947.98598599</real>
 			<key>timeStoppedRecording</key>
-			<real>607885188.51707304</real>
+			<real>607934948.71512306</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>3506263F-694D-4272-BBC7-5ED2FC0E1CCC</string>
+			<string>37C4DFDF-B522-460A-AC84-295EFF46F972</string>
 		</dict>
-		<key>3CE21F8B-C609-4586-BD53-C3B44A5B16D5</key>
+		<key>37FDF81F-EB27-4231-8560-95AF60F3487A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -627,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3CE21F8B-C609-4586-BD53-C3B44A5B16D5.xcactivitylog</string>
+			<string>37FDF81F-EB27-4231-8560-95AF60F3487A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +338,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607877956.66867805</real>
+			<real>607934470.69296503</real>
 			<key>timeStoppedRecording</key>
-			<real>607877957.55201805</real>
+			<real>607934471.39165795</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>3CE21F8B-C609-4586-BD53-C3B44A5B16D5</string>
+			<string>37FDF81F-EB27-4231-8560-95AF60F3487A</string>
 		</dict>
-		<key>3EA1F204-E4E7-456F-B729-18DC4A52AA92</key>
+		<key>489FD576-3C72-4A27-93A1-41DE71A9E88E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -661,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3EA1F204-E4E7-456F-B729-18DC4A52AA92.xcactivitylog</string>
+			<string>489FD576-3C72-4A27-93A1-41DE71A9E88E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +372,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607882074.06242704</real>
+			<real>607935037.23210502</real>
 			<key>timeStoppedRecording</key>
-			<real>607882074.82220697</real>
+			<real>607935037.92557096</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>3EA1F204-E4E7-456F-B729-18DC4A52AA92</string>
+			<string>489FD576-3C72-4A27-93A1-41DE71A9E88E</string>
 		</dict>
-		<key>3ED909EF-F56C-4A40-BBC9-F787012F9FD6</key>
+		<key>4B9CCA83-223C-4A1B-82E4-D36D30DA75DF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -695,41 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3ED909EF-F56C-4A40-BBC9-F787012F9FD6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875194.74794805</real>
-			<key>timeStoppedRecording</key>
-			<real>607875196.440925</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>3ED909EF-F56C-4A40-BBC9-F787012F9FD6</string>
-		</dict>
-		<key>416106CB-2F5F-44C4-A2B7-0908269AFC82</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>416106CB-2F5F-44C4-A2B7-0908269AFC82.xcactivitylog</string>
+			<string>4B9CCA83-223C-4A1B-82E4-D36D30DA75DF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +406,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876739.92071605</real>
+			<real>607935015.24163496</real>
 			<key>timeStoppedRecording</key>
-			<real>607876740.85366595</real>
+			<real>607935015.95001996</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>416106CB-2F5F-44C4-A2B7-0908269AFC82</string>
+			<string>4B9CCA83-223C-4A1B-82E4-D36D30DA75DF</string>
 		</dict>
-		<key>436948BF-9013-472E-9CC1-C5DDE81426D8</key>
+		<key>509DEEA8-C2AB-40B8-A832-7C13A762523C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -763,41 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>436948BF-9013-472E-9CC1-C5DDE81426D8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874331.57850897</real>
-			<key>timeStoppedRecording</key>
-			<real>607874331.63065302</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>436948BF-9013-472E-9CC1-C5DDE81426D8</string>
-		</dict>
-		<key>462F0B44-CF47-4644-BC94-3E4668F0261A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>462F0B44-CF47-4644-BC94-3E4668F0261A.xcactivitylog</string>
+			<string>509DEEA8-C2AB-40B8-A832-7C13A762523C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +440,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607881026.06714702</real>
+			<real>607935596.16307497</real>
 			<key>timeStoppedRecording</key>
-			<real>607881026.82881403</real>
+			<real>607935596.86967301</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>462F0B44-CF47-4644-BC94-3E4668F0261A</string>
+			<string>509DEEA8-C2AB-40B8-A832-7C13A762523C</string>
 		</dict>
-		<key>4B042FDD-1F0C-42CB-949D-15058A0AB7BB</key>
+		<key>55E3FBC2-B80A-4148-9FBA-C51C1706C8B9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -831,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4B042FDD-1F0C-42CB-949D-15058A0AB7BB.xcactivitylog</string>
+			<string>55E3FBC2-B80A-4148-9FBA-C51C1706C8B9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +474,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876218.31233394</real>
+			<real>607934674.95464694</real>
 			<key>timeStoppedRecording</key>
-			<real>607876219.15534997</real>
+			<real>607934675.66635895</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>4B042FDD-1F0C-42CB-949D-15058A0AB7BB</string>
+			<string>55E3FBC2-B80A-4148-9FBA-C51C1706C8B9</string>
 		</dict>
-		<key>4BE03C21-C7B9-4122-9F73-AABF16657D8F</key>
+		<key>57B46BCF-0418-46BF-A57F-62648DFD6852</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -865,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4BE03C21-C7B9-4122-9F73-AABF16657D8F.xcactivitylog</string>
+			<string>57B46BCF-0418-46BF-A57F-62648DFD6852.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +508,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607880286.69345403</real>
+			<real>607934852.24096501</real>
 			<key>timeStoppedRecording</key>
-			<real>607880287.57816601</real>
+			<real>607934852.947662</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>4BE03C21-C7B9-4122-9F73-AABF16657D8F</string>
+			<string>57B46BCF-0418-46BF-A57F-62648DFD6852</string>
 		</dict>
-		<key>4FD49BB8-9DC8-464B-9FE0-12ABA5C54F7B</key>
+		<key>5C819511-DB90-4A48-ADBA-F5F1A0BCBF82</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -899,109 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4FD49BB8-9DC8-464B-9FE0-12ABA5C54F7B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872342.86289501</real>
-			<key>timeStoppedRecording</key>
-			<real>607872343.19089103</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>4FD49BB8-9DC8-464B-9FE0-12ABA5C54F7B</string>
-		</dict>
-		<key>5D40DC3A-A93D-4899-8007-088B4C9BE368</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5D40DC3A-A93D-4899-8007-088B4C9BE368.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873113.84925795</real>
-			<key>timeStoppedRecording</key>
-			<real>607873114.19930303</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>5D40DC3A-A93D-4899-8007-088B4C9BE368</string>
-		</dict>
-		<key>5F20BBE2-DB3F-4CD0-A052-779B1460B026</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5F20BBE2-DB3F-4CD0-A052-779B1460B026.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607871660.38410997</real>
-			<key>timeStoppedRecording</key>
-			<real>607871660.69228899</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>5F20BBE2-DB3F-4CD0-A052-779B1460B026</string>
-		</dict>
-		<key>5F74E513-E2F0-4B36-9C5E-F0A816F3326E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5F74E513-E2F0-4B36-9C5E-F0A816F3326E.xcactivitylog</string>
+			<string>5C819511-DB90-4A48-ADBA-F5F1A0BCBF82.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +542,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607884596.29482603</real>
+			<real>607935504.88412201</real>
 			<key>timeStoppedRecording</key>
-			<real>607884597.04224896</real>
+			<real>607935505.58135605</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>5F74E513-E2F0-4B36-9C5E-F0A816F3326E</string>
+			<string>5C819511-DB90-4A48-ADBA-F5F1A0BCBF82</string>
 		</dict>
-		<key>6091197F-9FA8-4AF8-8DCB-05181140D3A7</key>
+		<key>7CCB930F-8BDB-4FE8-A240-5F36DF1BBAC3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1035,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6091197F-9FA8-4AF8-8DCB-05181140D3A7.xcactivitylog</string>
+			<string>7CCB930F-8BDB-4FE8-A240-5F36DF1BBAC3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +576,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607886663.61947799</real>
+			<real>607935072.50461495</real>
 			<key>timeStoppedRecording</key>
-			<real>607886664.36619699</real>
+			<real>607935073.29170895</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>6091197F-9FA8-4AF8-8DCB-05181140D3A7</string>
+			<string>7CCB930F-8BDB-4FE8-A240-5F36DF1BBAC3</string>
 		</dict>
-		<key>60D852A1-DE45-4B81-9DA7-F557A40A61EA</key>
+		<key>90C6DDA7-DED2-4AE0-A25B-8FA58FA1A2B8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1069,109 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>60D852A1-DE45-4B81-9DA7-F557A40A61EA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875358.57076705</real>
-			<key>timeStoppedRecording</key>
-			<real>607875359.41772699</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>60D852A1-DE45-4B81-9DA7-F557A40A61EA</string>
-		</dict>
-		<key>62F36E72-8433-47B7-A4E7-66C94B436C6E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>62F36E72-8433-47B7-A4E7-66C94B436C6E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872994.07838202</real>
-			<key>timeStoppedRecording</key>
-			<real>607872994.38735795</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>62F36E72-8433-47B7-A4E7-66C94B436C6E</string>
-		</dict>
-		<key>654744AA-6460-4517-8EF1-346BE7B4798B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>654744AA-6460-4517-8EF1-346BE7B4798B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607870932.47660899</real>
-			<key>timeStoppedRecording</key>
-			<real>607870933.18530905</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>654744AA-6460-4517-8EF1-346BE7B4798B</string>
-		</dict>
-		<key>670322D5-7C8C-49FD-A8DA-2AAC71E9D289</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>670322D5-7C8C-49FD-A8DA-2AAC71E9D289.xcactivitylog</string>
+			<string>90C6DDA7-DED2-4AE0-A25B-8FA58FA1A2B8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1188,15 +610,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607875774.99626195</real>
+			<real>607934041.00491297</real>
 			<key>timeStoppedRecording</key>
-			<real>607875775.87447</real>
+			<real>607934041.69169104</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>670322D5-7C8C-49FD-A8DA-2AAC71E9D289</string>
+			<string>90C6DDA7-DED2-4AE0-A25B-8FA58FA1A2B8</string>
 		</dict>
-		<key>674283D0-8843-4592-87F0-BA75E63E8D0A</key>
+		<key>927E0F7A-0940-433A-8F3E-5B9DC83FEC2F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1205,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>674283D0-8843-4592-87F0-BA75E63E8D0A.xcactivitylog</string>
+			<string>927E0F7A-0940-433A-8F3E-5B9DC83FEC2F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1222,15 +644,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607886462.39060199</real>
+			<real>607935345.213359</real>
 			<key>timeStoppedRecording</key>
-			<real>607886463.12489295</real>
+			<real>607935345.93095195</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>674283D0-8843-4592-87F0-BA75E63E8D0A</string>
+			<string>927E0F7A-0940-433A-8F3E-5B9DC83FEC2F</string>
 		</dict>
-		<key>68AE5D65-1310-4409-9CCC-082C2894D43E</key>
+		<key>9D073693-CD64-450B-84C2-3845F13E4645</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1239,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>68AE5D65-1310-4409-9CCC-082C2894D43E.xcactivitylog</string>
+			<string>9D073693-CD64-450B-84C2-3845F13E4645.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1256,15 +678,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607875566.51027906</real>
+			<real>607933935.20067894</real>
 			<key>timeStoppedRecording</key>
-			<real>607875567.36517799</real>
+			<real>607933936.18099296</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>68AE5D65-1310-4409-9CCC-082C2894D43E</string>
+			<string>9D073693-CD64-450B-84C2-3845F13E4645</string>
 		</dict>
-		<key>68D40E23-333F-483B-B015-2939EB5EBBA7</key>
+		<key>9FCD5894-C9DA-44F8-B2EC-EF600C66DE2A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1273,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>68D40E23-333F-483B-B015-2939EB5EBBA7.xcactivitylog</string>
+			<string>9FCD5894-C9DA-44F8-B2EC-EF600C66DE2A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1290,15 +712,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876193.74640405</real>
+			<real>607935476.00424397</real>
 			<key>timeStoppedRecording</key>
-			<real>607876194.641101</real>
+			<real>607935476.73920095</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>68D40E23-333F-483B-B015-2939EB5EBBA7</string>
+			<string>9FCD5894-C9DA-44F8-B2EC-EF600C66DE2A</string>
 		</dict>
-		<key>6EE4B0A3-1BD6-4F09-8376-6CC4BDFBA639</key>
+		<key>A4346766-BD44-4147-A95B-4774B1B2EA2F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1307,41 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6EE4B0A3-1BD6-4F09-8376-6CC4BDFBA639.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872235.21490204</real>
-			<key>timeStoppedRecording</key>
-			<real>607872235.59239399</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>6EE4B0A3-1BD6-4F09-8376-6CC4BDFBA639</string>
-		</dict>
-		<key>7465658C-7059-48AE-8E71-CF786D9A245C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7465658C-7059-48AE-8E71-CF786D9A245C.xcactivitylog</string>
+			<string>A4346766-BD44-4147-A95B-4774B1B2EA2F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1358,15 +746,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876202.55180204</real>
+			<real>607935564.12786698</real>
 			<key>timeStoppedRecording</key>
-			<real>607876203.42306995</real>
+			<real>607935564.81866097</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>7465658C-7059-48AE-8E71-CF786D9A245C</string>
+			<string>A4346766-BD44-4147-A95B-4774B1B2EA2F</string>
 		</dict>
-		<key>7833CA66-6D20-4598-8336-795265B47EE7</key>
+		<key>A7EDEE62-DFA1-4135-B296-CAF33154A6F0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1375,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7833CA66-6D20-4598-8336-795265B47EE7.xcactivitylog</string>
+			<string>A7EDEE62-DFA1-4135-B296-CAF33154A6F0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1392,15 +780,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607882701.31002295</real>
+			<real>607935413.19538605</real>
 			<key>timeStoppedRecording</key>
-			<real>607882702.60002303</real>
+			<real>607935413.90199006</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>7833CA66-6D20-4598-8336-795265B47EE7</string>
+			<string>A7EDEE62-DFA1-4135-B296-CAF33154A6F0</string>
 		</dict>
-		<key>79D1A5AB-27D7-4879-AF7C-B17E8862EFB9</key>
+		<key>AA51E086-4E0E-4C61-96F4-C27407DC40A0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1409,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>79D1A5AB-27D7-4879-AF7C-B17E8862EFB9.xcactivitylog</string>
+			<string>AA51E086-4E0E-4C61-96F4-C27407DC40A0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1426,15 +814,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607885128.46134496</real>
+			<real>607934999.94102395</real>
 			<key>timeStoppedRecording</key>
-			<real>607885129.23658001</real>
+			<real>607935000.66851103</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>79D1A5AB-27D7-4879-AF7C-B17E8862EFB9</string>
+			<string>AA51E086-4E0E-4C61-96F4-C27407DC40A0</string>
 		</dict>
-		<key>7B2A1DD0-97AE-4CB5-897F-A4D09414BDEC</key>
+		<key>AB97B599-BCD6-4D11-ADA3-5C9F3BF25B53</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1443,41 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7B2A1DD0-97AE-4CB5-897F-A4D09414BDEC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872074.22708905</real>
-			<key>timeStoppedRecording</key>
-			<real>607872074.526088</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>7B2A1DD0-97AE-4CB5-897F-A4D09414BDEC</string>
-		</dict>
-		<key>7BA34348-A811-45B3-B55F-479BF5509D5C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7BA34348-A811-45B3-B55F-479BF5509D5C.xcactivitylog</string>
+			<string>AB97B599-BCD6-4D11-ADA3-5C9F3BF25B53.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1494,15 +848,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607885747.62090504</real>
+			<real>607934789.69595397</real>
 			<key>timeStoppedRecording</key>
-			<real>607885748.32078695</real>
+			<real>607934790.39448905</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>7BA34348-A811-45B3-B55F-479BF5509D5C</string>
+			<string>AB97B599-BCD6-4D11-ADA3-5C9F3BF25B53</string>
 		</dict>
-		<key>7BF14090-D966-4887-AD30-DF4706B5FF23</key>
+		<key>AE486082-507C-4259-96BC-3BBC32DEE997</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1511,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7BF14090-D966-4887-AD30-DF4706B5FF23.xcactivitylog</string>
+			<string>AE486082-507C-4259-96BC-3BBC32DEE997.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1528,15 +882,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607882051.13950205</real>
+			<real>607934882.94047594</real>
 			<key>timeStoppedRecording</key>
-			<real>607882051.88545001</real>
+			<real>607934883.687675</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>7BF14090-D966-4887-AD30-DF4706B5FF23</string>
+			<string>AE486082-507C-4259-96BC-3BBC32DEE997</string>
 		</dict>
-		<key>81686DE3-A4F7-41E0-AE6E-34CAA00E1164</key>
+		<key>B798C8CC-3F32-42CA-BED5-62FFD840A5B6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1545,143 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>81686DE3-A4F7-41E0-AE6E-34CAA00E1164.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873430.76335394</real>
-			<key>timeStoppedRecording</key>
-			<real>607873431.06501997</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>81686DE3-A4F7-41E0-AE6E-34CAA00E1164</string>
-		</dict>
-		<key>81D8A52D-88BE-4A33-895B-146AF8C0BEF1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>81D8A52D-88BE-4A33-895B-146AF8C0BEF1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874273.69003904</real>
-			<key>timeStoppedRecording</key>
-			<real>607874274.39927006</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>81D8A52D-88BE-4A33-895B-146AF8C0BEF1</string>
-		</dict>
-		<key>85067580-DEB8-42D5-B0AF-388139E5DF36</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>85067580-DEB8-42D5-B0AF-388139E5DF36.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873312.26139998</real>
-			<key>timeStoppedRecording</key>
-			<real>607873312.55312002</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>85067580-DEB8-42D5-B0AF-388139E5DF36</string>
-		</dict>
-		<key>86A7BD2F-8D52-48B1-80F1-E381ED08CE6E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>86A7BD2F-8D52-48B1-80F1-E381ED08CE6E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872932.81035995</real>
-			<key>timeStoppedRecording</key>
-			<real>607872933.08126998</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>86A7BD2F-8D52-48B1-80F1-E381ED08CE6E</string>
-		</dict>
-		<key>87CEC9A3-6C17-4AEC-8276-EF201883C426</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>87CEC9A3-6C17-4AEC-8276-EF201883C426.xcactivitylog</string>
+			<string>B798C8CC-3F32-42CA-BED5-62FFD840A5B6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1698,15 +916,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607877753.15532696</real>
+			<real>607935404.75858998</real>
 			<key>timeStoppedRecording</key>
-			<real>607877754.02312398</real>
+			<real>607935405.50409305</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>87CEC9A3-6C17-4AEC-8276-EF201883C426</string>
+			<string>B798C8CC-3F32-42CA-BED5-62FFD840A5B6</string>
 		</dict>
-		<key>8980DE35-64B8-4AD8-9261-DE4348BEF9D9</key>
+		<key>B91464AE-EDE7-4E8D-A1A0-7EFE47879D95</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1715,41 +933,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8980DE35-64B8-4AD8-9261-DE4348BEF9D9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873817.17377996</real>
-			<key>timeStoppedRecording</key>
-			<real>607873817.42947304</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>8980DE35-64B8-4AD8-9261-DE4348BEF9D9</string>
-		</dict>
-		<key>89A16FE0-96CA-40CC-B4B1-E65F1C0CF78F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>89A16FE0-96CA-40CC-B4B1-E65F1C0CF78F.xcactivitylog</string>
+			<string>B91464AE-EDE7-4E8D-A1A0-7EFE47879D95.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1766,15 +950,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607885072.82574999</real>
+			<real>607935218.57404995</real>
 			<key>timeStoppedRecording</key>
-			<real>607885073.60239196</real>
+			<real>607935219.26025498</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>89A16FE0-96CA-40CC-B4B1-E65F1C0CF78F</string>
+			<string>B91464AE-EDE7-4E8D-A1A0-7EFE47879D95</string>
 		</dict>
-		<key>8B3477BB-FD79-4A40-BCA3-DE94EE00CC5C</key>
+		<key>D34438ED-885A-4876-9420-C3682762D2DA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1783,7 +967,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8B3477BB-FD79-4A40-BCA3-DE94EE00CC5C.xcactivitylog</string>
+			<string>D34438ED-885A-4876-9420-C3682762D2DA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1800,15 +984,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876956.42990601</real>
+			<real>607934816.85645103</real>
 			<key>timeStoppedRecording</key>
-			<real>607876957.30595398</real>
+			<real>607934817.56036794</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>8B3477BB-FD79-4A40-BCA3-DE94EE00CC5C</string>
+			<string>D34438ED-885A-4876-9420-C3682762D2DA</string>
 		</dict>
-		<key>8B741D17-1858-45BD-A715-A1947F46E7E5</key>
+		<key>DEEBC02B-23BA-44BE-BFE1-B94314E7C262</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1817,75 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8B741D17-1858-45BD-A715-A1947F46E7E5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874102.753708</real>
-			<key>timeStoppedRecording</key>
-			<real>607874103.43971598</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>8B741D17-1858-45BD-A715-A1947F46E7E5</string>
-		</dict>
-		<key>91A5F600-8D69-4371-9E30-DA33AC4A2B6F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>91A5F600-8D69-4371-9E30-DA33AC4A2B6F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872623.73588002</real>
-			<key>timeStoppedRecording</key>
-			<real>607872624.11329806</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>91A5F600-8D69-4371-9E30-DA33AC4A2B6F</string>
-		</dict>
-		<key>9C4AC488-5EED-4049-A773-EA5DB1C76A77</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9C4AC488-5EED-4049-A773-EA5DB1C76A77.xcactivitylog</string>
+			<string>DEEBC02B-23BA-44BE-BFE1-B94314E7C262.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1902,15 +1018,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607876848.43528497</real>
+			<real>607934411.84237897</real>
 			<key>timeStoppedRecording</key>
-			<real>607876849.27022398</real>
+			<real>607934412.54577994</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>9C4AC488-5EED-4049-A773-EA5DB1C76A77</string>
+			<string>DEEBC02B-23BA-44BE-BFE1-B94314E7C262</string>
 		</dict>
-		<key>9E5B0FB5-4BA1-411F-BB69-D1EE12B9F02B</key>
+		<key>EAE1B4A8-0114-430F-95B2-2E1ABE236A98</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1919,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9E5B0FB5-4BA1-411F-BB69-D1EE12B9F02B.xcactivitylog</string>
+			<string>EAE1B4A8-0114-430F-95B2-2E1ABE236A98.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1936,15 +1052,15 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607882082.11749494</real>
+			<real>607934386.22316003</real>
 			<key>timeStoppedRecording</key>
-			<real>607882082.83722603</real>
+			<real>607934387.43725705</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>9E5B0FB5-4BA1-411F-BB69-D1EE12B9F02B</string>
+			<string>EAE1B4A8-0114-430F-95B2-2E1ABE236A98</string>
 		</dict>
-		<key>A0032357-EABB-4178-997C-B6489E3EB4C5</key>
+		<key>F5C120BB-D3DF-4804-8340-8F8075E9913A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1953,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A0032357-EABB-4178-997C-B6489E3EB4C5.xcactivitylog</string>
+			<string>F5C120BB-D3DF-4804-8340-8F8075E9913A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1970,1679 +1086,13 @@
 			<key>signature</key>
 			<string>Build Gradient Descent</string>
 			<key>timeStartedRecording</key>
-			<real>607880030.84268498</real>
+			<real>607935523.93147898</real>
 			<key>timeStoppedRecording</key>
-			<real>607880031.82210803</real>
+			<real>607935524.66988397</real>
 			<key>title</key>
 			<string>Build Gradient Descent</string>
 			<key>uniqueIdentifier</key>
-			<string>A0032357-EABB-4178-997C-B6489E3EB4C5</string>
-		</dict>
-		<key>A1586410-B17B-4141-A89E-9F959105D6E2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A1586410-B17B-4141-A89E-9F959105D6E2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874322.27198303</real>
-			<key>timeStoppedRecording</key>
-			<real>607874322.30925906</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>A1586410-B17B-4141-A89E-9F959105D6E2</string>
-		</dict>
-		<key>A3C6EC0F-9C64-418E-A537-C453CA0585E8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A3C6EC0F-9C64-418E-A537-C453CA0585E8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876980.31554699</real>
-			<key>timeStoppedRecording</key>
-			<real>607876981.13803399</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>A3C6EC0F-9C64-418E-A537-C453CA0585E8</string>
-		</dict>
-		<key>A4414D3A-59A7-4165-8AFA-61CA87B42BA7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A4414D3A-59A7-4165-8AFA-61CA87B42BA7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873498.78451705</real>
-			<key>timeStoppedRecording</key>
-			<real>607873499.07852399</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>A4414D3A-59A7-4165-8AFA-61CA87B42BA7</string>
-		</dict>
-		<key>A53EF561-DC47-4B9D-8D5E-A01F4BE3B0ED</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A53EF561-DC47-4B9D-8D5E-A01F4BE3B0ED.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607870327.43491995</real>
-			<key>timeStoppedRecording</key>
-			<real>607870328.12146795</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>A53EF561-DC47-4B9D-8D5E-A01F4BE3B0ED</string>
-		</dict>
-		<key>A5869652-3D58-4342-96A1-B05354888DCC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A5869652-3D58-4342-96A1-B05354888DCC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875439.06262803</real>
-			<key>timeStoppedRecording</key>
-			<real>607875439.92374396</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>A5869652-3D58-4342-96A1-B05354888DCC</string>
-		</dict>
-		<key>A5D05512-FFBC-4A78-A37D-1699473D52C6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A5D05512-FFBC-4A78-A37D-1699473D52C6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607880190.13748097</real>
-			<key>timeStoppedRecording</key>
-			<real>607880190.94070101</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>A5D05512-FFBC-4A78-A37D-1699473D52C6</string>
-		</dict>
-		<key>A612E3F6-0134-4FD5-9BF7-212C69D45C6B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A612E3F6-0134-4FD5-9BF7-212C69D45C6B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872536.090855</real>
-			<key>timeStoppedRecording</key>
-			<real>607872536.39889097</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>A612E3F6-0134-4FD5-9BF7-212C69D45C6B</string>
-		</dict>
-		<key>A9EA8EF1-05AD-40B5-ACC5-868934B4C003</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A9EA8EF1-05AD-40B5-ACC5-868934B4C003.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876806.37627304</real>
-			<key>timeStoppedRecording</key>
-			<real>607876807.24021602</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>A9EA8EF1-05AD-40B5-ACC5-868934B4C003</string>
-		</dict>
-		<key>AA5558F0-A545-464B-890C-0F261908BD22</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AA5558F0-A545-464B-890C-0F261908BD22.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876165.00950599</real>
-			<key>timeStoppedRecording</key>
-			<real>607876165.89937103</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>AA5558F0-A545-464B-890C-0F261908BD22</string>
-		</dict>
-		<key>AD9BAB3D-C39C-40D4-92BF-2065B85D673B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AD9BAB3D-C39C-40D4-92BF-2065B85D673B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607875935.27472198</real>
-			<key>timeStoppedRecording</key>
-			<real>607875936.04942405</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>AD9BAB3D-C39C-40D4-92BF-2065B85D673B</string>
-		</dict>
-		<key>AF59A91C-B0AB-4695-B865-1D2EA0CED17E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AF59A91C-B0AB-4695-B865-1D2EA0CED17E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607884247.69807398</real>
-			<key>timeStoppedRecording</key>
-			<real>607884248.47263706</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>AF59A91C-B0AB-4695-B865-1D2EA0CED17E</string>
-		</dict>
-		<key>B0D9DEED-62E6-464D-B5E5-337D52555079</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B0D9DEED-62E6-464D-B5E5-337D52555079.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607874130.08879304</real>
-			<key>timeStoppedRecording</key>
-			<real>607874131.28908205</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>B0D9DEED-62E6-464D-B5E5-337D52555079</string>
-		</dict>
-		<key>B42D49E6-C58C-4CD8-8EAE-261F3A24F174</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B42D49E6-C58C-4CD8-8EAE-261F3A24F174.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607877190.57691598</real>
-			<key>timeStoppedRecording</key>
-			<real>607877192.14582205</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>B42D49E6-C58C-4CD8-8EAE-261F3A24F174</string>
-		</dict>
-		<key>B7AF3C60-485E-448D-AC3A-42B94138F2E1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B7AF3C60-485E-448D-AC3A-42B94138F2E1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607884263.55636096</real>
-			<key>timeStoppedRecording</key>
-			<real>607884264.26322997</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>B7AF3C60-485E-448D-AC3A-42B94138F2E1</string>
-		</dict>
-		<key>BAC7E95F-B3EE-4359-AFE3-784CC86BCD7E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BAC7E95F-B3EE-4359-AFE3-784CC86BCD7E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886790.26517797</real>
-			<key>timeStoppedRecording</key>
-			<real>607886791.01099002</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>BAC7E95F-B3EE-4359-AFE3-784CC86BCD7E</string>
-		</dict>
-		<key>BB266B6B-F088-4664-B256-F99763B1BE09</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BB266B6B-F088-4664-B256-F99763B1BE09.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872792.66899002</real>
-			<key>timeStoppedRecording</key>
-			<real>607872793.01036799</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>BB266B6B-F088-4664-B256-F99763B1BE09</string>
-		</dict>
-		<key>BB659971-063F-437F-8377-8C698EB4C9EE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BB659971-063F-437F-8377-8C698EB4C9EE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876784.86094296</real>
-			<key>timeStoppedRecording</key>
-			<real>607876785.86989903</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>BB659971-063F-437F-8377-8C698EB4C9EE</string>
-		</dict>
-		<key>BE42BF50-E999-4BCC-B261-EF785E0899CD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BE42BF50-E999-4BCC-B261-EF785E0899CD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607884666.23950601</real>
-			<key>timeStoppedRecording</key>
-			<real>607884666.96504498</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>BE42BF50-E999-4BCC-B261-EF785E0899CD</string>
-		</dict>
-		<key>C36F494F-AB19-4C32-966F-DE311B04C40A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C36F494F-AB19-4C32-966F-DE311B04C40A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607885083.40876603</real>
-			<key>timeStoppedRecording</key>
-			<real>607885084.110865</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>C36F494F-AB19-4C32-966F-DE311B04C40A</string>
-		</dict>
-		<key>C4BC29A5-2127-4ED2-B8AB-40970752ADBD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C4BC29A5-2127-4ED2-B8AB-40970752ADBD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607882062.26085603</real>
-			<key>timeStoppedRecording</key>
-			<real>607882063.02122903</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>C4BC29A5-2127-4ED2-B8AB-40970752ADBD</string>
-		</dict>
-		<key>C5F97A91-599B-4163-9949-7358676CD24A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C5F97A91-599B-4163-9949-7358676CD24A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872869.52394199</real>
-			<key>timeStoppedRecording</key>
-			<real>607872870.24001896</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>C5F97A91-599B-4163-9949-7358676CD24A</string>
-		</dict>
-		<key>C73CFC14-90E4-47E9-AFCA-E96D1131A65B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C73CFC14-90E4-47E9-AFCA-E96D1131A65B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886802.09909201</real>
-			<key>timeStoppedRecording</key>
-			<real>607886802.85180295</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>C73CFC14-90E4-47E9-AFCA-E96D1131A65B</string>
-		</dict>
-		<key>C87641B5-B3CF-4C46-8493-7633F6AD82EC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C87641B5-B3CF-4C46-8493-7633F6AD82EC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607853657.58397603</real>
-			<key>timeStoppedRecording</key>
-			<real>607853658.78729701</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>C87641B5-B3CF-4C46-8493-7633F6AD82EC</string>
-		</dict>
-		<key>C916DD8F-07B3-4C85-874C-2427A2C7834D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C916DD8F-07B3-4C85-874C-2427A2C7834D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607870843.56153202</real>
-			<key>timeStoppedRecording</key>
-			<real>607870844.25504005</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>C916DD8F-07B3-4C85-874C-2427A2C7834D</string>
-		</dict>
-		<key>CC3E6E92-9AE5-4C4A-84B9-79306EEF90F0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CC3E6E92-9AE5-4C4A-84B9-79306EEF90F0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607884146.41395605</real>
-			<key>timeStoppedRecording</key>
-			<real>607884147.43986499</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>CC3E6E92-9AE5-4C4A-84B9-79306EEF90F0</string>
-		</dict>
-		<key>CD5CF1D0-E48A-49CE-9982-D1A7D4D46E23</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CD5CF1D0-E48A-49CE-9982-D1A7D4D46E23.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607880251.79261506</real>
-			<key>timeStoppedRecording</key>
-			<real>607880252.61266506</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>CD5CF1D0-E48A-49CE-9982-D1A7D4D46E23</string>
-		</dict>
-		<key>CE6397F9-E3C3-4E81-8C56-972792221549</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CE6397F9-E3C3-4E81-8C56-972792221549.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607884620.58868301</real>
-			<key>timeStoppedRecording</key>
-			<real>607884621.26811504</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>CE6397F9-E3C3-4E81-8C56-972792221549</string>
-		</dict>
-		<key>CEA04977-DF64-4361-9E19-FCD7A640E640</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CEA04977-DF64-4361-9E19-FCD7A640E640.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886048.13220596</real>
-			<key>timeStoppedRecording</key>
-			<real>607886048.86229706</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>CEA04977-DF64-4361-9E19-FCD7A640E640</string>
-		</dict>
-		<key>D397C780-0C17-4525-B254-9C83052DFA19</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D397C780-0C17-4525-B254-9C83052DFA19.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886204.42616498</real>
-			<key>timeStoppedRecording</key>
-			<real>607886205.18731201</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>D397C780-0C17-4525-B254-9C83052DFA19</string>
-		</dict>
-		<key>D5ABC2C4-9C01-495F-B885-9DE6DF77CF1E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D5ABC2C4-9C01-495F-B885-9DE6DF77CF1E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876182.67799306</real>
-			<key>timeStoppedRecording</key>
-			<real>607876183.53247797</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>D5ABC2C4-9C01-495F-B885-9DE6DF77CF1E</string>
-		</dict>
-		<key>D8262C39-AF7F-4A03-9284-C0837E118AC2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D8262C39-AF7F-4A03-9284-C0837E118AC2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607870807.56976795</real>
-			<key>timeStoppedRecording</key>
-			<real>607870808.846367</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>D8262C39-AF7F-4A03-9284-C0837E118AC2</string>
-		</dict>
-		<key>D82B027F-7699-4AA0-B0D7-07A07DBF10CF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D82B027F-7699-4AA0-B0D7-07A07DBF10CF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876796.11419499</real>
-			<key>timeStoppedRecording</key>
-			<real>607876797.07480597</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>D82B027F-7699-4AA0-B0D7-07A07DBF10CF</string>
-		</dict>
-		<key>DA516E77-60FE-4B46-8680-6E6064F1A9C4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DA516E77-60FE-4B46-8680-6E6064F1A9C4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607870177.90701401</real>
-			<key>timeStoppedRecording</key>
-			<real>607870178.76346397</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>DA516E77-60FE-4B46-8680-6E6064F1A9C4</string>
-		</dict>
-		<key>DFA30AEC-17A5-41AD-8E9A-B46FA951A54D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DFA30AEC-17A5-41AD-8E9A-B46FA951A54D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607880303.21585798</real>
-			<key>timeStoppedRecording</key>
-			<real>607880304.07483494</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>DFA30AEC-17A5-41AD-8E9A-B46FA951A54D</string>
-		</dict>
-		<key>E0713DA7-2D7F-412F-91D6-5A373DDB27C0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E0713DA7-2D7F-412F-91D6-5A373DDB27C0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607875617.80400503</real>
-			<key>timeStoppedRecording</key>
-			<real>607875618.68216503</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>E0713DA7-2D7F-412F-91D6-5A373DDB27C0</string>
-		</dict>
-		<key>E0CCB19B-B7EC-4DB4-9DCF-DBC05D82528A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E0CCB19B-B7EC-4DB4-9DCF-DBC05D82528A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607876247.23085201</real>
-			<key>timeStoppedRecording</key>
-			<real>607876248.04807103</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>E0CCB19B-B7EC-4DB4-9DCF-DBC05D82528A</string>
-		</dict>
-		<key>E17FE4FA-B18D-4A48-A9D6-92B6BB0D076B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E17FE4FA-B18D-4A48-A9D6-92B6BB0D076B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607871237.14378405</real>
-			<key>timeStoppedRecording</key>
-			<real>607871237.84219396</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>E17FE4FA-B18D-4A48-A9D6-92B6BB0D076B</string>
-		</dict>
-		<key>E2BFAC08-EA87-4542-862A-1854CADEE925</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E2BFAC08-EA87-4542-862A-1854CADEE925.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607880212.42541504</real>
-			<key>timeStoppedRecording</key>
-			<real>607880213.26623404</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>E2BFAC08-EA87-4542-862A-1854CADEE925</string>
-		</dict>
-		<key>E5B5C145-C21F-49AF-AC01-EEE71E7BC291</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E5B5C145-C21F-49AF-AC01-EEE71E7BC291.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872047.15400004</real>
-			<key>timeStoppedRecording</key>
-			<real>607872047.59267497</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>E5B5C145-C21F-49AF-AC01-EEE71E7BC291</string>
-		</dict>
-		<key>E91FA0F4-067D-4F89-841B-11E3966AC18B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E91FA0F4-067D-4F89-841B-11E3966AC18B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607875475.06743896</real>
-			<key>timeStoppedRecording</key>
-			<real>607875475.93161798</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>E91FA0F4-067D-4F89-841B-11E3966AC18B</string>
-		</dict>
-		<key>EAA2B8F4-D6DF-41C6-AB96-80ECDBF3C563</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EAA2B8F4-D6DF-41C6-AB96-80ECDBF3C563.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607873885.71500003</real>
-			<key>timeStoppedRecording</key>
-			<real>607873886.95921397</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>EAA2B8F4-D6DF-41C6-AB96-80ECDBF3C563</string>
-		</dict>
-		<key>EBA4D2CF-5025-47CD-837B-906D83C21114</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EBA4D2CF-5025-47CD-837B-906D83C21114.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607886715.35205197</real>
-			<key>timeStoppedRecording</key>
-			<real>607886716.14220905</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>EBA4D2CF-5025-47CD-837B-906D83C21114</string>
-		</dict>
-		<key>EC5A1945-8D82-455C-9FB3-172B113F57C1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EC5A1945-8D82-455C-9FB3-172B113F57C1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607885714.92997205</real>
-			<key>timeStoppedRecording</key>
-			<real>607885715.64961696</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>EC5A1945-8D82-455C-9FB3-172B113F57C1</string>
-		</dict>
-		<key>EEDA8016-322F-4ACA-A2BD-ADFB8C2090A2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EEDA8016-322F-4ACA-A2BD-ADFB8C2090A2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872524.89611995</real>
-			<key>timeStoppedRecording</key>
-			<real>607872525.23509896</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>EEDA8016-322F-4ACA-A2BD-ADFB8C2090A2</string>
-		</dict>
-		<key>F0638B64-3CAB-4149-930B-77310EDE22D8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F0638B64-3CAB-4149-930B-77310EDE22D8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607885206.70095694</real>
-			<key>timeStoppedRecording</key>
-			<real>607885207.40922403</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>F0638B64-3CAB-4149-930B-77310EDE22D8</string>
-		</dict>
-		<key>F6147FF4-FACD-4D3B-9E0F-6BE301B33396</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F6147FF4-FACD-4D3B-9E0F-6BE301B33396.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607885199.99258494</real>
-			<key>timeStoppedRecording</key>
-			<real>607885200.02790594</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>F6147FF4-FACD-4D3B-9E0F-6BE301B33396</string>
-		</dict>
-		<key>F67F23D4-627F-48D0-AC81-31492D68D737</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F67F23D4-627F-48D0-AC81-31492D68D737.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Gradient Descent</string>
-			<key>timeStartedRecording</key>
-			<real>607885260.08605802</real>
-			<key>timeStoppedRecording</key>
-			<real>607885260.80550301</real>
-			<key>title</key>
-			<string>Build Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>F67F23D4-627F-48D0-AC81-31492D68D737</string>
-		</dict>
-		<key>FD0112E8-1BB8-4CB1-89D7-2B529E3AAD57</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FD0112E8-1BB8-4CB1-89D7-2B529E3AAD57.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607872139.778808</real>
-			<key>timeStoppedRecording</key>
-			<real>607872140.08577001</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>FD0112E8-1BB8-4CB1-89D7-2B529E3AAD57</string>
-		</dict>
-		<key>FE7FA1D8-033A-475C-8AA9-FE647D19CADD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FE7FA1D8-033A-475C-8AA9-FE647D19CADD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Unit Neurons project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kohonen SOM</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Kohonen SOM</string>
-			<key>timeStartedRecording</key>
-			<real>607871014.17692697</real>
-			<key>timeStoppedRecording</key>
-			<real>607871014.84848702</real>
-			<key>title</key>
-			<string>Build Kohonen SOM</string>
-			<key>uniqueIdentifier</key>
-			<string>FE7FA1D8-033A-475C-8AA9-FE647D19CADD</string>
+			<string>F5C120BB-D3DF-4804-8340-8F8075E9913A</string>
 		</dict>
 	</dict>
 </dict>

@@ -12,8 +12,8 @@
 #include "fb_query_manager.hpp"
 #include "gradient_descent.hpp"
 
-#define EPOCHS pow(10, 5)
-#define MAX_RANGE 3.14f;
+#define EPOCHS pow(10, 4)
+#define MAX_RANGE 3.14f
 
 int main(int argc, const char * argv[]) {
     // define input neurons
@@ -25,8 +25,8 @@ int main(int argc, const char * argv[]) {
     
     // define feedforward neurons
     int layers [3];
-    layers[0] = 8;
-    layers[1] = 8;
+    layers[0] = 16;
+    layers[1] = 16;
     layers[2] = 1;
     int num_neurons = 0;
     for (int i = 0; i < 2; i++)
@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_1 [layers[0]];
     for (int i = 0; i < layers[0]; i++)
     {
-        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "tanh");
+        layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "sigmoid");
         all_neurons[counter] = layer_1[i];
         counter ++;
     }

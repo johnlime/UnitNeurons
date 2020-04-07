@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0E7F72A3-7DD8-47DD-99BB-8E86175C02BC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
-			<key>fileName</key>
-			<string>0E7F72A3-7DD8-47DD-99BB-8E86175C02BC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Gradient_Descent-dqopnzqftfjxnkbjmxavsrstrzlj</string>
-			<key>timeStartedRecording</key>
-			<real>607886889.88328505</real>
-			<key>timeStoppedRecording</key>
-			<real>607886890.05431604</real>
-			<key>title</key>
-			<string>Build target Gradient Descent</string>
-			<key>uniqueIdentifier</key>
-			<string>0E7F72A3-7DD8-47DD-99BB-8E86175C02BC</string>
-		</dict>
-		<key>13611FE1-5F6A-430C-B3A6-89A1B4B06369</key>
+		<key>0FDC72A2-CD6C-465C-96B1-820ADAC08A4B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
 			<key>fileName</key>
-			<string>13611FE1-5F6A-430C-B3A6-89A1B4B06369.xcactivitylog</string>
+			<string>0FDC72A2-CD6C-465C-96B1-820ADAC08A4B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +26,13 @@
 			<key>signature</key>
 			<string>Unit_Neurons-dqopnzqftfjxnkbjmxavsrstrzlj</string>
 			<key>timeStartedRecording</key>
-			<real>607886889.34235096</real>
+			<real>607934730.42657495</real>
 			<key>timeStoppedRecording</key>
-			<real>607886889.88250995</real>
+			<real>607934731.47996795</real>
 			<key>title</key>
 			<string>Build target Unit Neurons</string>
 			<key>uniqueIdentifier</key>
-			<string>13611FE1-5F6A-430C-B3A6-89A1B4B06369</string>
+			<string>0FDC72A2-CD6C-465C-96B1-820ADAC08A4B</string>
 		</dict>
 		<key>27BB60EB-8A0F-4716-B209-68DF2B491753</key>
 		<dict>
@@ -89,6 +61,34 @@
 			<string>Build target Kohonen SOM</string>
 			<key>uniqueIdentifier</key>
 			<string>27BB60EB-8A0F-4716-B209-68DF2B491753</string>
+		</dict>
+		<key>A88A9982-5500-4BC2-8675-3F931D4F2599</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>A88A9982-5500-4BC2-8675-3F931D4F2599.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Gradient_Descent-dqopnzqftfjxnkbjmxavsrstrzlj</string>
+			<key>timeStartedRecording</key>
+			<real>607935596.201545</real>
+			<key>timeStoppedRecording</key>
+			<real>607935596.86248803</real>
+			<key>title</key>
+			<string>Build target Gradient Descent</string>
+			<key>uniqueIdentifier</key>
+			<string>A88A9982-5500-4BC2-8675-3F931D4F2599</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

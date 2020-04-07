@@ -70,6 +70,19 @@ FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _n
         };
     }
     
+    else if (_activ == "sigmoid")
+    {
+        activation = [](float x)
+        {
+            return 1 / (1 + exp(-x));
+        };
+        
+        activ_deriv = [](float x)
+        {
+            return 1 / (1 + exp(-x)) * (1 - 1 / (1 + exp(-x)));
+        };
+    }
+    
     else
     {
         throw std::invalid_argument("No such activation function " + _activ + " found");
@@ -106,7 +119,12 @@ void FloatFeedForwardNeuron:: feedback(float *fb_input) // size 2 or 1 float arr
     for (int i = 0; i < num_prev; i++)
     {
         new_fb[i] = activ_deriv(pre_activ) * (fb_input[0]);
+        float tmp = memory[i];
         memory[i] += lr * previous[i]->state * new_fb[i];      // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
+        new_fb[i] *= tmp;
+        
+        // For more descriptive derivation, look at "Last Layer" and "Hidden Layers" sections of the article below:
+        // https://towardsdatascience.com/part-2-gradient-descent-and-backpropagation-bf90932c066a
     }
     
     // feedback to previous neurons in query (presumably in parallel)
