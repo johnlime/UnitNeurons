@@ -32,7 +32,7 @@ You can take a look at the abstract class
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
   - Visualization via Processing (3x3)
 
-  ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_3x3.png)
+  ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_5x5.png)
 
 - Feedforward network with gradient descent
   - Global operator calculates least mean squares
