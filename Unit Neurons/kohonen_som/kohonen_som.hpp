@@ -15,7 +15,6 @@
 
 class FloatMappingNeuron: public FloatUnitNeuron{
 protected:
-    float lr = 0.3f;                    // learning rate (hyperparameter)
     bool counter_first = true;          // Is this the first time that a signal from neighbor is received?
     float counter = 0;                  // track current neighbor count
     FloatMappingNeuron** neighbors;     // array of pointers to neighboring mapping neurons
@@ -23,6 +22,7 @@ protected:
     FeedbackQueryManager* query_manager;
    
 public:
+    float lr = 0.3f;                    // learning rate (hyperparameter)
     FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max);
     FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager);
     // assign array of input neurons' pointers during instantiation

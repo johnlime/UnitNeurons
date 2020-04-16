@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>509DEEA8-C2AB-40B8-A832-7C13A762523C</key>
+		<key>4291EEA8-4D84-463E-A1F6-2372F711AA95</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,30 +15,64 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>509DEEA8-C2AB-40B8-A832-7C13A762523C.xcactivitylog</string>
+			<string>4291EEA8-4D84-463E-A1F6-2372F711AA95.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Unit Neurons project</string>
 			<key>schemeIdentifier-schemeName</key>
-			<string>Gradient Descent</string>
+			<string>Policy Gradient</string>
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build Gradient Descent</string>
+			<string>Build Policy Gradient</string>
 			<key>timeStartedRecording</key>
-			<real>607935596.16307497</real>
+			<real>608702405.05205798</real>
 			<key>timeStoppedRecording</key>
-			<real>607935596.86967301</real>
+			<real>608702407.00570095</real>
 			<key>title</key>
-			<string>Build Gradient Descent</string>
+			<string>Build Policy Gradient</string>
 			<key>uniqueIdentifier</key>
-			<string>509DEEA8-C2AB-40B8-A832-7C13A762523C</string>
+			<string>4291EEA8-4D84-463E-A1F6-2372F711AA95</string>
+		</dict>
+		<key>FB83BAA1-F879-4EFF-954C-9A6B5F5F2B68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FB83BAA1-F879-4EFF-954C-9A6B5F5F2B68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608626069.70461702</real>
+			<key>timeStoppedRecording</key>
+			<real>608626070.49270594</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>FB83BAA1-F879-4EFF-954C-9A6B5F5F2B68</string>
 		</dict>
 	</dict>
 </dict>

@@ -7,6 +7,7 @@
 //
 
 #include "gradient_descent.hpp"
+#include <math.h>
 
 FloatGradientDescent:: FloatGradientDescent(FloatFeedForwardNeuron** _targets, int _num_targets, int* _layer_sizes, int _num_layers)
 {
@@ -14,7 +15,7 @@ FloatGradientDescent:: FloatGradientDescent(FloatFeedForwardNeuron** _targets, i
     num_targets = _num_targets;
     layer_sizes = _layer_sizes;
     num_layers = _num_layers;
-    loss = (float*) malloc(layer_sizes[num_layers - 1]);
+    grad_loss = (float*) malloc(layer_sizes[num_layers - 1]);
 }
 
 void FloatGradientDescent:: calculate_l1_loss(float correct_value)
@@ -25,7 +26,13 @@ void FloatGradientDescent:: calculate_l1_loss(float correct_value)
     }
     
     float target_output = targets[num_targets - 1]->state;
-    loss[0] = correct_value - target_output;
+    grad_loss[0] = correct_value - target_output;
+}
+
+void FloatGradientDescent:: calculate_l1_loss(float correct_value, float coef)
+{
+    calculate_l1_loss(correct_value);
+    grad_loss[0] *= coef;
 }
 
 void FloatGradientDescent:: calculate_l1_loss(float* correct_value)
@@ -33,7 +40,48 @@ void FloatGradientDescent:: calculate_l1_loss(float* correct_value)
     float target_output [layer_sizes[num_layers - 1]];
     for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
     {
-        loss[i] = correct_value[i] - target_output[i];
+        target_output[i] = targets[num_targets - layer_sizes[num_layers - 1] + i]->state;
+    }
+    
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        grad_loss[i] = correct_value[i] - target_output[i];
+    }
+}
+
+void FloatGradientDescent:: calculate_l1_loss(float* correct_value, float* coef)
+{
+    calculate_l1_loss(correct_value);
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        grad_loss[i] *= coef[i];
+    }
+}
+
+void FloatGradientDescent:: calculate_cross_entropy_loss(float* correct_value)
+{
+    float target_output [layer_sizes[num_layers - 1]];
+    float sum_of_softmax = 0.0f;
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        target_output[i] = targets[num_targets - layer_sizes[num_layers - 1] + i]->state;
+        sum_of_softmax += exp(target_output[i]);
+    }
+    
+    // correct value should be one hot encoded
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        // calculate gradient of softmax
+        grad_loss[i] = exp(target_output[i]) / sum_of_softmax - correct_value[i];
+    }
+}
+
+void FloatGradientDescent:: calculate_cross_entropy_loss(float* correct_value, float* coef)
+{
+    calculate_cross_entropy_loss(correct_value);
+    for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
+    {
+        grad_loss[i] *= coef[i];
     }
 }
 
@@ -42,7 +90,7 @@ void FloatGradientDescent:: execute()
     // update final layer only
     for (int i = 0; i < layer_sizes[num_layers - 1]; i++)
     {
-        float tmp_loss [1] = {loss[i]};
+        float tmp_loss [1] = {grad_loss[i]};
         targets[(num_targets - 1) - i]->feedback(tmp_loss);
     }
 }

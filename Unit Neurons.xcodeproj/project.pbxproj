@@ -11,6 +11,8 @@
 		D145D3F8243A95DA0066935C /* fb_query_manager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D145D3F6243A95DA0066935C /* fb_query_manager.hpp */; };
 		D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */; };
 		D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */; };
+		D15DD7082440917C00E7C206 /* policy_gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D15DD7072440917C00E7C206 /* policy_gradient.cpp */; };
+		D15DD709244091A400E7C206 /* libUnit Neurons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */; };
 		D181977624303D4A00635DE4 /* gradient_descent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181977524303D4A00635DE4 /* gradient_descent.cpp */; };
 		D181977724303D5E00635DE4 /* libUnit Neurons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */; };
 		D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1E0EB3C23FA529C000E3D09 /* input_output.hpp */; };
@@ -25,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D15DD6FE2440914900E7C206 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D181976C24303D1300635DE4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,6 +63,8 @@
 		D145D3F6243A95DA0066935C /* fb_query_manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fb_query_manager.hpp; sourceTree = "<group>"; };
 		D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_gd_ff_neuron.cpp; sourceTree = "<group>"; };
 		D154CF8A242C6B4D00F724AA /* gradient_descent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gradient_descent.hpp; sourceTree = "<group>"; };
+		D15DD7002440914900E7C206 /* Policy Gradient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Policy Gradient"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15DD7072440917C00E7C206 /* policy_gradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = policy_gradient.cpp; sourceTree = "<group>"; };
 		D17A5EC223F378BF008E31E0 /* float_mapping_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = float_mapping_neuron.cpp; sourceTree = "<group>"; };
 		D17A5EC323F378BF008E31E0 /* kohonen_som.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kohonen_som.hpp; sourceTree = "<group>"; };
 		D181976E24303D1300635DE4 /* Gradient Descent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Gradient Descent"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +78,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D15DD6FD2440914900E7C206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15DD709244091A400E7C206 /* libUnit Neurons.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D181976B24303D1300635DE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +128,7 @@
 				D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */,
 				D1D1EECA242B83F800ABB056 /* Kohonen SOM */,
 				D181976E24303D1300635DE4 /* Gradient Descent */,
+				D15DD7002440914900E7C206 /* Policy Gradient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +178,7 @@
 			children = (
 				D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */,
 				D181977524303D4A00635DE4 /* gradient_descent.cpp */,
+				D15DD7072440917C00E7C206 /* policy_gradient.cpp */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -195,6 +218,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D15DD6FF2440914900E7C206 /* Policy Gradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15DD7062440914900E7C206 /* Build configuration list for PBXNativeTarget "Policy Gradient" */;
+			buildPhases = (
+				D15DD6FC2440914900E7C206 /* Sources */,
+				D15DD6FD2440914900E7C206 /* Frameworks */,
+				D15DD6FE2440914900E7C206 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Policy Gradient";
+			productName = "Policy Gradient";
+			productReference = D15DD7002440914900E7C206 /* Policy Gradient */;
+			productType = "com.apple.product-type.tool";
+		};
 		D181976D24303D1300635DE4 /* Gradient Descent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D181977424303D1300635DE4 /* Build configuration list for PBXNativeTarget "Gradient Descent" */;
@@ -255,6 +295,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Mioto Takahashi";
 				TargetAttributes = {
+					D15DD6FF2440914900E7C206 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					D181976D24303D1300635DE4 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -282,11 +325,20 @@
 				D1D1EEB4242B823300ABB056 /* Unit Neurons */,
 				D1D1EEC9242B83F800ABB056 /* Kohonen SOM */,
 				D181976D24303D1300635DE4 /* Gradient Descent */,
+				D15DD6FF2440914900E7C206 /* Policy Gradient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D15DD6FC2440914900E7C206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15DD7082440917C00E7C206 /* policy_gradient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D181976A24303D1300635DE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +480,22 @@
 			};
 			name = Release;
 		};
+		D15DD7042440914900E7C206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D15DD7052440914900E7C206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D181977224303D1300635DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -492,6 +560,15 @@
 			buildConfigurations = (
 				D123E9E023EDA2EF0025C89F /* Debug */,
 				D123E9E123EDA2EF0025C89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15DD7062440914900E7C206 /* Build configuration list for PBXNativeTarget "Policy Gradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15DD7042440914900E7C206 /* Debug */,
+				D15DD7052440914900E7C206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

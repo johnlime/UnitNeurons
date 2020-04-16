@@ -136,3 +136,20 @@ void FloatFeedForwardNeuron:: feedback(float *fb_input) // size 2 or 1 float arr
         query_manager->add_query(tmp);
     }
 }
+
+float* softmax (float* x, int size)
+{
+    float denom = 0;
+    float* y = (float*) malloc(size * sizeof(float));
+    for (int i = 0; i < size; i++)
+    {
+        denom += exp(x[i]);
+    }
+    
+    for (int i = 0; i < size; i++)
+    {
+        y[i] = exp(x[i]) / denom;
+    }
+    
+    return y;
+}

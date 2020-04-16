@@ -24,10 +24,9 @@ int main(int argc, const char * argv[]) {
     FeedbackQueryManager* query_manager = new FeedbackQueryManager();
     
     // define feedforward neurons
-    int layers [3];
-    layers[0] = 16;
-    layers[1] = 16;
-    layers[2] = 1;
+    int layers [2];
+    layers[0] = 8;
+    layers[1] = 1;
     int num_neurons = 0;
     for (int i = 0; i < 2; i++)
     {
@@ -48,20 +47,12 @@ int main(int argc, const char * argv[]) {
     FloatFeedForwardNeuron* layer_2 [layers[1]];
     for (int i = 0; i < layers[1]; i++)
     {
-        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"tanh");
+        layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"identity");
         all_neurons[counter] = layer_2[i];
         counter ++;
     }
     
-    FloatFeedForwardNeuron* layer_3 [layers[2]];
-    for (int i = 0; i < layers[2]; i++)
-    {
-        layer_3[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_2, layers[1], query_manager,"identity");
-        all_neurons[counter] = layer_3[i];
-        counter ++;
-    }
-    
-    FloatGradientDescent global_operator = FloatGradientDescent(all_neurons, num_neurons, layers, 3);
+    FloatGradientDescent global_operator = FloatGradientDescent(all_neurons, num_neurons, layers, 2);
     
     printf("TRAIN\n");
     for (int i = 0; i < EPOCHS; i++){
