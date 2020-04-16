@@ -30,14 +30,14 @@ You can take a look at the abstract class
 - Kohonen's SOM implementation
   - Neighboring neuron assignment for Kohonen's SOM
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
-  - Visualization via Processing (3x3)
+  - Visualization via Processing (5x5)
 
   ![Example KSOM output](Processing%20Visualization/kohonen_som_trained/ksom_5x5.png)
 
 - Feedforward network with gradient descent
   - Global operator calculates least mean squares
   - Feedforward and feedback functions outputs partial differentiation of each weights
-  - Example training of neural network with 8 hidden neurons activated via ReLU or Tanh function
+  - Example training of neural network with 16 hidden neurons activated via sigmoid function (tanh and ReLU are also supported)
   - Visualization via Processing (fit to sine wave)
 
   ![Example GD output](Processing%20Visualization/gradient_descent_sine/gd_sine.png)
