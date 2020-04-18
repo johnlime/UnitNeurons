@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>87501DFD-2324-4DF1-8F2D-77D85552709E</key>
+		<key>10F89713-7575-480E-8A21-46E1D6D00BAF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,245 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>87501DFD-2324-4DF1-8F2D-77D85552709E.xcactivitylog</string>
+			<string>10F89713-7575-480E-8A21-46E1D6D00BAF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608918566.64283097</real>
+			<key>timeStoppedRecording</key>
+			<real>608918567.39015305</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>10F89713-7575-480E-8A21-46E1D6D00BAF</string>
+		</dict>
+		<key>1974D761-A0E9-47A6-9614-7F6B500F42B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1974D761-A0E9-47A6-9614-7F6B500F42B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608917643.88332498</real>
+			<key>timeStoppedRecording</key>
+			<real>608917644.66233802</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>1974D761-A0E9-47A6-9614-7F6B500F42B9</string>
+		</dict>
+		<key>263150F1-43DC-4D7E-B44A-C0F9F4E81821</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>263150F1-43DC-4D7E-B44A-C0F9F4E81821.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608919184.25558901</real>
+			<key>timeStoppedRecording</key>
+			<real>608919184.98118997</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>263150F1-43DC-4D7E-B44A-C0F9F4E81821</string>
+		</dict>
+		<key>37FC3E2B-FFE1-4528-B7C6-670CB75949EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>37FC3E2B-FFE1-4528-B7C6-670CB75949EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608916476.43693995</real>
+			<key>timeStoppedRecording</key>
+			<real>608916479.81033897</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>37FC3E2B-FFE1-4528-B7C6-670CB75949EF</string>
+		</dict>
+		<key>53AC033A-F231-4742-89FA-A0781390474B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>53AC033A-F231-4742-89FA-A0781390474B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608917681.82318902</real>
+			<key>timeStoppedRecording</key>
+			<real>608917682.577263</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>53AC033A-F231-4742-89FA-A0781390474B</string>
+		</dict>
+		<key>5FE2C909-AE01-44C2-AB00-1651CE16917E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5FE2C909-AE01-44C2-AB00-1651CE16917E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608918086.04000497</real>
+			<key>timeStoppedRecording</key>
+			<real>608918086.78169703</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>5FE2C909-AE01-44C2-AB00-1651CE16917E</string>
+		</dict>
+		<key>7F422F9D-5B10-458C-B8B7-261DF7574640</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F422F9D-5B10-458C-B8B7-261DF7574640.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608917696.56058598</real>
+			<key>timeStoppedRecording</key>
+			<real>608917697.27577603</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>7F422F9D-5B10-458C-B8B7-261DF7574640</string>
+		</dict>
+		<key>80877C72-965A-4172-B60B-0E50A1281410</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>80877C72-965A-4172-B60B-0E50A1281410.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +270,183 @@
 			<key>signature</key>
 			<string>Build Policy Gradient</string>
 			<key>timeStartedRecording</key>
-			<real>608779153.80381</real>
+			<real>608918789.95551395</real>
 			<key>timeStoppedRecording</key>
-			<real>608779154.51976097</real>
+			<real>608918790.56039906</real>
 			<key>title</key>
 			<string>Build Policy Gradient</string>
 			<key>uniqueIdentifier</key>
-			<string>87501DFD-2324-4DF1-8F2D-77D85552709E</string>
+			<string>80877C72-965A-4172-B60B-0E50A1281410</string>
+		</dict>
+		<key>8DE5836B-F08C-4CD4-8C62-881B314E7494</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8DE5836B-F08C-4CD4-8C62-881B314E7494.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608916697.85815895</real>
+			<key>timeStoppedRecording</key>
+			<real>608916697.91521597</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>8DE5836B-F08C-4CD4-8C62-881B314E7494</string>
+		</dict>
+		<key>A364312F-A98D-4C78-B29C-9B8427601696</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A364312F-A98D-4C78-B29C-9B8427601696.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608918793.12815499</real>
+			<key>timeStoppedRecording</key>
+			<real>608918793.85093606</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>A364312F-A98D-4C78-B29C-9B8427601696</string>
+		</dict>
+		<key>B822096C-ED32-4C95-850B-494B977A7187</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B822096C-ED32-4C95-850B-494B977A7187.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608918289.94770205</real>
+			<key>timeStoppedRecording</key>
+			<real>608918290.70069695</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>B822096C-ED32-4C95-850B-494B977A7187</string>
+		</dict>
+		<key>EB055CE5-BB33-4567-8583-902D23C9FDE2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EB055CE5-BB33-4567-8583-902D23C9FDE2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608917594.41181803</real>
+			<key>timeStoppedRecording</key>
+			<real>608917594.465536</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>EB055CE5-BB33-4567-8583-902D23C9FDE2</string>
+		</dict>
+		<key>EB440BA7-46D5-4BE4-AA25-015D0332D3D7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EB440BA7-46D5-4BE4-AA25-015D0332D3D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608918480.18734801</real>
+			<key>timeStoppedRecording</key>
+			<real>608918480.90008104</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>EB440BA7-46D5-4BE4-AA25-015D0332D3D7</string>
 		</dict>
 		<key>EDEF03B5-243C-48DD-A82E-3BE7A330DB29</key>
 		<dict>

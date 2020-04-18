@@ -45,8 +45,10 @@ public:
     void calculate_l1_loss(float correct_value, float coef);
     void calculate_l1_loss(float* correct_value);
     void calculate_l1_loss(float* correct_value, float* coef);
+    void calculate_l1_loss(int* indices, int length, float* correct_value, float* coef);
     void calculate_cross_entropy_loss(float* correct_value);
     void calculate_cross_entropy_loss(float* correct_value, float* coef);
+    void calculate_cross_entropy_loss(int index, float correct_value, float coef);
     void execute();
 };
 

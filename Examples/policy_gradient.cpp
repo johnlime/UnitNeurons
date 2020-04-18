@@ -25,9 +25,10 @@ int main(int argc, const char * argv[]) {
     policy_layers[1] = 32;
     policy_layers[2] = 4;
     
-    FloatInputNeuron* x_input = new FloatInputNeuron();
-    FloatInputNeuron* y_input = new FloatInputNeuron();
-    FloatInputNeuron* state_input [2] = {x_input, y_input};
+    FloatInputNeuron* state_input [2] = {
+        new FloatInputNeuron(),
+        new FloatInputNeuron()
+    };
     
     int policy_num_neurons = 0;
     for (int i = 0; i < 3; i++)
@@ -61,6 +62,8 @@ int main(int argc, const char * argv[]) {
         counter ++;
     }
     
+    FloatGradientDescent policy_operator = FloatGradientDescent(all_policy_neurons, policy_num_neurons, policy_layers, 3);
+    
     /* define state value function */
     int v_layers [3];
     v_layers[0] = 32;
@@ -68,7 +71,7 @@ int main(int argc, const char * argv[]) {
     v_layers[2] = 1;
     
     int v_num_neurons = 0;
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 3; i++)
     {
         v_num_neurons += v_layers[i];
     }
@@ -117,7 +120,6 @@ int main(int argc, const char * argv[]) {
     float gamma = 0.99f;
     float epsilon = 0.2f;
     float ratio;
-    float loss [1];
     for (int iter = 0; iter < EPOCHS; iter++){
         // initial location
         tmp_obs[0] = ((float)rand() / RAND_MAX) * MAX_RANGE - MAX_RANGE / 2;
@@ -200,7 +202,7 @@ int main(int argc, const char * argv[]) {
             
             // get next obs
             state_input[0]->assign_value(next_obs[t][0]);
-            state_input[1]->assign_value(next_obs[t][0]);
+            state_input[1]->assign_value(next_obs[t][1]);
             
             // state value for next obs
             for (int i = 0; i < v_num_neurons; i++)
@@ -219,6 +221,14 @@ int main(int argc, const char * argv[]) {
         {
             // get one sample from trajectory
             sample_index = rand() % 1000;
+            state_input[0]->assign_value(obs[sample_index][0]);
+            state_input[1]->assign_value(next_obs[sample_index][1]);
+            
+            // v function feedforward
+            for (int i = 0; i < v_num_neurons; i++)
+            {
+                all_v_neurons[i]->feedforward();
+            }
             
             // v function feedback
             v_operator.calculate_l1_loss(returns[sample_index]);
@@ -236,16 +246,19 @@ int main(int argc, const char * argv[]) {
             }
             tmp_action = softmax(tmp_action, policy_layers[2]);
             
-            // ppo loss function
+            // ppo-clip loss function
             ratio = tmp_action[action[sample_index]] / pi_prob[sample_index];
             if (ratio > 1 + epsilon)         ratio = 1 + epsilon;
             else if (ratio < 1 - epsilon)    ratio = 1 - epsilon;
-            loss[0] = ratio * advantage[sample_index];
             
-            // calculate gradient of loss function
             
-            // feedback loop from selected action neuron
-            policy_layer_3[action[sample_index]]->feedback(loss);
+            policy_operator.calculate_cross_entropy_loss(action[sample_index],              // specify output neuron to propagate from
+                                                         tmp_action[action[sample_index]],  // same as softmax(output) of policy
+                                                         // prob of policy is calculated internally
+                                                         // calculate coefficient of gradient
+                                                         (ratio / tmp_action[action[sample_index]]) * advantage[sample_index]
+                                                         );
+            policy_operator.execute();
             query_manager->execute_all();
         }
     }
