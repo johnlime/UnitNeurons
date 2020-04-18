@@ -25,8 +25,8 @@ You can take a look at the abstract class
 [here](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp).
 
 ## Current Features
-- Made abstract classes for unit neurons that support floating point values (2nd generation neural networks).
-- Inter-neuron pointer routing.
+- Abstract classes for unit neurons for floating point values
+
 - Kohonen's SOM implementation
   - Neighboring neuron assignment for Kohonen's SOM
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
@@ -41,11 +41,18 @@ You can take a look at the abstract class
   - Visualization via Processing (fit to sine wave)
 
   ![Example GD output](Processing%20Visualization/gradient_descent_sine/gd_sine.png)
+  
+- Proximal Policy Gradient (Rough implementation)
+  - Cross entropy loss implementation
+  - Policy and value functions defined separately
+  - Reinforcement learning framework
+  - Generalized Advantage Estimator implementation
+  - Long training time with current state (no multithreading)
 
 ## Open Problems
 - Implementation of other activation functions (such as Leaky ReLU, etc).
 
-- Implementations of other neural network models are highly welcomed
+- Implementations of other neural network models
   - Spiking neural networks
     - Boltzmann machine
     - Hopfield network
