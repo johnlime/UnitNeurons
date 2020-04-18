@@ -105,7 +105,7 @@ void FloatGradientDescent:: calculate_cross_entropy_loss(float* correct_value, f
     }
 }
 
-void FloatGradientDescent:: calculate_cross_entropy_loss(int index, float correct_value, float coef)
+void FloatGradientDescent:: calculate_cross_entropy_loss(int index, float coef)
 {
     float target_output [layer_sizes[num_layers - 1]];
     float sum_of_softmax = 0.0f;
@@ -122,7 +122,7 @@ void FloatGradientDescent:: calculate_cross_entropy_loss(int index, float correc
     }
     
     // calculate gradient of softmax
-    grad_loss[index] = (exp(target_output[index]) / sum_of_softmax - correct_value) * coef;
+    grad_loss[index] = (exp(target_output[index]) / sum_of_softmax - 1) * coef;
 }
 
 void FloatGradientDescent:: execute()

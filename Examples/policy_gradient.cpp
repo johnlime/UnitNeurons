@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     int policy_layers [3];
     policy_layers[0] = 32;
     policy_layers[1] = 32;
-    policy_layers[2] = 4;
+    policy_layers[2] = 5;
     
     FloatInputNeuron* state_input [2] = {
         new FloatInputNeuron(),
@@ -188,10 +188,11 @@ int main(int argc, const char * argv[]) {
             {
                 next_obs[t][0] = tmp_obs[0] - 1;
             }
-            else // max_index == 3
+            else if (max_index == 3)
             {
                 next_obs[t][1] = tmp_obs[1] - 1;
             }
+            // else do nothing
             
             // state value for current obs
             for (int i = 0; i < v_num_neurons; i++)
@@ -253,7 +254,6 @@ int main(int argc, const char * argv[]) {
             
             
             policy_operator.calculate_cross_entropy_loss(action[sample_index],              // specify output neuron to propagate from
-                                                         tmp_action[action[sample_index]],  // same as softmax(output) of policy
                                                          // prob of policy is calculated internally
                                                          // calculate coefficient of gradient
                                                          (ratio / tmp_action[action[sample_index]]) * advantage[sample_index]
