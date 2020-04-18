@@ -264,6 +264,63 @@ int main(int argc, const char * argv[]) {
     }
     
     // Output trained network
-    
+    state_input[0]->assign_value(tmp_obs[0]);
+    state_input[1]->assign_value(tmp_obs[1]);
+    for (int t = 0; t < 1000; t++)
+    {
+        // tmp_obs always contains the current state
+        for (int i = 0; i < 2; i++)
+        {
+            printf("%f; ", tmp_obs[i]);
+        }
+        printf("\n");
+        
+        for (int i = 0; i < policy_num_neurons; i++)
+        {
+            all_policy_neurons[i]->feedforward();
+        }
+        
+        // get action and its softmax probs
+        for (int i = 0; i < policy_layers[2]; i++)
+        {
+            tmp_action[i] = policy_layer_3[i]->state;
+        }
+        tmp_action = softmax(tmp_action, policy_layers[2]);
+        
+        // get max of output
+        int max_index = 0;
+        int max_prob = 0;
+        for (int i = 0; i < policy_layers[2]; i++)
+        {
+            if (max_prob < tmp_action[i])
+            {
+                max_index = i;
+                max_prob = tmp_action[i];
+            }
+        }
+        
+        // get next obs (environment)
+        if (max_index == 0)
+        {
+            tmp_obs[0] = tmp_obs[0] + 1;
+        }
+        else if (max_index == 1)
+        {
+            tmp_obs[1] = tmp_obs[1] + 1;
+        }
+        else if (max_index == 2)
+        {
+            tmp_obs[0] = tmp_obs[0] - 1;
+        }
+        else if (max_index == 3)
+        {
+            tmp_obs[1] = tmp_obs[1] - 1;
+        }
+        // else do nothing
+        
+        // get next obs
+        state_input[0]->assign_value(tmp_obs[0]);
+        state_input[1]->assign_value(tmp_obs[1]);
+    }
     return 0;
 }

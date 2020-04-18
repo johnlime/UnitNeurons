@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>62B8D513-7D25-40D1-9E92-0ACED47DAD87</string>
 		</dict>
+		<key>814DE73E-C019-48EE-81DD-5C6CD1C0D94C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>814DE73E-C019-48EE-81DD-5C6CD1C0D94C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Unit Neurons project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Policy Gradient</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Policy Gradient</string>
+			<key>timeStartedRecording</key>
+			<real>608937226.80436695</real>
+			<key>timeStoppedRecording</key>
+			<real>608937227.53619206</real>
+			<key>title</key>
+			<string>Build Policy Gradient</string>
+			<key>uniqueIdentifier</key>
+			<string>814DE73E-C019-48EE-81DD-5C6CD1C0D94C</string>
+		</dict>
 		<key>BAC2E7F5-57C6-4B56-9234-A2D34673F5B7</key>
 		<dict>
 			<key>className</key>
