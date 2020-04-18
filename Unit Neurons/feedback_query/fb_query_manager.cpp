@@ -28,8 +28,8 @@ void FeedbackQueryManager:: execute_all()
     while (num_query > 0)
     {
         query_list[0].neuron->feedback(query_list[0].fb_input);                     // execute the top function
+        num_query --;                                                               // reduce number of executed queries
         memmove(query_list, query_list + 1, num_query * sizeof(FeedbackQuery));     // move 1 element upward
-        num_query --;
     }
     
     free(query_list);
