@@ -61,8 +61,6 @@ int main(int argc, const char * argv[]) {
         counter ++;
     }
     
-    FloatGradientDescent policy_operator = FloatGradientDescent(all_policy_neurons, policy_num_neurons, policy_layers, 3);
-    
     /* define state value function */
     int v_layers [3];
     v_layers[0] = 32;
@@ -108,12 +106,18 @@ int main(int argc, const char * argv[]) {
     float obs [1000][2];
     float next_obs [1000][2];
     int action [1000];
-    float log_pi [1000];
+    float pi_prob [1000];
     float advantage [1000];
+    float returns [1000];
     
     float tmp_obs [2];
     float* tmp_action = (float*) malloc(policy_layers[2] * sizeof(float));
     float max_reward = 1000;
+    float tmp_reward;
+    float gamma = 0.99f;
+    float epsilon = 0.2f;
+    float ratio;
+    float loss [1];
     for (int iter = 0; iter < EPOCHS; iter++){
         // initial location
         tmp_obs[0] = ((float)rand() / RAND_MAX) * MAX_RANGE - MAX_RANGE / 2;
@@ -142,6 +146,7 @@ int main(int argc, const char * argv[]) {
             }
             tmp_action = softmax(tmp_action, policy_layers[2]);
             
+            // epsilon greedy
             // get max of output
             int max_index = 0;
             int max_prob = 0;
@@ -154,13 +159,19 @@ int main(int argc, const char * argv[]) {
                 }
             }
             action[t] = max_index;
-            log_pi[t] = log(max_prob);
+            pi_prob[t] = max_prob;
+            tmp_reward = max_reward - sqrt(tmp_obs[0] * tmp_obs[0] + tmp_obs[1] * tmp_obs[1]);
+            
+            for (int i = t; i < 1000; i++)
+            {
+                returns[i] += pow(gamma, t) * tmp_reward;
+            }
             
             /*
             Generalized Advantage Estimator (TD residual)
             More detailed explanation at https://danieltakeshi.github.io/2017/04/02/notes-on-the-generalized-advantage-estimation-paper/
             */
-            advantage[t] = max_reward - sqrt(tmp_obs[0] * tmp_obs[0] + tmp_obs[1] * tmp_obs[1]); // GAE reward
+            advantage[t] = tmp_reward; // GAE reward
             
             // get next obs (environment)
             if (max_index == 0)
@@ -203,17 +214,40 @@ int main(int argc, const char * argv[]) {
             tmp_obs[1] = next_obs[t][1];
         }
         
-        // q function feedback
-        global_operator.calculate_l1_loss(sin(tmp));
-        global_operator.execute();
-        query_manager->execute_all();
-        
-        // ppo loss function
-        
-        // policy feedback
-        global_operator.calculate_l1_loss(sin(tmp));
-        global_operator.execute();
-        query_manager->execute_all();
+        int sample_index;
+        for (int i = 0; i < 1000; i++)
+        {
+            // get one sample from trajectory
+            sample_index = rand() % 1000;
+            
+            // v function feedback
+            v_operator.calculate_l1_loss(returns[sample_index]);
+            v_operator.execute();
+            query_manager->execute_all();
+            
+            // obtain probability distribution for current policy
+            for (int i = 0; i < policy_num_neurons; i++)
+            {
+                all_policy_neurons[i]->feedforward();
+            }
+            for (int i = 0; i < policy_layers[2]; i++)
+            {
+                tmp_action[i] = policy_layer_3[i]->state;
+            }
+            tmp_action = softmax(tmp_action, policy_layers[2]);
+            
+            // ppo loss function
+            ratio = tmp_action[action[sample_index]] / pi_prob[sample_index];
+            if (ratio > 1 + epsilon)         ratio = 1 + epsilon;
+            else if (ratio < 1 - epsilon)    ratio = 1 - epsilon;
+            loss[0] = ratio * advantage[sample_index];
+            
+            // calculate gradient of loss function
+            
+            // feedback loop from selected action neuron
+            policy_layer_3[action[sample_index]]->feedback(loss);
+            query_manager->execute_all();
+        }
     }
     
     // Output trained network
