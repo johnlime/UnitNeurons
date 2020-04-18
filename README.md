@@ -42,7 +42,7 @@ You can take a look at the abstract class
 
   ![Example GD output](Processing%20Visualization/gradient_descent_sine/gd_sine.png)
   
-- Proximal Policy Gradient (Rough implementation)
+- Proximal Policy Optimization (Rough implementation)
   - Cross entropy loss implementation
   - Policy and value functions defined separately
   - Reinforcement learning framework
