@@ -256,7 +256,8 @@ int main(int argc, const char * argv[]) {
             policy_operator.calculate_cross_entropy_loss(action[sample_index],              // specify output neuron to propagate from
                                                          // prob of policy is calculated internally
                                                          // calculate coefficient of gradient
-                                                         (ratio / tmp_action[action[sample_index]]) * advantage[sample_index]
+                                                         // gradient ascent, hence the negative coefficient
+                                                         (-1 * ratio / tmp_action[action[sample_index]]) * advantage[sample_index]
                                                          );
             policy_operator.execute();
             query_manager->execute_all();
