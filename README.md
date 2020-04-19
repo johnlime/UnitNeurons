@@ -24,6 +24,8 @@ the neurons that the current neuron inputs the external signals from. Public met
 You can take a look at the abstract class
 [here](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp).
 
+The generated static library can be found [here](https://github.com/johnlime/UnitNeurons/blob/master/DerivedData/Unit%20Neurons/Build/Products/Debug/libUnit%20Neurons.a).
+
 ## Current Features
 - Abstract classes for unit neurons for floating point values
 
