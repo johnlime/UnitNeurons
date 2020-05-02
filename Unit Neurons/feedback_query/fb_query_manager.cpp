@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define ASYNC 1
+
 FeedbackQueryManager:: FeedbackQueryManager()
 {
     query_list = (FeedbackQuery*) malloc(0 * sizeof(FeedbackQuery));
@@ -27,9 +29,18 @@ void FeedbackQueryManager:: execute_all()
 {
     while (num_query > 0)
     {
+#if ASYNC
+        // lock write to own neuron
+        // feedback function in own neuron
+        // execute feedback
+        // change number of queries
+        // move queries upward
+        
+#else
         query_list[0].neuron->feedback(query_list[0].fb_input);                     // execute the top function
         num_query --;                                                               // reduce number of executed queries
         memmove(query_list, query_list + 1, num_query * sizeof(FeedbackQuery));     // move 1 element upward
+#endif
     }
     
     free(query_list);
