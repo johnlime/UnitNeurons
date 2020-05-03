@@ -30,6 +30,7 @@ public:
     // assign array of neighboring neurons' pointers after instantiation
     void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);
     void feedforward();
+    float* update_memory(float* fb_input);
     void feedback(float* fb_input);
     float* see_memory();
 };

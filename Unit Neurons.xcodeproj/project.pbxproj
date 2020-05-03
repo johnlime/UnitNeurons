@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D109B6B9245E5CAB00790B63 /* unit_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D109B6B8245E5CAB00790B63 /* unit_neuron.cpp */; };
 		D145D3F7243A95DA0066935C /* fb_query_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D145D3F5243A95DA0066935C /* fb_query_manager.cpp */; };
 		D145D3F8243A95DA0066935C /* fb_query_manager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D145D3F6243A95DA0066935C /* fb_query_manager.hpp */; };
 		D154CF8B242C6B4D00F724AA /* float_gd_ff_neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D154CF89242C6B4D00F724AA /* float_gd_ff_neuron.cpp */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D109B6B8245E5CAB00790B63 /* unit_neuron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unit_neuron.cpp; sourceTree = "<group>"; };
 		D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kohonen_som.cpp; sourceTree = "<group>"; };
 		D123E9E623EDA31F0025C89F /* unit_neuron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unit_neuron.hpp; sourceTree = "<group>"; };
 		D145D3F5243A95DA0066935C /* fb_query_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fb_query_manager.cpp; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D123E9E623EDA31F0025C89F /* unit_neuron.hpp */,
+				D109B6B8245E5CAB00790B63 /* unit_neuron.cpp */,
 				D1D1EED4242BA58100ABB056 /* gradient_descent */,
 				D1D1EE9D242B7C4100ABB056 /* io */,
 				D1D1EE9A242B7B7500ABB056 /* kohonen_som */,
@@ -356,6 +359,7 @@
 				D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */,
 				D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */,
 				D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */,
+				D109B6B9245E5CAB00790B63 /* unit_neuron.cpp in Sources */,
 				D1E5A29C242EF6F700DFD2F7 /* gradient_descent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

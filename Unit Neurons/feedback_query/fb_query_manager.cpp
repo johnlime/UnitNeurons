@@ -9,7 +9,6 @@
 #include "fb_query_manager.hpp"
 #include <stdlib.h>
 #include <string.h>
-#include <future>
 #define ASYNC 0
 
 FeedbackQueryManager:: FeedbackQueryManager()
@@ -38,7 +37,7 @@ void FeedbackQueryManager:: execute_all()
             // (lock write to own neuron: no need because unit neuron merely reads from previous neurons)
             // lock query for every thread running asynchronously
             // feedback function in own neuron
-            std::async(std::launch::async, query_list[i].neuron->feedback, query_list[i].fb_input);
+            fb_futures.push_back(std::async(std::launch::async, parallel_feedback, query_list[i].neuron, query_list[i].fb_input));
             // execute feedback
         }
         // change number of queries

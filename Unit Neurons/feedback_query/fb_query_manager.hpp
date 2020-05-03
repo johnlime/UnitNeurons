@@ -11,6 +11,8 @@
 
 #include "unit_neuron.hpp"
 #include <stdio.h>
+#include <vector>
+#include <future>
 
 struct FeedbackQuery
 {
@@ -22,6 +24,7 @@ class FeedbackQueryManager{
 private:
     FeedbackQuery* query_list;  // dynamic array of queries
     int num_query;
+    std::vector<std::future<void>> fb_futures;
     
 public:
     FeedbackQueryManager();
