@@ -61,7 +61,7 @@ void FloatMappingNeuron:: feedforward()
     state = sqrt(dist);
 }
 
-float* FloatMappingNeuron:: update_memory(float* fb_input)
+void FloatMappingNeuron:: update_memory(float* fb_input, float* new_fb)
 {
     counter = fb_input[0];      // set default counter as the input
     counter_first = false;      // first neighboring signal operation is over
@@ -73,7 +73,6 @@ float* FloatMappingNeuron:: update_memory(float* fb_input)
     for (int i = 0; i < num_prev; i++){
         memory[i] += pow(lr, fb_input[1] - fb_input[0]) * (previous[i]->state - memory[i]) / state;    // normalize loss
     }
-    return nullptr;
 }
 
 // activated by global operator
@@ -81,7 +80,7 @@ void FloatMappingNeuron:: feedback(float* fb_input)    // fb = {current count, m
 {
     // check that input neighbor range count is lowest
     if (counter_first && fb_input[0] >= 0){   // check whether this is the first time a signal is received from neighbor
-        update_memory(fb_input);
+        update_memory(fb_input, nullptr);
         
         // activate feedback of neighboring neurons and put them in the query
         for (int i = 0; i < num_neighbors; i++){

@@ -113,9 +113,8 @@ void FloatFeedForwardNeuron:: feedforward()
     state = activation(pre_activ);
 }
 
-float* FloatFeedForwardNeuron:: update_memory(float* fb_input)
+void FloatFeedForwardNeuron:: update_memory(float* fb_input, float* new_fb)
 {
-    float* new_fb = (float*)malloc(sizeof(float) * num_prev);
     for (int i = 0; i < num_prev; i++)
     {
         new_fb[i] = activ_deriv(pre_activ) * (fb_input[0]);
@@ -126,17 +125,12 @@ float* FloatFeedForwardNeuron:: update_memory(float* fb_input)
         // For more descriptive derivation, look at "Last Layer" and "Hidden Layers" sections of the article below:
         // https://towardsdatascience.com/part-2-gradient-descent-and-backpropagation-bf90932c066a
     }
-    return new_fb;
 }
 
 void FloatFeedForwardNeuron:: feedback(float *fb_input) // size 2 or 1 float array as input
 {
     float new_fb [num_prev];
-    float* output = update_memory(fb_input);
-    for (int i = 0; i < num_prev; i++)
-    {
-        new_fb[i] = output[i];
-    }
+    update_memory(fb_input, new_fb);
     
     // feedback to previous neurons in query (presumably in parallel)
     for (int i = 0; i < num_prev; i++)

@@ -28,7 +28,7 @@ public:
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float));
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, std::string const &_activ);
     void feedforward();
-    float* update_memory(float* fb_input);
+    void update_memory(float* fb_input, float* new_fb);
     void feedback(float* fb_input);
 };
 
