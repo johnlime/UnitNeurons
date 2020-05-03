@@ -121,6 +121,7 @@ int main(int argc, const char * argv[]) {
     float epsilon = 0.2f;
     float ratio;
     for (int iter = 0; iter < EPOCHS; iter++){
+        printf("%d\n", iter);
         // initial location
         tmp_obs[0] = ((float)rand() / RAND_MAX) * MAX_RANGE - MAX_RANGE / 2;
         tmp_obs[1] = ((float)rand() / RAND_MAX) * MAX_RANGE - MAX_RANGE / 2;

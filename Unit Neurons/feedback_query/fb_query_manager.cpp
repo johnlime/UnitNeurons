@@ -44,6 +44,11 @@ void FeedbackQueryManager:: execute_all()
         {
             fb_futures.push_back(std::async(std::launch::async, parallel_feedback, query_list[i].neuron, query_list[i].fb_input));
         }
+        for (int i = 0; i < current_num_query; i++)
+        {
+            fb_futures[i].wait();
+        }
+        fb_futures.clear();
         num_query -= current_num_query;
         memmove(query_list, query_list + current_num_query, num_query * sizeof(FeedbackQuery));     // move queries upward
         
