@@ -13,6 +13,9 @@
 #include "unit_neuron.hpp"
 
 class FloatInputNeuron :FloatUnitNeuron{
+protected:
+    void update_memory(float* fb_input, float* new_fb);
+    
 public:
     FloatInputNeuron();
     void feedforward();

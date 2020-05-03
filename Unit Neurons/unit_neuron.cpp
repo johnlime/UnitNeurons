@@ -8,10 +8,3 @@
 
 #include <stdio.h>
 #include "unit_neuron.hpp"
-
-static void parallel_feedback(FloatUnitNeuron** neuron, float* fb_input)
-{
-    // update memory in neuron
-    // lock query manager via neuron
-    // update query manager
-}

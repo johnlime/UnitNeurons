@@ -18,6 +18,11 @@ void FloatInputNeuron:: feedforward()
     return;
 }
 
+void FloatInputNeuron:: update_memory(float* fb_input, float* new_fb)
+{
+    return;
+}
+
 void FloatInputNeuron:: feedback(float* fb_input)
 {
     return;

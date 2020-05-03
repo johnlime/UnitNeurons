@@ -32,7 +32,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
             endingLineNumber = "28"
-            landmarkName = "FeedbackQueryManager:: execute_all()"
+            landmarkName = "FeedbackQueryManager:: add_query(_new)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

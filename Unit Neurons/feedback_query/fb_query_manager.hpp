@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <vector>
 #include <future>
+#include <mutex>
 
 struct FeedbackQuery
 {
@@ -32,5 +33,7 @@ public:
     void execute_all();
     void print_current_queries();
 };
+
+static std::mutex fb_mutex;
 
 #endif /* query_manager_hpp */

@@ -22,13 +22,13 @@ protected:
     float (*activ_deriv) (float);       // derivative of the activation function
     float pre_activ;
     FeedbackQueryManager* query_manager;
+    void update_memory(float* fb_input, float* new_fb);
     
 public:
     float lr = 0.7f;                    // learning rate (hyperparameter)
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float));
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, std::string const &_activ);
     void feedforward();
-    void update_memory(float* fb_input, float* new_fb);
     void feedback(float* fb_input);
 };
 

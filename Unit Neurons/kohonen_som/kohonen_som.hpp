@@ -20,6 +20,7 @@ protected:
     FloatMappingNeuron** neighbors;     // array of pointers to neighboring mapping neurons
     int num_neighbors;
     FeedbackQueryManager* query_manager;
+    void update_memory(float* fb_input, float* new_fb);
    
 public:
     float lr = 0.3f;                    // learning rate (hyperparameter)
@@ -30,7 +31,6 @@ public:
     // assign array of neighboring neurons' pointers after instantiation
     void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);
     void feedforward();
-    void update_memory(float* fb_input, float* new_fb);
     void feedback(float* fb_input);
     float* see_memory();
 };
