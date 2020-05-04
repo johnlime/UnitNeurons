@@ -29,6 +29,8 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
 ## Current Features
 - Abstract classes for unit neurons for floating point values
 
+- Multithreaded feedback operations
+
 - Kohonen's SOM implementation
   - Neighboring neuron assignment for Kohonen's SOM
   - Made input/output neurons and mapping neurons and global operator necessary for Kohonen's Self Organizing Map (SOM).
