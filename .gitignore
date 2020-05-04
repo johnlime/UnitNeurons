@@ -1,3 +1,6 @@
 DerivedData/*
-
 !DerivedData/Unit Neurons/Build/Products/Debug/*
+
+.sass-cache
+_site
+Gemfile.lock
