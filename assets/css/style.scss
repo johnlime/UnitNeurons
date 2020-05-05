@@ -9,17 +9,19 @@
   grid-template-areas: "sidebar content"
 }
 
-.vertical_grid {
-  // display: grid;
-  // grid-template-rows: 40px, auto;
-  // grid-template-areas: "overview tmp"
-}
-
 .sidebar {
   grid-area: sidebar;
   flex-flow: column;
-  background-color: #373737;
   margin: 0px;
+  background-color: #373737;
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+}
+
+.sb_buttons {
+  background-color: #373737;
+  width: 100%;
+  display: block;
 }
 
 .sb_font {
