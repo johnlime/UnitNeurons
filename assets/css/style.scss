@@ -1,0 +1,37 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.horizontal_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "sidebar content"
+}
+
+.vertical_grid {
+  // display: grid;
+  // grid-template-rows: 40px, auto;
+  // grid-template-areas: "overview tmp"
+}
+
+.sidebar {
+  grid-area: sidebar;
+  flex-flow: column;
+  background-color: #373737;
+  margin: 0px;
+}
+
+.sb_font {
+  float: left;
+  margin-left: 50px;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.content{
+  grid-area: content;
+  flex-flow: column;
+}
