@@ -2,5 +2,40 @@
   link: index.html
   type: Heading
 
-- name: Components
+- name: Getting Started
+  link: start.html
+  type: Heading
+
+- name: Basic Framework
   link: null
+
+- name: Floating Unit Neurons
+  link: basic/fun.html
+  type: Subheading
+
+- name: Global Operator
+  link: basic/gp.html
+  type: Subheading
+
+- name: Feedback Query Manager
+  link: basic/fqm.html
+  type: Subheading
+
+- name: Advanced Components
+  link: null
+
+- name: Kohonen's SOM
+  link: comp/ksom.html
+  type: Subheading
+
+- name: Gradient Descent
+  link: comp/gd.html
+  type: Subheading
+
+- name: Examples
+  link: examples.html
+  type: Heading
+
+- name: References
+  link: ref.html
+  type: Heading

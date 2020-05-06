@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+.inner {
+  position: inherit;
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: none;
+}
+
 .horizontal_grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -29,7 +37,6 @@
 }
 
 .sb_font {
-  float: left;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
 }
