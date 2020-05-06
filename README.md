@@ -24,7 +24,7 @@ the neurons that the current neuron inputs the external signals from. Public met
 The generated static library can be found [here](https://github.com/johnlime/UnitNeurons/blob/master/DerivedData/Unit%20Neurons/Build/Products/Debug/libUnit%20Neurons.a).
 
 ## Current Features
-- [Abstract classes] (https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp)
+- [Abstract classes](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp)
 for unit neurons for floating point values
 
 - Multithreaded feedback operations
