@@ -1,5 +1,6 @@
 - name: Overview
   link: index.html
+  type: Heading
 
-- name: Blank
-  link: blank.html
+- name: Components
+  link: null

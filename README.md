@@ -1,5 +1,5 @@
 # Unit Neurons
-Unit Neurons is a repository for development of a C++ neuron-based neural network library
+Unit Neurons is a repository for development of a C++ neural network library
 where each neuron is expressed using object instances embedded with its own states and functionalities,
 in hopes of gaining more understanding of neural nets through the perspective of complex systems.
 
@@ -8,7 +8,7 @@ We call for contributions on further development of the library by adding more f
 ## Vision
 Artifical neural networks are models that attempt to imitate features and functionalities of biological
 neural networks. Preexisting neural network libraries such as TensorFlow, PyTorch, and Keras strictly use
-matrix multiplication and neurons expressed in layers to execute feedforward and feedack loops.
+matrix multiplication and neurons expressed in layers to execute feedforward and feedback loops.
 
 However, in reality, a biological neural network is a network of mutually interacting neurons with their own function
 of calculating the signal output given the signal input. In our library, we treat each neuron as an object instance
@@ -21,13 +21,11 @@ indicates the current output signal of the neuron, and an array of unit neurons'
 the neurons that the current neuron inputs the external signals from. Public methods `feedforward()` and
 `feedback(float* fb_input)` are virtual methods which are required to be defined by its subclasses.
 
-You can take a look at the abstract class
-[here](https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp).
-
 The generated static library can be found [here](https://github.com/johnlime/UnitNeurons/blob/master/DerivedData/Unit%20Neurons/Build/Products/Debug/libUnit%20Neurons.a).
 
 ## Current Features
-- Abstract classes for unit neurons for floating point values
+- [Abstract classes] (https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp)
+for unit neurons for floating point values
 
 - Multithreaded feedback operations
 
@@ -45,7 +43,7 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
   - Visualization via Processing (fit to sine wave)
 
   ![Example GD output](Processing%20Visualization/gradient_descent_sine/gd_sine.png)
-  
+
 - Proximal Policy Optimization (Rough implementation)
   - Cross entropy loss implementation
   - Policy and value functions defined separately

@@ -5,7 +5,7 @@
 
 .horizontal_grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-areas: "sidebar content"
 }
 
@@ -24,13 +24,26 @@
   display: block;
 }
 
+.sb_buttons:hover {
+  background-color: #737373;
+}
+
 .sb_font {
   float: left;
-  margin-left: 50px;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 28px;
-  font-weight: 600;
+}
+
+.heading {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subheading {
+  margin-left: 100px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .content{

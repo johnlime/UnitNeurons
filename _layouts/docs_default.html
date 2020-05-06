@@ -35,11 +35,25 @@
     <div id="main_content_wrap" class="outer horizontal_grid">
       <section id="sidebar" class="inner sidebar vertical_grid">
         {% for item in site.data.navigation %}
-          <a href="{{ item.link }}" class="sb_buttons" {% if page.url == item.link %}{% endif %}>
-            <p class="sb_font">
-              {{ item.name }}
-            </p>
-          </a>
+          {% if item.link != null and item.type == "Heading"%}
+            <a href="{{ item.link }}" class="sb_buttons">
+              <p class="sb_font heading">
+                {{ item.name }}
+              </p>
+            </a>
+          {% elsif item.link != null and item.type == "Subheading"%}
+            <a href="{{ item.link }}" class="sb_buttons">
+              <p class="sb_font subheading">
+                {{ item.name }}
+              </p>
+            </a>
+          {% elsif item.link == null %}
+            <div class="sb_buttons">
+              <p class="sb_font heading">
+                {{ item.name }}
+              </p>
+            </div>
+          {% endif %}
         {% endfor %}
       </section>
       <section id="main_content" class="inner content">
