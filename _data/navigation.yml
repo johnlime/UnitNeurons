@@ -1,41 +1,41 @@
 - name: Overview
-  link: index.html
+  link: /Documentation/index.html
   type: Heading
 
 - name: Getting Started
-  link: start.html
+  link: /Documentation/start.html
   type: Heading
 
 - name: Basic Framework
   link: null
 
-- name: Floating Unit Neurons
-  link: basic/fun.html
+- name: Float Unit Neurons
+  link: /Documentation/basic/fun.html
   type: Subheading
 
 - name: Global Operator
-  link: basic/gp.html
+  link: /Documentation/basic/gp.html
   type: Subheading
 
 - name: Feedback Query Manager
-  link: basic/fqm.html
+  link: /Documentation/basic/fqm.html
   type: Subheading
 
 - name: Advanced Components
   link: null
 
 - name: Kohonen's SOM
-  link: comp/ksom.html
+  link: /Documentation/comp/ksom.html
   type: Subheading
 
 - name: Gradient Descent
-  link: comp/gd.html
+  link: /Documentation/comp/gd.html
   type: Subheading
 
 - name: Examples
-  link: examples.html
+  link: /Documentation/examples.html
   type: Heading
 
 - name: References
-  link: ref.html
+  link: /Documentation/ref.html
   type: Heading

@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.inner {
+.docs .inner {
   position: inherit;
   float: left;
   margin-left: 50px;
@@ -11,49 +11,49 @@
   max-width: none;
 }
 
-.horizontal_grid {
+.docs .horizontal_grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-areas: "sidebar content"
 }
 
-.sidebar {
+.docs .sidebar {
   grid-area: sidebar;
   flex-flow: column;
   margin: 0px;
   background-color: #373737;
   display: grid;
-  grid-template-rows: 1fr 1fr auto;
+  grid-template-rows: 13ch auto;
 }
 
-.sb_buttons {
+.docs .sb_buttons {
   background-color: #373737;
   width: 100%;
   display: block;
 }
 
-.sb_buttons:hover {
+.docs .sb_buttons:hover {
   background-color: #737373;
 }
 
-.sb_font {
+.docs .sb_font {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
 }
 
-.heading {
+.docs .heading {
   margin-left: 50px;
   font-size: 20px;
   font-weight: 500;
 }
 
-.subheading {
+.docs .subheading {
   margin-left: 100px;
   font-size: 14px;
   font-weight: 300;
 }
 
-.content{
+.docs .content{
   grid-area: content;
   flex-flow: column;
 }
