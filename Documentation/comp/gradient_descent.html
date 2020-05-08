@@ -5,55 +5,127 @@ title: Unit Neurons Documentation - Gradient Descent
 
 <h1>Gradient Descent</h1>
 
-<h2>Float Feedforward Neuron</h2>
+  <h2>Float Feedforward Neuron</h2>
 
-<h3>Constructors</h3>
-<p><code>FloatFeedForwardNeuron(_prevs, _num_prevs, _query_manager, &_activ)</code></p>
-<ul>
-  <li>
-    <code>_prevs</code>(<code>FloatUnitNeuron**</code>)
-    <ul>
-      Array of memory addresses pointing to <code>FloatUnitNeuron**</code>
-      and its subclass instances
-    </ul>
-    <ul>
-      Indicates <code>previous</code> neurons that the current neuron derives
-      <code>state</code> data from
-    </ul>
-    <ul>
-      If the assigned array consists of pointers to subclasses of
-      <code>FloatUnitNeuron</code>, include <code>(FloatUnitNeuron**)</code>
-      in front of the variable
-    </ul>
-  </li>
-  <li>
-    <code>_num_prevs</code>(<code>int</code>)
-    <ul>
-      Number of elements in the <code>_prevs</code> array
-    </ul>
-  </li>
-  <li>
-    <code>_query_manager</code>(<code>FeedbackQueryManager*</code>)
-    <ul>
+    <h3>Constructors</h3>
+      <p><code>FloatFeedForwardNeuron(_prevs, _num_prevs, _query_manager, &_activ)</code></p>
+      <ul>
+        <li>
+          <code>_prevs</code>(<code>FloatUnitNeuron**</code>)
+          <ul>
+            Array of memory addresses pointing to <code>FloatUnitNeuron</code>
+            and its subclass instances
+          </ul>
+          <ul>
+            Indicates <code>previous</code> neurons that the current neuron derives
+            <code>state</code> data from
+          </ul>
+          <ul>
+            If the assigned array consists of pointers to subclasses of
+            <code>FloatUnitNeuron</code>, include <code>(FloatUnitNeuron**)</code>
+            in front of the variable
+          </ul>
+        </li>
+        <li>
+          <code>_num_prevs</code>(<code>int</code>)
+          <ul>
+            Number of elements in the <code>_prevs</code> array
+          </ul>
+        </li>
+        <li>
+          <code>_query_manager</code>
+          <ul>
+            Reference to the <code>FeedbackQueryManager</code> instance
+          </ul>
+        </li>
+        <li>
+          <code>&_activ</code>(<code>std::string const</code>)
+          <ul>
+            String literal of either of the following indicating the
+            activation function of the neuron:
+            <li><code>"identity"</code></li>
+            <li><code>"relu"</code></li>
+            <li><code>"tanh"</code></li>
+            <li><code>"sigmoid"</code></li>
+          </ul>
+        </li>
+      </ul>
 
-    </ul>
-  </li>
-  <li>
-    <code>&_activ</code>(<code>std::string const</code>)
-  </li>
-</ul>
+      <p><code>FloatFeedForwardNeuron(_prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float))</code></p>
+      <ul>
+        <li><code>_prevs</code>
+          <ul>
+            Array of memory addresses pointing to <code>FloatUnitNeuron</code>
+            and its subclass instances
+          </ul>
+        </li>
+        <li><code>_num_prevs</code>
+          <ul>
+            Number of elements in <code>_prevs</code>
+          </ul>
+        </li>
+        <li><code>_query_manager</code>
+          <ul>
+            Reference to the <code>FeedbackQueryManager</code> instance
+          </ul>
+        </li>
+        <li><code>float (*_activation) (float)</code>
+          <ul>
+            Unnamed activation function
+          </ul>
+          <ul>
+            Function pointer that depicts the activation function
+          </ul>
+        </li>
+        <li><code>float (*_gradient) (float)</code>
+          <ul>
+            Unnamed derivative of <code>_activation</code>
+          </ul>
+          <ul>
+            Function pointer that depicts the derivative of <code>_activation</code>
+          </ul>
+          <ul>
+            The input <code>float</code> is synonymous to that of the activation function
+          </ul>
+        </li>
+      </ul>
 
-<p><code>FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float))</code></p>
+    <h3>Structure</h3>
+      <h4>Public Methods and Variables</h4>
+        <ul>
+          <li><code>lr</code>(floating point value)
+            <ul>Learning rate for weight update</ul>
+            <ul>The default value is set to 0.7f</ul>
+          </li>
+          <li><code>feedforward()</code>
+            <ul>
+              Weight values stored in <code>memory</code> are multiplied with
+              <code>state</code> values from <code>previous</code> neurons
+              and put through the activation function defined during construction.
+            </ul>
+          </li>
+          <li><code>feedback(float* fb_input)</code>
+            <ul>
 
-<h3>Structure</h3>
+            </ul>
+          </li>
+        </ul>
 
+      <h4>Additional Notes and Code</h4>
+      <p>
+        For more details on private variables, methods, and other functionalities
+        performed within the definition of the class, refer to the
+        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L19">hpp file</a>
+        and the
+        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp">cpp file</a>.
+      </p>
 
 <h2>Gradient Descent Global Operator</h2>
 
-<h3>Constructors</h3>
+  <h3>Constructors</h3>
 
-<h3>Training</h3>
+  <h3>Training</h3>
 
-  <h4>Minimum Square Loss</h4>
+    <h4>Minimum Square Loss</h4>
 
-  <h4>Cross Entropy Loss</h4>
+    <h4>Cross Entropy Loss</h4>

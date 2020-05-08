@@ -4,47 +4,47 @@ title: Unit Neurons Documentation - Floating Unit Neurons
 ---
 
 <h1>Float Unit Neurons</h1>
-<p>
-  Individual linkable class instances that represent the individual neurons in
-  a neural network.
-</p>
+  <p>
+    Individual linkable class instances that represent the individual neurons in
+    a neural network.
+  </p>
 
-<h2>Structure and Functionalities</h2>
-<p>An abstract unit neuron class includes the following:</p>
+  <h2>Structure and Functionalities</h2>
+    <p>An abstract unit neuron class includes the following:</p>
 
-<ul>
-  <li><code>state</code> (public floating point value)
-    <ul>Indicates the current output signal of the neuron</ul>
-  </li>
-
-  <li><code>previous</code> (public array of unit neurons' pointers)
-    <ul>Stores memory addresses of neurons that the current neuron receives external signals from</ul>
-  </li>
-
-  <li><code>feedforward()</code> (public virtual method)
-    <ul>Executes feedforward operation</ul>
-  </li>
-
-  <li><code>feedback(float* fb_input)</code> (public virtual method)
-    <ul>Executes feedback operation using <code>fb_input</code></ul>
     <ul>
-      Optionally generates a query for the next neuron to operate
-      the feedback operation
-    </ul>
-    <ul>
-      Generated query will be stored in an external object instance of
-      <code>FeedbackQueryManager</code>
-    </ul>
-  </li>
+      <li><code>state</code> (public floating point value)
+        <ul>Indicates the current output signal of the neuron</ul>
+      </li>
 
-  <li><code>memory</code> (protected floating point array)
-    <ul>Stores values used for calculating forward and feedback loops</ul>
-    <ul>Example: postsynaptic weights</ul>
-  </li>
-</ul>
+      <li><code>previous</code> (public array of unit neurons' pointers)
+        <ul>Stores memory addresses of neurons that the current neuron receives external signals from</ul>
+      </li>
+
+      <li><code>feedforward()</code> (public virtual method)
+        <ul>Executes feedforward operation</ul>
+      </li>
+
+      <li><code>feedback(float* fb_input)</code> (public virtual method)
+        <ul>Executes feedback operation using <code>fb_input</code></ul>
+        <ul>
+          Optionally generates a query for the next neuron to operate
+          the feedback operation
+        </ul>
+        <ul>
+          Generated query will be stored in an external object instance of
+          <code>FeedbackQueryManager</code>
+        </ul>
+      </li>
+
+      <li><code>memory</code> (protected floating point array)
+        <ul>Stores values used for calculating forward and feedback loops</ul>
+        <ul>Example: postsynaptic weights</ul>
+      </li>
+    </ul>
 
 <h2>Code</h2>
-<p>
-  The <a href="https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp/#L16">abstract class</a>
-  is defined in the <code>unit_neuron.hpp</code> file.
-</p>
+  <p>
+    The <a href="https://github.com/johnlime/unit_neurons/blob/master/Unit%20Neurons/unit_neuron.hpp/#L16">abstract class</a>
+    is defined in the <code>unit_neuron.hpp</code> file.
+  </p>
