@@ -1,4 +1,4 @@
-# Unit Neurons
+# Unit Neurons v1.0
 Unit Neurons is a repository for development of a C++ neural network library
 where each neuron is expressed using object instances embedded with its own states and functionalities,
 in hopes of gaining more understanding of neural nets through the perspective of complex systems.
@@ -19,9 +19,20 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
 ## Current Features
 - Unit neurons for floating point values
 
+- Classes necessary for training neural networks with the following learning algorithms:
+  - Kohonen's Self Organizing Map (SOM)
+  - Gradient Descent
+
 - Multithreaded feedback operations
 
+- Examples on the following operations:
+  - Neural network fit to uniform distribution via Kohonen's SOM
+  - Neural network fit to sine curve via gradient descent
+  - Rough implementation of proximal policy optimization (PPO)
+
 ## Open Problems
+- Implementation of ADAM
+
 - Implementation of other activation functions (such as Leaky ReLU, etc).
 
 - Implementations of other neural network models
@@ -31,3 +42,4 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
 
 ## Major Contributors
 - [johnlime](https://github.com/johnlime)
+
