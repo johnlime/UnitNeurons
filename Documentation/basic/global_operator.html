@@ -1,0 +1,29 @@
+---
+layout: docs_default
+title: Unit Neurons Documentation - Float Global Operator
+---
+
+<h1>Float Global Operator</h1>
+<p>
+  Class instance that manages the training process of a neural network
+</p>
+
+<h2>Structure and Functionalities</h2>
+<p>
+  The structure of a global operator largely differs depending on the
+  training algorithm in use, hence the abstract class is defined
+  minimalistically.
+</p>
+
+<p>
+  The global operator should be able to start the training process and
+  feedback loop using <code>execute()</code>. An <code>execute_all()</code>
+  in the corresponding <code>FeedbackQueryManager</code> should be executed
+  directly afterwards.
+</p>
+
+<h2>Code</h2>
+<p>
+  The <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/unit_neuron.hpp#L32">abstract class</a>
+  is defined in the <code>unit_neuron.hpp</code> file.
+</p>

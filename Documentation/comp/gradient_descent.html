@@ -1,0 +1,59 @@
+---
+layout: docs_default
+title: Unit Neurons Documentation - Gradient Descent
+---
+
+<h1>Gradient Descent</h1>
+
+<h2>Float Feedforward Neuron</h2>
+
+<h3>Constructors</h3>
+<p><code>FloatFeedForwardNeuron(_prevs, _num_prevs, _query_manager, &_activ)</code></p>
+<ul>
+  <li>
+    <code>_prevs</code>(<code>FloatUnitNeuron**</code>)
+    <ul>
+      Array of memory addresses pointing to <code>FloatUnitNeuron**</code>
+      and its subclass instances
+    </ul>
+    <ul>
+      Indicates <code>previous</code> neurons that the current neuron derives
+      <code>state</code> data from
+    </ul>
+    <ul>
+      If the assigned array consists of pointers to subclasses of
+      <code>FloatUnitNeuron</code>, include <code>(FloatUnitNeuron**)</code>
+      in front of the variable
+    </ul>
+  </li>
+  <li>
+    <code>_num_prevs</code>(<code>int</code>)
+    <ul>
+      Number of elements in the <code>_prevs</code> array
+    </ul>
+  </li>
+  <li>
+    <code>_query_manager</code>(<code>FeedbackQueryManager*</code>)
+    <ul>
+
+    </ul>
+  </li>
+  <li>
+    <code>&_activ</code>(<code>std::string const</code>)
+  </li>
+</ul>
+
+<p><code>FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float))</code></p>
+
+<h3>Structure</h3>
+
+
+<h2>Gradient Descent Global Operator</h2>
+
+<h3>Constructors</h3>
+
+<h3>Training</h3>
+
+  <h4>Minimum Square Loss</h4>
+
+  <h4>Cross Entropy Loss</h4>

@@ -6,7 +6,7 @@ in hopes of gaining more understanding of neural nets through the perspective of
 We call for contributions on further development of the library by adding more functionalities, fixing bugs, etc.
 
 ## Vision
-Artifical neural networks are models that attempt to imitate features and functionalities of biological
+Artificial neural networks are models that attempt to imitate features and functionalities of biological
 neural networks. Preexisting neural network libraries such as TensorFlow, PyTorch, and Keras strictly use
 matrix multiplication and neurons expressed in layers to execute feedforward and feedback loops.
 
@@ -30,3 +30,4 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
     - Hopfield network
 
 ## Major Contributors
+- [johnlime](https://github.com/johnlime)

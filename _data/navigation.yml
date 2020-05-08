@@ -10,26 +10,26 @@
   link: null
 
 - name: Float Unit Neurons
-  link: /Documentation/basic/fun.html
+  link: /Documentation/basic/float_unit_neurons.html
   type: Subheading
 
 - name: Global Operator
-  link: /Documentation/basic/gp.html
+  link: /Documentation/basic/global_operator.html
   type: Subheading
 
 - name: Feedback Query Manager
-  link: /Documentation/basic/fqm.html
+  link: /Documentation/basic/feedback_query_manager.html
   type: Subheading
 
-- name: Advanced Components
+- name: Components
   link: null
 
 - name: Kohonen's SOM
-  link: /Documentation/comp/ksom.html
+  link: /Documentation/comp/self_organizing_map.html
   type: Subheading
 
 - name: Gradient Descent
-  link: /Documentation/comp/gd.html
+  link: /Documentation/comp/gradient_descent.html
   type: Subheading
 
 - name: Examples
