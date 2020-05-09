@@ -28,6 +28,10 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
   - Neural network fit to sine curve via gradient descent
   - Rough implementation of proximal policy optimization (PPO)
 
+## Documentation
+Please refer to the documentation for instructions on installations and usage of the components in this library.
+[Documentation](https://johnlime.github.io/UnitNeurons/Documentation/)
+
 ## Open Problems
 - Implementation of ADAM
 
