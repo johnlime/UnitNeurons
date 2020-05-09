@@ -1,49 +1,49 @@
 - name: Overview
-  link: /Documentation/index.html
+  link: /UnitNeurons/Documentation/index.html
   type: Heading
 
 - name: Installation
-  link: /Documentation/install.html
+  link: /UnitNeurons/Documentation/install.html
   type: Heading
 
 - name: Basic Framework
   link: null
 
 - name: Float Unit Neurons
-  link: /Documentation/basic/float_unit_neurons.html
+  link: /UnitNeurons/Documentation/basic/float_unit_neurons.html
   type: Subheading
 
 - name: Global Operator
-  link: /Documentation/basic/global_operator.html
+  link: /UnitNeurons/Documentation/basic/global_operator.html
   type: Subheading
 
 - name: Feedback Query Manager
-  link: /Documentation/basic/feedback_query_manager.html
+  link: /UnitNeurons/Documentation/basic/feedback_query_manager.html
   type: Subheading
 
 - name: Components
   link: null
 
 - name: Float Input Neuron
-  link: /Documentation/comp/input_neurons.html
+  link: /UnitNeurons/Documentation/comp/input_neurons.html
   type: Subheading
 
 - name: Kohonen's SOM
-  link: /Documentation/comp/self_organizing_map.html
+  link: /UnitNeurons/Documentation/comp/self_organizing_map.html
   type: Subheading
 
 - name: Gradient Descent
-  link: /Documentation/comp/gradient_descent.html
+  link: /UnitNeurons/Documentation/comp/gradient_descent.html
   type: Subheading
 
 - name: Examples
-  link: /Documentation/examples.html
+  link: /UnitNeurons/Documentation/examples.html
   type: Heading
 
 - name: Issues
-  link: /Documentation/issues.html
+  link: /UnitNeurons/Documentation/issues.html
   type: Heading
 
 - name: License
-  link: /Documentation/license.html
+  link: /UnitNeurons/Documentation/license.html
   type: Heading
