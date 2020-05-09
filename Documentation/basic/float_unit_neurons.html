@@ -21,11 +21,11 @@ title: Unit Neurons Documentation - Floating Unit Neurons
         <ul>Stores memory addresses of neurons that the current neuron receives external signals from</ul>
       </li>
 
-      <li><code>feedforward()</code> (public virtual method)
+      <li><code>void feedforward()</code> (public virtual method)
         <ul>Executes feedforward operation</ul>
       </li>
 
-      <li><code>feedback(float* fb_input)</code> (public virtual method)
+      <li><code>void feedback(float* fb_input)</code> (public virtual method)
         <ul>Executes feedback operation using <code>fb_input</code></ul>
         <ul>
           Optionally generates a query for the next neuron to operate

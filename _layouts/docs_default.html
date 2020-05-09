@@ -35,19 +35,19 @@
       <section id="sidebar" class="inner sidebar vertical_grid">
         {% for item in site.data.navigation %}
           {% if item.link != null and item.type == "Heading"%}
-            <a href="{{ item.link }}" class="sb_buttons">
+            <a href="{{ item.link }}" class="sb_rows sb_buttons">
               <p class="sb_font heading">
                 {{ item.name }}
               </p>
             </a>
           {% elsif item.link != null and item.type == "Subheading"%}
-            <a href="{{ item.link }}" class="sb_buttons">
+            <a href="{{ item.link }}" class="sb_rows sb_buttons">
               <p class="sb_font subheading">
                 {{ item.name }}
               </p>
             </a>
           {% elsif item.link == null %}
-            <div class="sb_buttons">
+            <div class="sb_rows">
               <p class="sb_font heading">
                 {{ item.name }}
               </p>

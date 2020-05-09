@@ -1,6 +1,7 @@
 DerivedData/*
-!DerivedData/Unit Neurons/Build/Products/Debug/*
+!DerivedData/Unit Neurons/Build/Products/Release/*
 
 .sass-cache
 _site
 Gemfile.lock
+

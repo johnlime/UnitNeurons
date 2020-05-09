@@ -27,13 +27,13 @@ title: Unit Neurons Documentation - Gradient Descent
           </ul>
         </li>
         <li>
-          <code>_num_prevs</code>(<code>int</code>)
+          <code>_num_prevs</code>
           <ul>
-            Number of elements in the <code>_prevs</code> array
+            Number of elements (<code>int</code>) in the <code>_prevs</code> array
           </ul>
         </li>
         <li>
-          <code>_query_manager</code>
+          <code>_query_manager</code>(<code>FeedbackQueryManager*</code>)
           <ul>
             Reference to the <code>FeedbackQueryManager</code> instance
           </ul>
@@ -107,14 +107,14 @@ title: Unit Neurons Documentation - Gradient Descent
             <ul>Learning rate for weight update</ul>
             <ul>The default value is set to <code>0.7f</code></ul>
           </li>
-          <li><code>feedforward()</code>
+          <li><code>void feedforward()</code>
             <ul>
               Weight values stored in <code>memory</code> are multiplied with
               <code>state</code> values from <code>previous</code> neurons
               and put through the activation function defined during construction.
             </ul>
           </li>
-          <li><code>feedback(float* fb_input)</code>
+          <li><code>void feedback(float* fb_input)</code>
             <ul>
               Performs gradient descent operation on the specific neuron and
               produces instances of <code>FeedbackQuery</code> which are added to
@@ -139,31 +139,31 @@ title: Unit Neurons Documentation - Gradient Descent
         </ul>
 
       <h4>Additional Notes and Code</h4>
-      <p>
-        For more details on private variables, methods, and other functionalities
-        performed within the definition of the class, refer to the
-        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L19">
-          hpp file
-        </a>
-        and the
-        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp">
-          cpp file
-        </a>.
-      </p>
+        <p>
+          For more details on private variables, methods, and other functionalities
+          performed within the definition of the class, refer to the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L19">
+            hpp file
+          </a>
+          and the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp">
+            cpp file
+          </a>.
+        </p>
 
-<h2>Gradient Descent Global Operator</h2>
+<h2>Float Gradient Descent</h2>
   <p>
     Subclass of <code>GlobalOperator</code> that starts the gradient descent
     training process of the neural network
   </p>
 
   <h3>Constructors</h3>
-    <code>FloatGradientDescent(_targets, _num_targets, _layer_sizes, _num_layers)</code>
+    <code>FloatGradientDescent(_targets, _num_targets)</code>
     <ul>
       <li><code>_targets</code>
         <ul>
           Array of memory addresses to <code>FloatFeedForwardNeuron</code>
-          instances used in the neural network
+          used as the output neurons
         </ul>
       </li>
       <li><code>_num_targets</code>
@@ -171,24 +171,94 @@ title: Unit Neurons Documentation - Gradient Descent
           Number of elements (<code>int</code>) in <code>_targets</code>
         </ul>
       </li>
-      <li><code>_layer_sizes</code>
+    </ul>
+
+  <h3>Training</h3>
+    <p>
+      <code>FloatGradientDescent</code> contains functions that executes the
+      <code>feedback(float* fb_input)</code> of the output neurons.
+    </p>
+    <p>
+      However, before executing <code>execute()</code>, the global operator must
+      calculate the loss function given a correct output (refer to supervised
+      learning).
+    </p>
+
+    <h4>Minimum Square Loss</h4>
+    <p>
+      Full list of tools for MSL calculation can be found
+      <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L43">
+        here
+      </a>.
+    </p>
+    <p><code>void calculate_l1_loss(int* indices, int length, float* correct_value, float* coef)</code></p>
+    <ul>
+      <li><code>indices</code>
         <ul>
-          Array of number of neurons (<code>int</code>) in each layer, assuming
-          that the neural network is constructed as a layered architecture
+          Indices of specific neurons to start feedback loop from based on
+          the internal <code>targets</code> array
         </ul>
       </li>
-      <li><_num_layers
+      <li><code>length</code>
         <ul>
-          Number of elements (<code>int</code>) in <code>_layer_sizes</code>
+          Number of elements in <code>indices</code>
         </ul>
+      </li>
+      <li><code>correct_value</code>
         <ul>
-          Number of layers in the neural network
+          Array of correct value to calculate MSL from
+        </ul>
+      </li>
+      <li><code>coef</code>
+        <ul>
+          Coefficient value to multiply the calculated gradients with
         </ul>
       </li>
     </ul>
 
-  <h3>Training</h3>
-
-    <h4>Minimum Square Loss</h4>
-
     <h4>Cross Entropy Loss</h4>
+    <p>
+      Full list of tools for CEL calculation can be found
+      <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L48">
+        here
+      </a>.
+    </p>
+    <p><code>void calculate_cross_entropy_loss(float* correct_value, float* coef)</code></p>
+    <ul>
+      <li><code>correct_value</code>
+        <ul>
+          Array of correct value to calculate CEL from
+        </ul>
+      </li>
+      <li><code>coef</code>
+        <ul>
+          Coefficient value to multiply the calculated gradients with
+        </ul>
+      </li>
+    </ul>
+    <p><code>void calculate_cross_entropy_loss(int index, float coef)</code></p>
+    <ul>
+      <li><code>index</code>
+        <ul>
+          The correct index (used in classification problems)
+        </ul>
+      </li>
+      <li><code>coef</code>
+        <ul>
+          Coefficient value to multiply the calculated gradients with
+        </ul>
+      </li>
+    </ul>
+
+  <h3>Code</h3>
+    <p>
+      For more details on private variables, methods, and other functionalities
+      performed within the definition of the class, refer to the
+      <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp">
+        hpp file
+      </a>
+      and the
+      <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.cpp">
+        cpp file
+      </a>.
+    </p>

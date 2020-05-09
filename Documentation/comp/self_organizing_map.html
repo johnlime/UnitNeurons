@@ -3,15 +3,171 @@ layout: docs_default
 title: Unit Neurons Documentation - Kohonen's Self Organizing Map
 ---
 
-<h1>Float Neighboring Neuron</h1>
+<h1>Kohonen's Self Organizing Map</h1>
 
-<h2>Constructors</h2>
+  <h2>Float Neighboring Neuron</h2>
 
-<h2>Structure</h2>
+    <h3>Constructors</h3>
+      <p><code>FloatMappingNeuron(_prevs, _num_prev, _query_manager)</code></p>
+      <ul>
+        <li>
+          <code>_prevs</code>(<code>FloatUnitNeuron**</code>)
+          <ul>
+            Array of memory addresses pointing to <code>FloatUnitNeuron</code>
+            and its subclass instances
+          </ul>
+          <ul>
+            Indicates <code>previous</code> neurons that the current neuron derives
+            <code>state</code> data from
+          </ul>
+          <ul>
+            If the assigned array consists of pointers to subclasses of
+            <code>FloatUnitNeuron</code>, include <code>(FloatUnitNeuron**)</code>
+            in front of the variable
+          </ul>
+        </li>
+        <li>
+          <code>_num_prevs</code>
+          <ul>
+            Number of elements (<code>int</code>) in the <code>_prevs</code> array
+          </ul>
+        </li>
+        <li>
+          <code>_query_manager</code>(<code>FeedbackQueryManager*</code>)
+          <ul>
+            Reference to the <code>FeedbackQueryManager</code> instance
+          </ul>
+        </li>
+      </ul>
 
+      <p><code>FloatMappingNeuron(_prevs, _num_prev, _query_manager, _max)</code></p>
+      <ul>
+        <li>
+          <code>_prevs</code>(<code>FloatUnitNeuron**</code>)
+          <ul>
+            Array of memory addresses pointing to <code>FloatUnitNeuron</code>
+            and its subclass instances
+          </ul>
+          <ul>
+            Indicates <code>previous</code> neurons that the current neuron derives
+            <code>state</code> data from
+          </ul>
+          <ul>
+            If the assigned array consists of pointers to subclasses of
+            <code>FloatUnitNeuron</code>, include <code>(FloatUnitNeuron**)</code>
+            in front of the variable
+          </ul>
+        </li>
+        <li>
+          <code>_num_prevs</code>
+          <ul>
+            Number of elements (<code>int</code>) in the <code>_prevs</code> array
+          </ul>
+        </li>
+        <li>
+          <code>_query_manager</code>
+          <ul>
+            Reference to the <code>FeedbackQueryManager</code> instance
+          </ul>
+        </li>
+        <li>
+          <code>_max</code>
+          <ul>
+            Largest amount of the initial weight values for each neuron
+          </ul>
+        </li>
+      </ul>
 
-<h1>Kohonen's SOM Operator</h1>
+    <h3>Structure</h3>
+      <h4>Public Methods and Variables</h4>
+        <ul>
+          <li><code>lr</code>(floating point value)
+            <ul>Learning rate for weight update</ul>
+            <ul>The default value is set to <code>0.7f</code></ul>
+          </li>
+          <li><code>void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors)</code>
+            <ul>Assign neighboring neurons in the self organizing map</ul>
+            <ul>
+              <code>_neighbors</code>
+              <li>Array of pointers to <code>FloatMappingNeuron</code></li>
+            </ul>
+            <ul>
+              <code>_num_neighbors</code>
+              <li>Number of elements in <code>_neighbors</code>
+            </ul>
+          </li>
+          <li><code>void feedforward()</code>
+            <ul>
+              Calculate distance between weights stored in neuron and the
+              values of input neurons
+            </ul>
+          </li>
+          <li><code>void feedback(float* fb_input)</code>
+            <ul>
+              Update weights based on values of the input neurons and the
+              distance calculated in <code>feedforward()</code>
+            </ul>
+            <ul>
+              <code>fb_input</code> is a 2-D array that consists of
+              <code>{CURRENT_NUMBER_OF_NEIGHBORS, NUMBER_OF_NEIGHBORS_TO_UPDATE}</code>
+            </ul>
+          </li>
+          <li><code>float* see_memory()</code>
+            <ul>
+              Output current weight values of the neuron
+            </ul>
+          </li>
+        </ul>
+      <h4>Additional Notes and Code</h4>
+        <p>
+          For more details on private variables, methods, and other functionalities
+          performed within the definition of the class, refer to the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/kohonen_som/kohonen_som.hpp#L16">
+            hpp file
+          </a>
+          and the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/kohonen_som/kohonen_som.hpp">
+            cpp file
+          </a>.
+        </p>
 
-<h2>Constructors</h2>
+  <h2>Kohonen's SOM Operator</h2>
+    <p>
+      Subclass of <code>GlobalOperator</code> that starts the
+      Kohonen's self organizing map
+      training process of the neural network
+    </p>
 
-<h2>Training</h2>
+    <h3>Constructors</h3>
+      <code>FloatKohonenSOM(_maps, int _num_maps, int _neighbor_range)</code>
+      <ul>
+        <li><code>_maps</code>(<code>FloatMappingNeuron**</code>)
+          <ul>
+            Array of memory addresses to <code>FloatMappingNeuron</code>
+            used as the output neurons
+          </ul>
+        </li>
+        <li><code>_num_maps</code>
+          <ul>
+            Number of elements (<code>int</code>) in <code>_maps</code>
+          </ul>
+        </li>
+        <li><code>_neighbor_range</code>
+          <ul>
+            Number of neighboring neurons to update starting with the winning neuron
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Code</h3>
+        <p>
+          For more details on private variables, methods, and other functionalities
+          performed within the definition of the class, refer to the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/kohonen_som.hpp">
+            hpp file
+          </a>
+          and the
+          <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/kohonen_som.cpp">
+            cpp file
+          </a>.
+        </p>

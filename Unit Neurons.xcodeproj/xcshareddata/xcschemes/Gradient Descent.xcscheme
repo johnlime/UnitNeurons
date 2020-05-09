@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1D1EEC9242B83F800ABB056"
-               BuildableName = "Kohonen SOM"
-               BlueprintName = "Kohonen SOM"
+               BlueprintIdentifier = "D181976D24303D1300635DE4"
+               BuildableName = "Gradient Descent"
+               BlueprintName = "Gradient Descent"
                ReferencedContainer = "container:Unit Neurons.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1D1EEC9242B83F800ABB056"
-            BuildableName = "Kohonen SOM"
-            BlueprintName = "Kohonen SOM"
+            BlueprintIdentifier = "D181976D24303D1300635DE4"
+            BuildableName = "Gradient Descent"
+            BlueprintName = "Gradient Descent"
             ReferencedContainer = "container:Unit Neurons.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1D1EEC9242B83F800ABB056"
-            BuildableName = "Kohonen SOM"
-            BlueprintName = "Kohonen SOM"
+            BlueprintIdentifier = "D181976D24303D1300635DE4"
+            BuildableName = "Gradient Descent"
+            BlueprintName = "Gradient Descent"
             ReferencedContainer = "container:Unit Neurons.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

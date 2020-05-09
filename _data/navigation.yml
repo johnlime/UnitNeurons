@@ -2,8 +2,8 @@
   link: /Documentation/index.html
   type: Heading
 
-- name: Getting Started
-  link: /Documentation/start.html
+- name: Installation
+  link: /Documentation/install.html
   type: Heading
 
 - name: Basic Framework
@@ -24,6 +24,10 @@
 - name: Components
   link: null
 
+- name: Float Input Neuron
+  link: /Documentation/comp/input_neurons.html
+  type: Subheading
+
 - name: Kohonen's SOM
   link: /Documentation/comp/self_organizing_map.html
   type: Subheading
@@ -36,6 +40,10 @@
   link: /Documentation/examples.html
   type: Heading
 
-- name: References
-  link: /Documentation/ref.html
+- name: Issues
+  link: /Documentation/issues.html
+  type: Heading
+
+- name: License
+  link: /Documentation/license.html
   type: Heading
