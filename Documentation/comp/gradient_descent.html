@@ -48,10 +48,20 @@ title: Unit Neurons Documentation - Gradient Descent
             <li><code>"tanh"</code></li>
             <li><code>"sigmoid"</code></li>
           </ul>
+          <ul>
+            For neurons with softmax function as activation function, set
+            the activation function as <code>"identity"</code> and use an
+            external softmax function
+            <code>float* softmax (float* x, int size)</code>
+            located at the
+            <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L56">
+              header file
+            </a>
+          </ul>
         </li>
       </ul>
 
-      <p><code>FloatFeedForwardNeuron(_prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float))</code></p>
+      <p><code>FloatFeedForwardNeuron(_prevs, _num_prevs, _query_manager, float (*_activation) (float), float (*_gradient) (float))</code></p>
       <ul>
         <li><code>_prevs</code>
           <ul>
@@ -61,7 +71,7 @@ title: Unit Neurons Documentation - Gradient Descent
         </li>
         <li><code>_num_prevs</code>
           <ul>
-            Number of elements in <code>_prevs</code>
+            Number of elements (<code>int</code>) in <code>_prevs</code>
           </ul>
         </li>
         <li><code>_query_manager</code>
@@ -95,7 +105,7 @@ title: Unit Neurons Documentation - Gradient Descent
         <ul>
           <li><code>lr</code>(floating point value)
             <ul>Learning rate for weight update</ul>
-            <ul>The default value is set to 0.7f</ul>
+            <ul>The default value is set to <code>0.7f</code></ul>
           </li>
           <li><code>feedforward()</code>
             <ul>
@@ -106,7 +116,24 @@ title: Unit Neurons Documentation - Gradient Descent
           </li>
           <li><code>feedback(float* fb_input)</code>
             <ul>
-
+              Performs gradient descent operation on the specific neuron and
+              produces instances of <code>FeedbackQuery</code> which are added to
+              the internal array in the assigned <code>query_manager</code>
+            </ul>
+            <ul>
+              Gradients of each neuron are calculated analytically. Have a look
+              at the
+              <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp#L116">
+                code
+              </a>
+              for details.
+            </ul>
+            <ul>
+              For more descriptive derivation, look at "Last Layer" and
+              "Hidden Layers" sections of the
+              <a href="https://towardsdatascience.com/part-2-gradient-descent-and-backpropagation-bf90932c066a">
+                "Gradient Descent and Back Propagation" article by Tobias Hill in the Medium
+              </a>.
             </ul>
           </li>
         </ul>
@@ -115,14 +142,50 @@ title: Unit Neurons Documentation - Gradient Descent
       <p>
         For more details on private variables, methods, and other functionalities
         performed within the definition of the class, refer to the
-        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L19">hpp file</a>
+        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/gradient_descent.hpp#L19">
+          hpp file
+        </a>
         and the
-        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp">cpp file</a>.
+        <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/gradient_descent/float_gd_ff_neuron.cpp">
+          cpp file
+        </a>.
       </p>
 
 <h2>Gradient Descent Global Operator</h2>
+  <p>
+    Subclass of <code>GlobalOperator</code> that starts the gradient descent
+    training process of the neural network
+  </p>
 
   <h3>Constructors</h3>
+    <code>FloatGradientDescent(_targets, _num_targets, _layer_sizes, _num_layers)</code>
+    <ul>
+      <li><code>_targets</code>
+        <ul>
+          Array of memory addresses to <code>FloatFeedForwardNeuron</code>
+          instances used in the neural network
+        </ul>
+      </li>
+      <li><code>_num_targets</code>
+        <ul>
+          Number of elements (<code>int</code>) in <code>_targets</code>
+        </ul>
+      </li>
+      <li><code>_layer_sizes</code>
+        <ul>
+          Array of number of neurons (<code>int</code>) in each layer, assuming
+          that the neural network is constructed as a layered architecture
+        </ul>
+      </li>
+      <li><_num_layers
+        <ul>
+          Number of elements (<code>int</code>) in <code>_layer_sizes</code>
+        </ul>
+        <ul>
+          Number of layers in the neural network
+        </ul>
+      </li>
+    </ul>
 
   <h3>Training</h3>
 

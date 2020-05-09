@@ -23,8 +23,6 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
   - Kohonen's Self Organizing Map (SOM)
   - Gradient Descent
 
-- Multithreaded feedback operations
-
 - Examples on the following operations:
   - Neural network fit to uniform distribution via Kohonen's SOM
   - Neural network fit to sine curve via gradient descent
@@ -32,6 +30,8 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
 
 ## Open Problems
 - Implementation of ADAM
+
+- Multithreaded feedback operations
 
 - Implementation of other activation functions (such as Leaky ReLU, etc).
 
@@ -42,4 +42,3 @@ The generated static library can be found [here](https://github.com/johnlime/Uni
 
 ## Major Contributors
 - [johnlime](https://github.com/johnlime)
-

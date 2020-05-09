@@ -36,12 +36,10 @@ class FloatGradientDescent: FloatGlobalOperator{
 private:
     FloatFeedForwardNeuron** targets;   // feed forward neurons in the order of input to output
     int num_targets;
-    int* layer_sizes;                   // size of feed forward neural network layers in the order of input to output
-    int num_layers;
     float* grad_loss;
     
 public:
-    FloatGradientDescent(FloatFeedForwardNeuron** _targets, int _num_targets, int* _layer_sizes, int _num_layers);
+    FloatGradientDescent(FloatFeedForwardNeuron** _targets, int _num_targets);
     void calculate_l1_loss(float correct_value);
     void calculate_l1_loss(float correct_value, float coef);
     void calculate_l1_loss(float* correct_value);

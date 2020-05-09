@@ -121,9 +121,6 @@ void FloatFeedForwardNeuron:: update_memory(float* fb_input, float* new_fb)
         float tmp = memory[i];
         memory[i] += lr * previous[i]->state * new_fb[i];      // pd_activ / pd_pre_activ * pd_pre_activ / pd_weight * L1_loss
         new_fb[i] *= tmp;
-        
-        // For more descriptive derivation, look at "Last Layer" and "Hidden Layers" sections of the article below:
-        // https://towardsdatascience.com/part-2-gradient-descent-and-backpropagation-bf90932c066a
     }
 }
 

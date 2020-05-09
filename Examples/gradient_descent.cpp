@@ -27,32 +27,20 @@ int main(int argc, const char * argv[]) {
     int layers [2];
     layers[0] = 8;
     layers[1] = 1;
-    int num_neurons = 0;
-    for (int i = 0; i < 2; i++)
-    {
-        num_neurons += layers[i];
-    }
-    FloatFeedForwardNeuron* all_neurons [num_neurons];
-    int counter = 0;
-    
     
     FloatFeedForwardNeuron* layer_1 [layers[0]];
     for (int i = 0; i < layers[0]; i++)
     {
         layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) input, 1, query_manager, "sigmoid");
-        all_neurons[counter] = layer_1[i];
-        counter ++;
     }
     
     FloatFeedForwardNeuron* layer_2 [layers[1]];
     for (int i = 0; i < layers[1]; i++)
     {
         layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) layer_1, layers[0], query_manager,"identity");
-        all_neurons[counter] = layer_2[i];
-        counter ++;
     }
     
-    FloatGradientDescent global_operator = FloatGradientDescent(all_neurons, num_neurons, layers, 2);
+    FloatGradientDescent global_operator = FloatGradientDescent(layer_2, layers[1]);
     
     printf("TRAIN\n");
     for (int i = 0; i < EPOCHS; i++){
@@ -61,8 +49,11 @@ int main(int argc, const char * argv[]) {
         input[0]->assign_value(tmp);
         
         // feedforward
-        for (int j = 0; j < num_neurons; j++){
-            all_neurons[j]->feedforward();
+        for (int j = 0; j < layers[0]; j++){
+            layer_1[j]->feedforward();
+        }
+        for (int j = 0; j < layers[1]; j++){
+            layer_2[j]->feedforward();
         }
         
         // feedback
@@ -78,12 +69,15 @@ int main(int argc, const char * argv[]) {
         input[0]->assign_value(tmp);
 
         // feedforward
-        for (int j = 0; j < num_neurons; j++){
-            all_neurons[j]->feedforward();
+        for (int j = 0; j < layers[0]; j++){
+            layer_1[j]->feedforward();
+        }
+        for (int j = 0; j < layers[1]; j++){
+            layer_2[j]->feedforward();
         }
 
 //        printf("{Input: %f, Prediction: %f, Correct: %f}, \n", tmp, all_neurons[num_neurons - 1] -> state, sin(tmp));
-        printf("{%f, %f}, \n", tmp, all_neurons[num_neurons - 1] -> state);
+        printf("{%f, %f}, \n", tmp, layer_2[0] -> state);
     }
     
     return 0;

@@ -30,39 +30,25 @@ int main(int argc, const char * argv[]) {
         new FloatInputNeuron()
     };
     
-    int policy_num_neurons = 0;
-    for (int i = 0; i < 3; i++)
-    {
-        policy_num_neurons += policy_layers[i];
-    }
-    FloatFeedForwardNeuron* all_policy_neurons [policy_num_neurons];
-    int counter = 0;
-    
     FloatFeedForwardNeuron* policy_layer_1 [policy_layers[0]];
     for (int i = 0; i < policy_layers[0]; i++)
     {
         policy_layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) state_input, 2, query_manager, "tanh");
-        all_policy_neurons[counter] = policy_layer_1[i];
-        counter ++;
     }
     
     FloatFeedForwardNeuron* policy_layer_2 [policy_layers[1]];
     for (int i = 0; i < policy_layers[1]; i++)
     {
         policy_layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) policy_layer_1, policy_layers[0], query_manager,"tanh");
-        all_policy_neurons[counter] = policy_layer_2[i];
-        counter ++;
     }
     
     FloatFeedForwardNeuron* policy_layer_3 [policy_layers[2]];
     for (int i = 0; i < policy_layers[2]; i++)
     {
         policy_layer_3[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) policy_layer_2, policy_layers[1], query_manager,"identity");
-        all_policy_neurons[counter] = policy_layer_3[i];
-        counter ++;
     }
     
-    FloatGradientDescent policy_operator = FloatGradientDescent(all_policy_neurons, policy_num_neurons, policy_layers, 3);
+    FloatGradientDescent policy_operator = FloatGradientDescent(policy_layer_3, policy_layers[2]);
     
     /* define state value function */
     int v_layers [3];
@@ -70,39 +56,25 @@ int main(int argc, const char * argv[]) {
     v_layers[1] = 32;
     v_layers[2] = 1;
     
-    int v_num_neurons = 0;
-    for (int i = 0; i < 3; i++)
-    {
-        v_num_neurons += v_layers[i];
-    }
-    FloatFeedForwardNeuron* all_v_neurons [v_num_neurons];
-    counter = 0;
-    
     FloatFeedForwardNeuron* v_layer_1 [v_layers[0]];
     for (int i = 0; i < v_layers[0]; i++)
     {
         v_layer_1[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) state_input, 2, query_manager, "tanh");
-        all_v_neurons[counter] = v_layer_1[i];
-        counter ++;
     }
     
     FloatFeedForwardNeuron* v_layer_2 [v_layers[1]];
     for (int i = 0; i < v_layers[1]; i++)
     {
         v_layer_2[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) v_layer_1, v_layers[0], query_manager,"tanh");
-        all_v_neurons[counter] = v_layer_2[i];
-        counter ++;
     }
     
     FloatFeedForwardNeuron* v_layer_3 [v_layers[2]];
     for (int i = 0; i < v_layers[2]; i++)
     {
         v_layer_3[i] = new FloatFeedForwardNeuron((FloatUnitNeuron**) v_layer_2, v_layers[1], query_manager,"identity");
-        all_v_neurons[counter] = v_layer_3[i];
-        counter ++;
     }
     
-    FloatGradientDescent v_operator = FloatGradientDescent(all_v_neurons, v_num_neurons, v_layers, 3);
+    FloatGradientDescent v_operator = FloatGradientDescent(v_layer_2, v_layers[2]);
     
     printf("TRAIN\n");
     // trajectory storage
@@ -137,9 +109,19 @@ int main(int argc, const char * argv[]) {
                 obs[t][i] = tmp_obs[i];
             }
             
-            for (int i = 0; i < policy_num_neurons; i++)
+            for (int i = 0; i < policy_layers[0]; i++)
             {
-                all_policy_neurons[i]->feedforward();
+                policy_layer_1[i]->feedforward();
+            }
+            
+            for (int i = 0; i < policy_layers[1]; i++)
+            {
+                policy_layer_2[i]->feedforward();
+            }
+            
+            for (int i = 0; i < policy_layers[2]; i++)
+            {
+                policy_layer_3[i]->feedforward();
             }
             
             // get action and its softmax probs
@@ -196,9 +178,17 @@ int main(int argc, const char * argv[]) {
             // else do nothing
             
             // state value for current obs
-            for (int i = 0; i < v_num_neurons; i++)
+            for (int i = 0; i < v_layers[0]; i++)
             {
-                all_v_neurons[i]->feedforward();
+                v_layer_1[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[1]; i++)
+            {
+                v_layer_2[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[2]; i++)
+            {
+                v_layer_3[i]->feedforward();
             }
             advantage[t] += v_layer_3[0]->state; // GAE current obs
             
@@ -207,9 +197,17 @@ int main(int argc, const char * argv[]) {
             state_input[1]->assign_value(next_obs[t][1]);
             
             // state value for next obs
-            for (int i = 0; i < v_num_neurons; i++)
+            for (int i = 0; i < v_layers[0]; i++)
             {
-                all_v_neurons[i]->feedforward();
+                v_layer_1[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[1]; i++)
+            {
+                v_layer_2[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[2]; i++)
+            {
+                v_layer_3[i]->feedforward();
             }
             advantage[t] -= v_layer_3[0]->state; // GAE next obs
             
@@ -219,7 +217,7 @@ int main(int argc, const char * argv[]) {
         }
         
         int sample_index;
-        for (int i = 0; i < 1000; i++)
+        for (int t = 0; t < 1000; t++)
         {
             // get one sample from trajectory
             sample_index = rand() % 1000;
@@ -227,9 +225,17 @@ int main(int argc, const char * argv[]) {
             state_input[1]->assign_value(next_obs[sample_index][1]);
             
             // v function feedforward
-            for (int i = 0; i < v_num_neurons; i++)
+            for (int i = 0; i < v_layers[0]; i++)
             {
-                all_v_neurons[i]->feedforward();
+                v_layer_1[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[1]; i++)
+            {
+                v_layer_2[i]->feedforward();
+            }
+            for (int i = 0; i < v_layers[2]; i++)
+            {
+                v_layer_3[i]->feedforward();
             }
             
             // v function feedback
@@ -238,9 +244,19 @@ int main(int argc, const char * argv[]) {
             query_manager->execute_all();
             
             // obtain probability distribution for current policy
-            for (int i = 0; i < policy_num_neurons; i++)
+            for (int i = 0; i < policy_layers[0]; i++)
             {
-                all_policy_neurons[i]->feedforward();
+                policy_layer_1[i]->feedforward();
+            }
+            
+            for (int i = 0; i < policy_layers[1]; i++)
+            {
+                policy_layer_2[i]->feedforward();
+            }
+            
+            for (int i = 0; i < policy_layers[2]; i++)
+            {
+                policy_layer_3[i]->feedforward();
             }
             for (int i = 0; i < policy_layers[2]; i++)
             {
@@ -277,9 +293,19 @@ int main(int argc, const char * argv[]) {
         }
         printf("\n");
         
-        for (int i = 0; i < policy_num_neurons; i++)
+        for (int i = 0; i < policy_layers[0]; i++)
         {
-            all_policy_neurons[i]->feedforward();
+            policy_layer_1[i]->feedforward();
+        }
+        
+        for (int i = 0; i < policy_layers[1]; i++)
+        {
+            policy_layer_2[i]->feedforward();
+        }
+        
+        for (int i = 0; i < policy_layers[2]; i++)
+        {
+            policy_layer_3[i]->feedforward();
         }
         
         // get action and its softmax probs

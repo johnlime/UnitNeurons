@@ -76,6 +76,9 @@ title: Unit Neurons Documentation - Feedback Query Manager
           <ul>
             Vector of feedback queries to be executed asynchronously
           </ul>
+          <ul>
+            CURRENTLY NOT IN USE.
+          </ul>
         </li>
       </ul>
 
@@ -86,9 +89,9 @@ title: Unit Neurons Documentation - Feedback Query Manager
     </p>
 
     <p>
-      Additionally, the queries are executed asynchronously via multithreading.
-      If you wish to execute using only one thread, change the value of
+      Additionally, an option for executing queries asynchronously via multithreading is available.
+      If you wish to execute using multithreading, change the value of
       <code>ASYNC</code> macro defined in the
       <a href="https://github.com/johnlime/UnitNeurons/blob/master/Unit%20Neurons/feedback_query/fb_query_manager.cpp#L12)">cpp file</a>
-      from 1 to 0.
+      from 0 to 1.
     </p>

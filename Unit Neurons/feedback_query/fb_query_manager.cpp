@@ -9,7 +9,7 @@
 #include "fb_query_manager.hpp"
 #include <stdlib.h>
 #include <string.h>
-#define ASYNC 1
+#define ASYNC 0
 
 static void parallel_feedback(FloatUnitNeuron* neuron, float* fb_input)
 {
