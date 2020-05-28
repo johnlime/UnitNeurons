@@ -44,12 +44,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D1D1EEC9242B83F800ABB056"
+            BuildableName = "Kohonen SOM"
+            BlueprintName = "Kohonen SOM"
+            ReferencedContainer = "container:Unit Neurons.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "D15DD6FF2440914900E7C206"
             BuildableName = "Policy Gradient"
             BlueprintName = "Policy Gradient"
             ReferencedContainer = "container:Unit Neurons.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
