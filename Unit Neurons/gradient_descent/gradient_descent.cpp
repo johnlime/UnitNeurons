@@ -16,6 +16,11 @@ FloatGradientDescent:: FloatGradientDescent(FloatFeedForwardNeuron** _targets, i
     grad_loss = (float*) malloc(num_targets);
 }
 
+FloatGradientDescent:: ~FloatGradientDescent()
+{
+    delete [] grad_loss;
+}
+
 void FloatGradientDescent:: calculate_l1_loss(float correct_value)
 {
     if (num_targets != 1)

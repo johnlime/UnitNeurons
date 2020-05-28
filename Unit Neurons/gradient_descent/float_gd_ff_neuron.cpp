@@ -103,6 +103,11 @@ FloatFeedForwardNeuron:: FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _n
     activ_deriv = _gradient;
 }
 
+FloatFeedForwardNeuron:: ~FloatFeedForwardNeuron()
+{
+    delete [] memory;
+}
+
 void FloatFeedForwardNeuron:: feedforward()
 {
     pre_activ = 0.0f;

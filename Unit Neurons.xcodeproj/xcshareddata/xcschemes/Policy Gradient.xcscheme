@@ -44,21 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D181976D24303D1300635DE4"
-            BuildableName = "Gradient Descent"
-            BlueprintName = "Gradient Descent"
-            ReferencedContainer = "container:Unit Neurons.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
             BlueprintIdentifier = "D15DD6FF2440914900E7C206"
             BuildableName = "Policy Gradient"
             BlueprintName = "Policy Gradient"
             ReferencedContainer = "container:Unit Neurons.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

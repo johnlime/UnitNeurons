@@ -43,6 +43,12 @@ FloatMappingNeuron:: FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev,
     init(_prevs, _num_prev, _query_manager, 0);
 }
 
+FloatMappingNeuron:: ~FloatMappingNeuron()
+{
+    delete [] memory;
+    delete [] neighbors;
+}
+
 void FloatMappingNeuron:: assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors)
 {
     neighbors = _neighbors;     // assign array of neighboring mapping neurons' references

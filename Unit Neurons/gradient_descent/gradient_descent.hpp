@@ -28,6 +28,7 @@ public:
     float lr = 0.7f;                    // learning rate (hyperparameter)
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, float (*_activation) (float), float (*_gradient) (float));
     FloatFeedForwardNeuron(FloatUnitNeuron** _prevs, int _num_prevs, FeedbackQueryManager* _query_manager, std::string const &_activ);
+    ~FloatFeedForwardNeuron();
     void feedforward();
     void feedback(float* fb_input);
 };
@@ -40,6 +41,7 @@ private:
     
 public:
     FloatGradientDescent(FloatFeedForwardNeuron** _targets, int _num_targets);
+    ~FloatGradientDescent();
     void calculate_l1_loss(float correct_value);
     void calculate_l1_loss(float correct_value, float coef);
     void calculate_l1_loss(float* correct_value);

@@ -26,10 +26,14 @@ public:
     float lr = 0.3f;                    // learning rate (hyperparameter)
     FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max);
     FloatMappingNeuron(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager);
+    ~FloatMappingNeuron();
+    
     // assign array of input neurons' pointers during instantiation
     void init(FloatUnitNeuron** _prevs, int _num_prev, FeedbackQueryManager* _query_manager, int _max);
+    
     // assign array of neighboring neurons' pointers after instantiation
     void assign_neighbors(FloatMappingNeuron** _neighbors, int _num_neighbors);
+    
     void feedforward();
     void feedback(float* fb_input);
     float* see_memory();
