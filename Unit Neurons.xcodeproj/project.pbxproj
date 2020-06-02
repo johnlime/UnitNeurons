@@ -25,6 +25,8 @@
 		D1D1EED1242B840B00ABB056 /* kohonen_som.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D123E9DE23EDA2EF0025C89F /* kohonen_som.cpp */; };
 		D1D1EED3242B842500ABB056 /* libUnit Neurons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1EEB5242B823300ABB056 /* libUnit Neurons.a */; };
 		D1E5A29C242EF6F700DFD2F7 /* gradient_descent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */; };
+		D1F5310C24867423008F0543 /* pid_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F5310A24867423008F0543 /* pid_control.cpp */; };
+		D1F5310D24867423008F0543 /* pid_control.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1F5310B24867423008F0543 /* pid_control.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +79,8 @@
 		D1E0EB3B23FA529C000E3D09 /* input_output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_output.cpp; sourceTree = "<group>"; };
 		D1E0EB3C23FA529C000E3D09 /* input_output.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_output.hpp; sourceTree = "<group>"; };
 		D1E5A29B242EF6F700DFD2F7 /* gradient_descent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gradient_descent.cpp; sourceTree = "<group>"; };
+		D1F5310A24867423008F0543 /* pid_control.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pid_control.cpp; sourceTree = "<group>"; };
+		D1F5310B24867423008F0543 /* pid_control.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pid_control.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				D1D1EE9D242B7C4100ABB056 /* io */,
 				D1D1EE9A242B7B7500ABB056 /* kohonen_som */,
 				D145D3F4243A95A80066935C /* feedback_query */,
+				D1F5310924866A71008F0543 /* pid_control */,
 			);
 			path = "Unit Neurons";
 			sourceTree = "<group>";
@@ -203,6 +208,15 @@
 			path = gradient_descent;
 			sourceTree = "<group>";
 		};
+		D1F5310924866A71008F0543 /* pid_control */ = {
+			isa = PBXGroup;
+			children = (
+				D1F5310A24867423008F0543 /* pid_control.cpp */,
+				D1F5310B24867423008F0543 /* pid_control.hpp */,
+			);
+			name = pid_control;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -212,6 +226,7 @@
 			files = (
 				D1D1EEC0242B82AD00ABB056 /* input_output.hpp in Headers */,
 				D154CF8C242C6B4D00F724AA /* gradient_descent.hpp in Headers */,
+				D1F5310D24867423008F0543 /* pid_control.hpp in Headers */,
 				D145D3F8243A95DA0066935C /* fb_query_manager.hpp in Headers */,
 				D1D1EEC1242B82AD00ABB056 /* kohonen_som.hpp in Headers */,
 				D1D1EEC2242B82AD00ABB056 /* unit_neuron.hpp in Headers */,
@@ -359,6 +374,7 @@
 				D1D1EEC3242B82C300ABB056 /* input_output.cpp in Sources */,
 				D1D1EEC4242B82C300ABB056 /* float_mapping_neuron.cpp in Sources */,
 				D1D1EEC5242B82C300ABB056 /* kohonen_som.cpp in Sources */,
+				D1F5310C24867423008F0543 /* pid_control.cpp in Sources */,
 				D109B6B9245E5CAB00790B63 /* unit_neuron.cpp in Sources */,
 				D1E5A29C242EF6F700DFD2F7 /* gradient_descent.cpp in Sources */,
 			);
