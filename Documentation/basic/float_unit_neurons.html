@@ -27,6 +27,7 @@ title: Unit Neurons Documentation - Floating Unit Neurons
 
       <li><code>void feedback(float* fb_input)</code> (public virtual method)
         <ul>Executes feedback operation using <code>fb_input</code></ul>
+        <ul>Each weights (stored in <code>memory</code>) are updated asynchronously</ul>
         <ul>
           Optionally generates a query for the next neuron to operate
           the feedback operation
