@@ -14,8 +14,6 @@ However, in reality, a biological neural network is a network of mutually intera
 of calculating the signal output given the signal input. In our library, we treat each neuron as an object instance
 that includes a state, a feedforward method, and a feedback method.
 
-The generated static library can be found [here](https://github.com/johnlime/UnitNeurons/blob/master/DerivedData/Unit%20Neurons/Build/Products/Release/libUnit%20Neurons.a).
-
 ## Current Features
 - Unit neurons for floating point values
 
